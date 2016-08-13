@@ -1,0 +1,107 @@
+#woocommerce-product-data .per_product_shipping_rules{padding:0 9px 9px;display:none;overflow:auto}#woocommerce-product-data .per_product_shipping_rules p.form-field{margin:0 -9px;padding-left:0}#woocommerce-product-data .per_product_shipping_rules td{padding:0;width:auto!important;border-right:1px solid #DFDFDF;border-bottom:1px solid #DFDFDF;border-top:0;background:#fff}#woocommerce-product-data .per_product_shipping_rules td input{width:100%;min-width:0!important;padding:4px 7px;margin:0;border:0;background:transparent none}#woocommerce-product-data .per_product_shipping_rules td:last-child{border-right:0}#woocommerce-product-data .per_product_shipping_rules tr.current td{background:#fefbcc}#woocommerce-product-data .per_product_shipping_rules .cost,#woocommerce-product-data .per_product_shipping_rules .cost input,#woocommerce-product-data .per_product_shipping_rules .item_cost,#woocommerce-product-data .per_product_shipping_rules .item_cost input{text-align:right}#woocommerce-product-data .per_product_shipping_rules .sort{width:16px!important;cursor:move;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAHUlEQVQYV2O8f//+fwY8gJGgAny6QXKETRgEVgAAXxAVsa5Xr3QAAAAASUVORK5CYII=) no-repeat center}#woocommerce-product-data a.export,#woocommerce-product-data a.import{float:right;margin-left:4px}#woocommerce-product-data .woocommerce_variable_attributes .per_product_shipping_rules{padding:0 0 9px}#woocommerce-product-data .woocommerce_variable_attributes .per_product_shipping_rules p.form-field{padding:0 0 9px!important;margin:0!important}#woocommerce-product-data .woocommerce_variable_attributes .per_product_shipping_rules table{padding:0!important;margin:12px 0 0}#woocommerce-product-data .woocommerce_variable_attributes .per_product_shipping_rules table td{width:auto}#woocommerce-product-data .woocommerce_variable_attributes .per_product_shipping_rules table:after,#woocommerce-product-data .woocommerce_variable_attributes .per_product_shipping_rules table:before{content:"";display:none}#woocommerce-product-data .woocommerce_variable_attributes .per_product_shipping_rules label{padding:0 0 9px!important;display:block}#woocommerce-product-data .woocommerce_variable_attributes .per_product_shipping_rules input[type=checkbox]{vertical-align:middle;margin-right:4px}
+#taxonomy-ingredient, .manage-column.column-is_in_stock, .manage-column.column-sku, .manage-column.column-price {width: 10%;}
+.lazyeater nav.nav-tab-wrapper {
+	margin: 1.5em 0 1em;
+	border-bottom: 1px solid #ccc;
+}
+.frozr_fee_settings {
+    width: 96%;
+    background-color: #fff;
+    text-align: left;
+    padding: 2em;
+}
+.fl-form-field {
+	margin: 0;
+}
+.frozr_add_new_rule.button-primary {
+    margin: 1em 0 0;
+}
+.frozr_fee_settings .select2-container {
+	display: block;
+	max-width: 350px;
+	vertical-align: top;
+	margin-bottom: 3px;
+}
+.frozr_fee_settings input {
+	width: 100%;
+}
+.frozr_seller_fee_rule table td:first-child {
+	padding: 1em;
+	font-weight: bold;
+}
+.frozr_sellers_fee_table {
+    width: 100%;
+    padding: 1em;
+	border-collapse: collapse;
+}
+.frozr_sellers_fee_table thead tr th {
+	padding: 1em 0;
+}
+#rates {
+	background-color: rgba(0,0,0,0.08);
+}
+#rates tr td {
+	padding: 0.5em;
+}
+.frozr_fee_empty_notice {
+	text-align: center;
+}
+/* Frozr Tooltip */
+.frozr_tooltip_wrapper {
+	color: #666;
+	display: inline-block;
+	font-size: 1.4em;
+	font-style: normal;
+	height: 16px;
+	line-height: 16px;
+	position: relative;
+	vertical-align: middle;
+	width: 16px;
+}
+.frozr_tooltip_wrapper::after {
+	font-family: Dashicons;
+	font-weight: 400;
+	font-variant: normal;
+	line-height: 1;
+	margin: 0;
+	text-indent: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	content: "";
+	cursor: help;
+}
+.frozr_tooltip_wrapper .frozr_help_tip {
+	visibility: hidden;
+	width: 102px;
+	background-color: #555;
+	font-size: 0.6em;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 9999;
+	top: 125%;
+	left: 50%;
+	margin-left: -60px;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+.frozr_tooltip_wrapper .frozr_help_tip::after {
+	content: "";
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent #555 transparent;
+}
+.frozr_tooltip_wrapper:hover .frozr_help_tip {
+	visibility: visible;
+	opacity: 1;
+}
