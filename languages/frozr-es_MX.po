@@ -1,0 +1,4490 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frozr-lazyeater\n"
+"POT-Creation-Date: 2016-08-12 14:19+0300\n"
+"PO-Revision-Date: 2016-08-12 14:40+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-SearchPath-0: extensions\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPath-2: metaboxes\n"
+"X-Poedit-SearchPath-3: templates\n"
+"X-Poedit-SearchPath-4: woo-includes\n"
+"X-Poedit-SearchPath-5: eater-options.php\n"
+"X-Poedit-SearchPath-6: installer.php\n"
+"X-Poedit-SearchPath-7: lazyeater.php\n"
+"X-Poedit-SearchPath-8: uninstall.php\n"
+"X-Poedit-SearchPath-9: updater.php\n"
+
+#: eater-options.php:33 includes/restaurant-functions.php:855
+msgid "General Settings"
+msgstr "Ajustes Generales"
+
+#: eater-options.php:39
+msgid "Withdraw Settings"
+msgstr "retirar Ajustes"
+
+#: eater-options.php:45 includes/lazy-functions.php:1628
+msgid "Fees/Commission Settings"
+msgstr "Cargos/Comisión Configuración"
+
+#: eater-options.php:51
+msgid "ToS Settings"
+msgstr "Términos de ajustes de servicio"
+
+#: eater-options.php:58
+msgid "Enable Auto updates for LazyEater?"
+msgstr "Habilitar las actualizaciones automática para LazyEater?"
+
+#: eater-options.php:65
+msgid "Allow Sellers to Access Admin Panel?"
+msgstr "Permiten a los vendedores para acceder a panel de administración?"
+
+#: eater-options.php:72
+msgid "Auto Enable Selling on Restaurant Registration?"
+msgstr "permiten en automático vender el registrar restaurante?"
+
+#: eater-options.php:79 extensions/home_extensions.php:300
+msgid "Recommended Restaurants."
+msgstr "Restaurantes recomendados."
+
+#: eater-options.php:88
+msgid "The Minimum user balance to make a withdraw."
+msgstr "Saldo minimo para solicitar un reembolso."
+
+#: eater-options.php:95
+msgid "Withdraw Methods."
+msgstr "Mëtodos de reembolso"
+
+#: eater-options.php:102
+msgid "Withdraw Request Status."
+msgstr "Estatus de solicitud de reembolso."
+
+#: eater-options.php:118
+msgid "Terms of Service for Sellers"
+msgstr "Términos de servicio para vendedores"
+
+#: eater-options.php:125
+msgid "Terms of Service for Customers"
+msgstr "Términos de servicio para clientes"
+
+#: eater-options.php:138
+msgid "Order total and delivery"
+msgstr "Ordenados y entrega"
+
+#: eater-options.php:139
+msgid "Only on order total"
+msgstr "Sólo en el orden total"
+
+#: eater-options.php:140
+msgid "Only on order delivery"
+msgstr "Sólo en la entrega"
+
+#: eater-options.php:148 eater-options.php:202
+msgid "Fee&nbsp;Name"
+msgstr "Cuota&nbsp;Nombre"
+
+#: eater-options.php:149
+msgid "Fee Rate"
+msgstr "Índice de comisión"
+
+#: eater-options.php:150 eater-options.php:203
+msgid "Fee Description"
+msgstr "Descripción tarifa"
+
+#: eater-options.php:151
+msgid "Applied on"
+msgstr "Aplicado en"
+
+#: eater-options.php:152 includes/order-functions.php:71
+msgid "Action"
+msgstr "Acción"
+
+#: eater-options.php:163 includes/coupons-functions.php:87
+#: includes/withdraw-functions.php:150 templates/dishes-listing.php:83
+msgid "Edit"
+msgstr "Editar"
+
+#: eater-options.php:163 includes/woo-views/html-product-download.php:6
+#: includes/woo-views/html-product-variation-download.php:5
+msgid "Delete"
+msgstr "Borrar"
+
+#: eater-options.php:174
+msgid "Add New Rule"
+msgstr "Añadir nueva regla"
+
+#: eater-options.php:195 eater-options.php:197
+msgid "Apply this fee on"
+msgstr "Aplicar esta tasa de"
+
+#: eater-options.php:195
+msgid ""
+"Identify on which customer orders this rule should be applied, Example: If "
+"selected customers, This rule will only be applied on orders made by those "
+"customers."
+msgstr ""
+"Identificar en que los pedidos de clientes esta regla se debe aplicar, "
+"Ejemplo: De los clientes seleccionados, esta regla sólo se aplicará a los "
+"pedidos realizados por los clientes."
+
+#: eater-options.php:196 eater-options.php:209
+msgid "Select Customers"
+msgstr "Los clientes de Select"
+
+#: eater-options.php:197
+msgid ""
+"Identify on which restaurant orders this rule should be applied, Example: If "
+"selected restaurants, This rule will only be applied on orders made for "
+"those restaurant."
+msgstr ""
+"Identificar en que ordena restaurante esta regla se debe aplicar, Ejemplo: "
+"Si los restaurantes seleccionados, esta regla sólo se aplica en los pedidos "
+"realizados por los restaurante."
+
+#: eater-options.php:198 eater-options.php:214
+msgid "Select Restaurants"
+msgstr "Seleccionar Restaurantes"
+
+#: eater-options.php:199
+msgid "Order Sub-Total"
+msgstr "Subtotal de Orden"
+
+#: eater-options.php:199
+msgid ""
+"A float value which if the order sub-total amount exceeds, this rule is "
+"applied."
+msgstr ""
+"Un valor flotante que, si la cantidad subtotal del pedido supera, se aplica "
+"esta regla."
+
+#: eater-options.php:200
+msgid "Apply this rule on"
+msgstr "Aplicando esta norma"
+
+#: eater-options.php:200
+msgid ""
+"Wither to apply this rule on order items total or on order total delivery or "
+"on both."
+msgstr ""
+"Debilitar a aplicar esta regla en artículos de orden total o en la entrega "
+"total del pedido o en ambos."
+
+#: eater-options.php:201
+msgid "Rate&nbsp;%"
+msgstr "Tarifa&nbsp;%"
+
+#: eater-options.php:201
+msgid ""
+"This rule fee rate that will be used on orders. Enter a rate (percentage) to "
+"4 decimal places."
+msgstr ""
+"Este tipo de la comisión regla que se utilizará en los pedidos. Introduzca "
+"un tipo (porcentaje) a 4 decimales."
+
+#: eater-options.php:202
+msgid "Enter a name for this fee rate."
+msgstr "Introduzca un nombre para este tipo de la comisión."
+
+#: eater-options.php:203
+msgid "Explain why you are applying this rule. Example: Website Fee"
+msgstr "Explicar por qué se solicita esta regla. Ejemplo: Cuota Sitio Web"
+
+#: eater-options.php:207
+msgid "All Customers"
+msgstr "todos los Clientes"
+
+#: eater-options.php:208
+msgid "All Customers, Expect..."
+msgstr "Todos los clientes, le espera ..."
+
+#: eater-options.php:212
+msgid "All Restaurant"
+msgstr "Todos restaurante"
+
+#: eater-options.php:213
+msgid "All Restaurants, Expect..."
+msgstr "Todos los restaurantes, le espera ..."
+
+#: eater-options.php:217
+msgid "Order Total and Delivery"
+msgstr "Total del pedido y la entrega"
+
+#: eater-options.php:218
+msgid "Only on Order Total"
+msgstr "Sólo Pedido Total"
+
+#: eater-options.php:219
+msgid "Only on Order Delivery"
+msgstr "Sólo en el Orden de Entrega"
+
+#: eater-options.php:244
+msgid "Back"
+msgstr "Espalda"
+
+#: eater-options.php:297
+msgid ""
+"This is used for the recommended restaurants filter in the homepage "
+"restaurants search filters."
+msgstr "Esto se utiliza para el filtro de restaurantes recomendado"
+
+#: eater-options.php:349
+msgid ""
+"This will be used in the new seller (restaurant) registration form. Leave "
+"empty to not use."
+msgstr ""
+"Esto se utilizará en el nuevo formulario de inscripción del vendedor "
+"(restaurante). Deje en blanco al no uso."
+
+#: eater-options.php:358
+msgid ""
+"This will be used in the new customer registration form. Leave empty to not "
+"use."
+msgstr ""
+"Esto se utiliza en el formulario de registro de cliente nuevo. Deje en "
+"blanco al no uso."
+
+#: eater-options.php:374
+msgid "Withdraw methods for sellers."
+msgstr "Metodos de pago para vendedores."
+
+#: eater-options.php:390 includes/dashboard-functions.php:508
+msgid "Completed"
+msgstr "Completado"
+
+#: eater-options.php:391 includes/dashboard-functions.php:530
+#: includes/order-functions.php:342
+msgid "Processing"
+msgstr "Procesamiento"
+
+#: eater-options.php:392 includes/dashboard-functions.php:519
+#: includes/dishes-functions.php:55 includes/order-functions.php:349
+#: includes/withdraw-functions.php:283
+msgid "Pending"
+msgstr "Esperando Aprobación"
+
+#: eater-options.php:402 includes/dishes-functions.php:304
+msgid "General"
+msgstr "General"
+
+#: eater-options.php:403 includes/dashboard-functions.php:50
+#: includes/dashboard-functions.php:431 includes/withdraw-functions.php:21
+#: templates/withdraw.php:22
+msgid "Withdraw"
+msgstr "Reembolso"
+
+#: eater-options.php:404
+msgid "Fees/Commission"
+msgstr "Cargos/Comisión"
+
+#: eater-options.php:405
+msgid "Terms of Service"
+msgstr "Términos de servicio"
+
+#: eater-options.php:443 extensions/home_extensions.php:359
+msgid "No Icon"
+msgstr "sin icono"
+
+#: eater-options.php:451 eater-options.php:452
+#: extensions/home_extensions.php:186 extensions/home_extensions.php:187
+msgid "Order your food online from local restaurants."
+msgstr "Ordenar tu comida en línea de restaurantes locales."
+
+#: eater-options.php:461
+msgid "Restaurants Search Section"
+msgstr "Sección de búsqueda de restaurantes"
+
+#: eater-options.php:463
+msgid "Show Restaurant Search Section?"
+msgstr "Mostrar la sección de búsqueda de restaurante?"
+
+#: eater-options.php:467
+msgid " Search Filters Options"
+msgstr " Opciones de filtros de búsqueda"
+
+#: eater-options.php:469
+msgid "Show Restaurant Search Filters Section?"
+msgstr "Ver sección de filtros de búsqueda de restaurante?"
+
+#: eater-options.php:472
+msgid "Search Filters Titles Color"
+msgstr "Búsqueda filtros títulos Color"
+
+#: eater-options.php:474 includes/dashboard-functions.php:395
+msgid "Top Selling Items"
+msgstr "Productos mas vendidos"
+
+#: eater-options.php:476
+msgid "Show Top Selling Items?"
+msgstr "Mostrar productos más vendidos?"
+
+#: eater-options.php:478 eater-options.php:501
+msgid "Loop title"
+msgstr "Título de lazo"
+
+#: eater-options.php:480 eater-options.php:503
+msgid "Loop description"
+msgstr "Descripción de lazo"
+
+#: eater-options.php:483 eater-options.php:506
+msgid " Layout Options"
+msgstr " Opciones de diseño"
+
+#: eater-options.php:486 eater-options.php:509
+msgid "Show the loop top border"
+msgstr "Mostrar el borde superior del lazo"
+
+#: eater-options.php:488 eater-options.php:511
+msgid "Loop Icon"
+msgstr "Icono de lazo"
+
+#: eater-options.php:491 eater-options.php:514
+msgid " Typography Options"
+msgstr " Opciones Tipográficas"
+
+#: eater-options.php:493 eater-options.php:516
+msgid "Loop title color"
+msgstr "Color del titulo del lazo"
+
+#: eater-options.php:495 eater-options.php:518
+msgid "Loop description color"
+msgstr "Descripción color del lazo"
+
+#: eater-options.php:497
+msgid "Latest Restaurants"
+msgstr "Últimos restaurantes registrados"
+
+#: eater-options.php:499
+msgid "Show Latest Rests?"
+msgstr "Mostrar últimos restaurantes registrados?"
+
+#: extensions/home_extensions.php:116 includes/dashboard-functions.php:409
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink a %s"
+
+#: extensions/home_extensions.php:117
+msgid "Served by "
+msgstr "Servido por "
+
+#: extensions/home_extensions.php:121 includes/dashboard-functions.php:353
+#: includes/dashboard-functions.php:401
+msgid "Sales"
+msgstr "Ventas"
+
+#: extensions/home_extensions.php:193
+msgid "Filters Bench"
+msgstr "Banco de filtros"
+
+#: extensions/home_extensions.php:204
+msgid "Drop filters you don't want to show here."
+msgstr "Colocar filtros que no desea mostrar aquí."
+
+#: extensions/home_extensions.php:276
+msgid "Restaurants by name."
+msgstr "Restaurantes por nombre."
+
+#: extensions/home_extensions.php:279
+msgid "Restaurants by Cuisine."
+msgstr "Restaurantes de cocina."
+
+#: extensions/home_extensions.php:282
+msgid "Restaurants by location."
+msgstr "Restaurantes por ubicación."
+
+#: extensions/home_extensions.php:285
+msgid "Restaurants deliver to you."
+msgstr "Restaurantes que entregan en su área."
+
+#: extensions/home_extensions.php:288
+msgid "Get me some.."
+msgstr "Consíguieme algo..."
+
+#: extensions/home_extensions.php:291
+msgid "Get me an item with my favourite ingredient!"
+msgstr "Tráeme un producto con mi ingrediente favorito!"
+
+#: extensions/home_extensions.php:294
+msgid "Get me something.."
+msgstr "Consíguieme algo..."
+
+#: extensions/home_extensions.php:297
+msgid "Popular Restaurants."
+msgstr "Restaurantes populares."
+
+#: extensions/home_extensions.php:303
+msgid "Restaurants by food served."
+msgstr "Restaurantes por comida que se sirven."
+
+#: extensions/home_extensions.php:366
+msgid "Popular Restaurants"
+msgstr "Restaurantes populares"
+
+#: extensions/home_extensions.php:376 templates/restaurants.php:17
+msgid "Restaurants We Recommend"
+msgstr "Restaurantes que recomendamos"
+
+#: extensions/home_extensions.php:386 includes/dishes-functions.php:401
+#: includes/restaurant-functions.php:887
+msgid "Veg."
+msgstr "Veg."
+
+#: extensions/home_extensions.php:396 includes/dishes-functions.php:404
+#: includes/restaurant-functions.php:890
+msgid "Non-Veg."
+msgstr "Non-Veg."
+
+#: extensions/home_extensions.php:406
+msgid "Sea Food"
+msgstr "Marisco"
+
+#: extensions/home_extensions.php:416
+msgid "Go!"
+msgstr "¡Ir!"
+
+#: extensions/home_extensions.php:425
+msgid "Edit this!"
+msgstr "Editar esto!"
+
+#: extensions/home_extensions.php:429
+msgid "Text:"
+msgstr "Texto:"
+
+#: extensions/home_extensions.php:432
+msgid "Icon:"
+msgstr "Icono:"
+
+#: extensions/home_extensions.php:439
+msgid "Background Color:"
+msgstr "Color del Fondo"
+
+#: extensions/home_extensions.php:442
+msgid "Text Color:"
+msgstr "Color de Texto:"
+
+#: extensions/home_extensions.php:448
+msgid "Save"
+msgstr "Guardar"
+
+#: extensions/home_extensions.php:473
+msgid "Set filter box image"
+msgstr "Imagen de caja de filtro"
+
+#: extensions/home_extensions.php:473 includes/lazy-functions.php:942
+msgid "Set"
+msgstr "Establecer"
+
+#: extensions/home_extensions.php:473
+msgid "Edit Image"
+msgstr "Editar imagen"
+
+#: extensions/home_extensions.php:546 includes/restaurant-functions.php:627
+msgid "Vegetarian"
+msgstr "Vegetariana"
+
+#: extensions/home_extensions.php:547 includes/restaurant-functions.php:625
+msgid "Non-Veg"
+msgstr "No-Vegetariana"
+
+#: extensions/home_extensions.php:548
+msgid "Spicy"
+msgstr "Picante"
+
+#: extensions/home_extensions.php:549
+msgid "Veg + Spicy"
+msgstr "Veg + picante"
+
+#: extensions/home_extensions.php:550
+msgid "Non-Veg + Spicy"
+msgstr "No-Veg + picante"
+
+#: includes/admin-functions.php:30 includes/order-functions.php:66
+#: includes/order-functions.php:1096
+msgid "Order"
+msgstr "Orden"
+
+#: includes/admin-functions.php:31
+msgid "Purchased"
+msgstr "Comprado"
+
+#: includes/admin-functions.php:32
+msgid "Billing Address"
+msgstr "Dirección de Facturación"
+
+#: includes/admin-functions.php:36 includes/order-functions.php:70
+#: includes/order-functions.php:1097 includes/withdraw-functions.php:130
+#: templates/dishes-listing.php:37
+msgid "Date"
+msgstr "Fecha"
+
+#: includes/admin-functions.php:37 includes/order-functions.php:411
+#: includes/order-functions.php:1099 includes/print-functions.php:166
+msgid "Total"
+msgstr "Total"
+
+#: includes/admin-functions.php:38
+msgid "Actions"
+msgstr "Acciones"
+
+#: includes/admin-functions.php:39 includes/lazy-functions.php:866
+#: includes/order-functions.php:73 installer.php:48
+msgid "Seller"
+msgstr "Vendedor"
+
+#: includes/admin-functions.php:40
+msgid "Sub Order"
+msgstr "Suborden"
+
+#: includes/admin-functions.php:66
+msgid "Sub Order of"
+msgstr "Suborden de"
+
+#: includes/admin-functions.php:76
+msgid "Show Sub-Orders"
+msgstr "Muestra subórdenes"
+
+#: includes/admin-functions.php:76
+msgid "Hide Sub-Orders"
+msgstr "Ocultar subórdenes"
+
+#: includes/admin-functions.php:221
+msgid "Toggle Sub-orders"
+msgstr "Alternar Subórdenes"
+
+#: includes/admin-functions.php:242
+msgid "Lazy Eater Options"
+msgstr "Opciones De Tema"
+
+#: includes/admin-functions.php:247
+msgid "Selling"
+msgstr "Ventas"
+
+#: includes/admin-functions.php:252
+msgid "Enable Selling"
+msgstr "Habilitar ventas"
+
+#: includes/admin-functions.php:255
+msgid "Enable or disable product selling capability"
+msgstr "Habilitar o deshabitar la capacidad de vender productos"
+
+#: includes/admin-functions.php:299 includes/coupons-functions.php:69
+msgid "Author"
+msgstr "Autor"
+
+#: includes/ajax.php:108 includes/ajax.php:126 includes/ajax.php:2117
+msgid "Something went wrong!"
+msgstr "¡Algo salió mal!"
+
+#: includes/ajax.php:136 includes/ajax.php:2135
+msgid "Email sent successfully!"
+msgstr "Correo electrónico enviado con éxito!"
+
+#: includes/ajax.php:181 includes/ajax.php:355 includes/ajax.php:411
+#: includes/ajax.php:437 includes/ajax.php:520
+#: includes/coupons-functions.php:394 includes/coupons-functions.php:410
+#: includes/coupons-functions.php:437 includes/coupons-functions.php:453
+#: includes/coupons-functions.php:506
+msgid "Something Went Wrong!"
+msgstr "Algo salió mal."
+
+#: includes/ajax.php:185 includes/ajax.php:194 includes/ajax.php:235
+msgid "View Cart"
+msgstr "Ver carrito"
+
+#: includes/ajax.php:185 includes/ajax.php:194
+#, php-format
+msgid "You cannot add another &quot;%s&quot; to your cart."
+msgstr "No puede agregar otro &quot;%s&quot; a su carrito."
+
+#: includes/ajax.php:201
+msgid "Sorry, this product cannot be purchased."
+msgstr "Este producto no puede ser adquirido."
+
+#: includes/ajax.php:208
+#, php-format
+msgid ""
+"You cannot add &quot;%s&quot; to the cart because the product is out of "
+"stock."
+msgstr ""
+"No se puede agregar &quot;%s&quot; al Carrito porque el producto está fuera "
+"de inventario."
+
+#: includes/ajax.php:213
+#, php-format
+msgid ""
+"You cannot add that amount of &quot;%s&quot; to the cart because there is "
+"not enough stock (%s remaining)."
+msgstr ""
+"No se puede añadir esa cantidad de &quot;%s&quot; al pedido porque no hay "
+"suficientes disponibles (nos quedan %s)."
+
+#: includes/ajax.php:236
+#, php-format
+msgid ""
+"You cannot add that amount to the cart &mdash; we have %s in stock and you "
+"already have %s in your cart."
+msgstr ""
+"No puede agregar esa cantidad al carrito &mdash; tenemos %s en inventario y "
+"ya tiene %s en su pedido."
+
+#: includes/ajax.php:279
+#, php-format
+msgid "%s is a required field"
+msgid_plural "%s are required fields"
+msgstr[0] "%s es un campo requerido"
+msgstr[1] "%s son campos requeridos"
+
+#: includes/ajax.php:283
+msgid "Please choose product options&hellip;"
+msgstr "Por favor, seleccione las opciones de producto&hellip;"
+
+#: includes/ajax.php:323
+msgid ""
+"Please choose the quantity of items you wish to add to your cart&hellip;"
+msgstr ""
+"Por favor selecciona la cantidad de productos que deseas agregar a tu "
+"presupuesto&hellip;"
+
+#: includes/ajax.php:335
+msgid "Please choose a product to add to your cart&hellip;"
+msgstr "Por favor elija un producto para agregar a su carrito&hellip;"
+
+#: includes/ajax.php:423
+msgid "Title Saved!"
+msgstr "Título guardado!"
+
+#: includes/ajax.php:463 includes/ajax.php:500 includes/ajax.php:515
+msgid "Layout Saved!"
+msgstr "Plantilla guardada."
+
+#: includes/ajax.php:564
+msgid "Cheating!"
+msgstr "Haciendo trampa!"
+
+#: includes/ajax.php:572 includes/ajax.php:750
+msgid "Settings Saved!"
+msgstr "Ajsutes guardados!"
+
+#: includes/ajax.php:614
+msgid "Please Enable cookies in your browser."
+msgstr "Active las 'cookies' de su navegador."
+
+#: includes/ajax.php:640
+msgid "Item Deleted!"
+msgstr "Elemento eliminado"
+
+#: includes/ajax.php:779
+msgid "Item Updated Successfully!"
+msgstr "Elemento <strong>actualizado</strong> con éxito."
+
+#: includes/ajax.php:790
+msgid "No Title"
+msgstr "Sin titulo"
+
+#: includes/ajax.php:791
+msgid "No Content"
+msgstr "Sin Contenido"
+
+#: includes/ajax.php:792
+msgid "No Excerpt"
+msgstr "Sin Extracto"
+
+#: includes/ajax.php:805
+msgid "Item Created Successfully!"
+msgstr "Elemento creado con éxito!"
+
+#: includes/ajax.php:884 includes/ajax.php:1748
+#: includes/dishes-functions.php:554 includes/order-functions.php:379
+msgid "Standard"
+msgstr "Estándar"
+
+#: includes/ajax.php:894 includes/ajax.php:1758
+#: includes/dishes-functions.php:611
+msgid "Do not allow"
+msgstr "No permitir"
+
+#: includes/ajax.php:895 includes/ajax.php:1759
+#: includes/dishes-functions.php:612
+msgid "Allow, but notify customer"
+msgstr "Permitir, pero notificar al comprador"
+
+#: includes/ajax.php:896 includes/ajax.php:1760
+#: includes/dishes-functions.php:613
+msgid "Allow"
+msgstr "Permitir"
+
+#: includes/ajax.php:901 includes/ajax.php:1765
+#: includes/dishes-functions.php:624 templates/dishes-listing.php:103
+msgid "In stock"
+msgstr "En existencia"
+
+#: includes/ajax.php:902 includes/ajax.php:1766
+#: includes/dishes-functions.php:625 templates/dishes-listing.php:105
+msgid "Out of stock"
+msgstr "Agotado"
+
+#: includes/ajax.php:2070
+#, php-format
+msgid "File %d"
+msgstr "Archivo %d"
+
+#: includes/ajax.php:2173
+msgid "Empty username or password."
+msgstr "Usuario o contraseña vacío."
+
+#: includes/ajax.php:2175
+msgid "Wrong username or password."
+msgstr "Nombre de usuario o contraseña incorrecta."
+
+#: includes/ajax.php:2196
+msgid "You cant review this restaurant."
+msgstr "Usted no puede revisar este restaurante."
+
+#: includes/ajax.php:2200
+msgid "You cant review your self."
+msgstr "Usted no puede revisarse a si mismo."
+
+#: includes/ajax.php:2213
+msgid "You've already made a review."
+msgstr "Ya ha hecho una revisión."
+
+#: includes/ajax.php:2220
+msgid "Thank you!"
+msgstr "Gracias!"
+
+#: includes/coupons-functions.php:24
+msgid "&larr; Coupons"
+msgstr "&larr; Cupones"
+
+#: includes/coupons-functions.php:29
+msgid "Add new Coupon"
+msgstr "Añadir nuevo cupón"
+
+#: includes/coupons-functions.php:62
+msgid "Code"
+msgstr "Código"
+
+#: includes/coupons-functions.php:63
+msgid "Coupon type"
+msgstr "Tipo de Cupón"
+
+#: includes/coupons-functions.php:64
+msgid "Coupon amount"
+msgstr "Monto del cupón"
+
+#: includes/coupons-functions.php:65
+msgid "Product IDs"
+msgstr "IDs de Producto"
+
+#: includes/coupons-functions.php:66
+msgid "Usage / Limit"
+msgstr "Uso / Límite"
+
+#: includes/coupons-functions.php:67
+msgid "Expiry date"
+msgstr "Fecha de vencimiento"
+
+#: includes/coupons-functions.php:88
+msgid "delete"
+msgstr "eliminar"
+
+#: includes/coupons-functions.php:147 includes/order-functions.php:89
+#: includes/withdraw-functions.php:173 templates/dishes-listing.php:195
+msgid "&laquo; Previous"
+msgstr "&laquo; Anterior"
+
+#: includes/coupons-functions.php:148 includes/order-functions.php:90
+#: includes/withdraw-functions.php:174 templates/dishes-listing.php:196
+msgid "Next &raquo;"
+msgstr "Siguiente &raquo;"
+
+#: includes/coupons-functions.php:161
+msgid "Sorry, no coupons found!"
+msgstr "Lo sentimos, no se encontraron cupones!"
+
+#: includes/coupons-functions.php:169
+msgid "Create Coupon"
+msgstr "Crear cupón"
+
+#: includes/coupons-functions.php:174
+msgid "Are you cheating?"
+msgstr "Estás engañando?"
+
+#: includes/coupons-functions.php:178
+msgid "Update Coupon"
+msgstr "Actualizar cupón"
+
+#: includes/coupons-functions.php:265
+msgid "Coupon Title"
+msgstr "Título del cupón"
+
+#: includes/coupons-functions.php:269
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/coupons-functions.php:275
+msgid "Discount Type"
+msgstr "Tipo Descuento"
+
+#: includes/coupons-functions.php:278
+msgid "Product Discount"
+msgstr "Descuento del producto"
+
+#: includes/coupons-functions.php:279
+msgid "Product % Discount"
+msgstr "% de Descuento del Producto"
+
+#: includes/coupons-functions.php:284 includes/print-functions.php:122
+#: includes/withdraw-functions.php:128
+msgid "Amount"
+msgstr "Cantidad"
+
+#: includes/coupons-functions.php:288
+msgid "Email Restrictions"
+msgstr "Restricciones de Email"
+
+#: includes/coupons-functions.php:289
+msgid "Email restrictions"
+msgstr "restricciones de Email"
+
+#: includes/coupons-functions.php:292
+msgid "Usage Limit per coupon"
+msgstr "Límite de uso por cupon"
+
+#: includes/coupons-functions.php:292
+msgid "How many times this coupon can be used before it is void."
+msgstr "Cuántas veces este cupón se puede utilizar antes de que sea anulado."
+
+#: includes/coupons-functions.php:293 includes/coupons-functions.php:301
+msgid "Unlimited usage"
+msgstr "Uso ilimitado"
+
+#: includes/coupons-functions.php:296
+msgid "Limit usage to X items"
+msgstr "Límite de uso X por producto"
+
+#: includes/coupons-functions.php:296
+msgid ""
+"The maximum number of individual items this coupon can apply to when using "
+"product discounts. Leave blank to apply to all qualifying items in cart."
+msgstr ""
+"El número máximo de elementos individuales al cual este cupón puede "
+"aplicarse cuando se utilizan descuentos en productos. Dejar en blanco para "
+"aplicarse a todos los elementos que califican en el carrito."
+
+#: includes/coupons-functions.php:297
+msgid "Apply to all qualifying items in cart"
+msgstr "Aplicar a todos los elementos que califican en el carrito"
+
+#: includes/coupons-functions.php:300
+msgid "Usage limit per user"
+msgstr "Límite de uso por usuario"
+
+#: includes/coupons-functions.php:300
+msgid ""
+"How many times this coupon can be used by an invidual user. Uses billing "
+"email for guests, and user ID for logged in users."
+msgstr ""
+"Cuántas veces este cupón puede ser utilizado por un usuario invidual. "
+"Utiliza el email de facturación para los visitantes, y el ID de usuario para "
+"los usuarios registrados."
+
+#: includes/coupons-functions.php:304 includes/coupons-functions.php:305
+msgid "Expire Date"
+msgstr "Vigencia"
+
+#: includes/coupons-functions.php:323 includes/dashboard-functions.php:35
+#: includes/sellers-functions.php:120
+msgid "Products"
+msgstr "Productos"
+
+#: includes/coupons-functions.php:336
+msgid ""
+"Products which need to be in the cart to use this coupon or, for \"Product "
+"Discounts\", which products are discounted."
+msgstr ""
+"Los productos necesitan estar en el carrito para usar este cupón, para "
+"\"Productos Descontados\" los cuales ya tienen descuento."
+
+#: includes/coupons-functions.php:340
+msgid "Enable Free Shipping"
+msgstr "Activar Envío Gratuíto"
+
+#: includes/coupons-functions.php:342
+msgid "Check this box if the coupon grants free delivery."
+msgstr "Marque esta casilla si el cupón otorga entrega gratis."
+
+#: includes/coupons-functions.php:347
+msgid "Individual use only"
+msgstr "Sólo uso individual"
+
+#: includes/coupons-functions.php:349
+msgid ""
+"Check this box if the coupon cannot be used in conjunction with other "
+"coupons."
+msgstr ""
+"Marcá esta casilla si el cupón no se puede utilizar en combinación con otros "
+"cupones."
+
+#: includes/coupons-functions.php:354
+msgid "Exclude Sale Items"
+msgstr "Excluir productos en Oferta"
+
+#: includes/coupons-functions.php:356
+msgid ""
+"Check this box if the coupon should not apply to items on sale. Per-item "
+"coupons will only work if the item is not on sale. Per-cart coupons will "
+"only work if there are no sale items in the cart."
+msgstr ""
+"Marque esta casilla si el cupón no aplica para artículos en oferta. Los "
+"cupones por artículo aplicarán solamente si no están en oferta. Los cupones "
+"por carrito aplicarán solo sino hay artículos de oferta en el carrito."
+
+#: includes/coupons-functions.php:361
+msgid "Minimum spend"
+msgstr "Gasto minimo"
+
+#: includes/coupons-functions.php:361
+msgid ""
+"This field allows you to set the minimum subtotal needed to use the coupon."
+msgstr ""
+"Este campo le permite configurar el subtotal mínimo necesario para utilizar "
+"el cupón."
+
+#: includes/coupons-functions.php:362
+msgid "No Minimum"
+msgstr "Sin minimo"
+
+#: includes/coupons-functions.php:365
+msgid "Maximum spend"
+msgstr "Gasto máximo"
+
+#: includes/coupons-functions.php:365
+msgid ""
+"This field allows you to set the maximum subtotal allowed when using the "
+"coupon."
+msgstr ""
+"Este campo le permite establecer el máximo permitido subtotal cuando se "
+"utiliza el cupón."
+
+#: includes/coupons-functions.php:366
+msgid "No Maximum"
+msgstr "Sin máximo"
+
+#: includes/coupons-functions.php:369
+msgid "Go public"
+msgstr "Hacer pública"
+
+#: includes/coupons-functions.php:371
+msgid "Show the Coupon in the Restaurant page?"
+msgstr "Mostrar el cupón en la página del restaurante?"
+
+#: includes/coupons-functions.php:376
+msgid "Coupon Text to show in restaurant page."
+msgstr "Texto del cupón para mostrar en la página del restaurante."
+
+#: includes/coupons-functions.php:377
+msgid "Use (example) coupon in check out to get 10% OFF our items?"
+msgstr ""
+"Utilizar (ejemplo) cupón en retirar para obtener 10% de nuestros artículos?"
+
+#: includes/coupons-functions.php:419
+msgid "You're the site admin, you cant post coupons!"
+msgstr "Eres el administrador del sitio, n puedes publicar cupones!"
+
+#: includes/coupons-functions.php:432
+msgid "Coupon has been saved successfully!"
+msgstr "El cupón ha sido guardado correctamente!"
+
+#: includes/coupons-functions.php:449
+msgid "Coupon has been updated successfully!"
+msgstr "El cupón se ha actualizado correctamente!"
+
+#: includes/coupons-functions.php:513
+msgid "Coupon has been deleted successfully!"
+msgstr "El cupón ha sido borrado correctamente!"
+
+#: includes/dashboard-functions.php:30
+msgid "Dashboard"
+msgstr "Tablero"
+
+#: includes/dashboard-functions.php:40 includes/dashboard-functions.php:493
+#: includes/sellers-functions.php:121 templates/orders.php:31
+msgid "Orders"
+msgstr "Órdenes"
+
+#: includes/dashboard-functions.php:45 includes/sellers-functions.php:122
+#: templates/coupons.php:19
+msgid "Coupons"
+msgstr "Cupones"
+
+#: includes/dashboard-functions.php:55
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/dashboard-functions.php:60 templates/sellers.php:18
+msgid "Sellers"
+msgstr "Vendedores"
+
+#: includes/dashboard-functions.php:237
+msgid "(Refunded)"
+msgstr "(Reintegrado)"
+
+#: includes/dashboard-functions.php:298
+msgid "Gross"
+msgstr "Total"
+
+#: includes/dashboard-functions.php:299
+msgid "Total Coupon Usage"
+msgstr "Uso de cupón"
+
+#: includes/dashboard-functions.php:301
+msgid "Taxes"
+msgstr "Impuestos"
+
+#: includes/dashboard-functions.php:302
+msgid "Taxes Refunded"
+msgstr "gravamen fiscal reembolsable"
+
+#: includes/dashboard-functions.php:305
+msgid "Uncompleted Orders"
+msgstr "Órdenes incompletas"
+
+#: includes/dashboard-functions.php:306
+msgid "Refunded Orders"
+msgstr "Pedidos de reembolsos"
+
+#: includes/dashboard-functions.php:308 includes/print-functions.php:166
+msgid "Fees"
+msgstr "Tarifas"
+
+#: includes/dashboard-functions.php:308 includes/print-functions.php:166
+msgid "Seller Fees"
+msgstr "Tarifas de vendedor"
+
+#: includes/dashboard-functions.php:310
+msgid "Net"
+msgstr "Neto"
+
+#: includes/dashboard-functions.php:353
+msgid "Print This Report"
+msgstr "Imprimir este informe"
+
+#: includes/dashboard-functions.php:353
+msgid "From all sellers"
+msgstr "Todos los Agentes"
+
+#: includes/dashboard-functions.php:354
+msgid "All Time"
+msgstr "Todo el tiempo"
+
+#: includes/dashboard-functions.php:354
+msgid "Year"
+msgstr "Año"
+
+#: includes/dashboard-functions.php:354
+msgid "Last Month"
+msgstr "Último Mes"
+
+#: includes/dashboard-functions.php:354
+msgid "Month"
+msgstr "Mes"
+
+#: includes/dashboard-functions.php:354
+msgid "Week"
+msgstr "Semana"
+
+#: includes/dashboard-functions.php:354
+msgid "Today"
+msgstr "Hoy"
+
+#: includes/dashboard-functions.php:356
+msgid "Start Date, English Expressions or mm/dd/yyyy"
+msgstr "Fecha, expresiones inglés o dd/mm/aaaa de inicio"
+
+#: includes/dashboard-functions.php:359
+msgid "End Date, English Expressions or mm/dd/yyyy"
+msgstr "Fecha de finalización, expresiones inglés o dd/mm/aaaa"
+
+#: includes/dashboard-functions.php:362 includes/dishes-functions.php:993
+#: templates/restaurant/restaurant-header.php:39
+msgid "Go"
+msgstr "Ir"
+
+#: includes/dashboard-functions.php:400 includes/order-functions.php:405
+msgid "Item"
+msgstr "Producto"
+
+#: includes/dashboard-functions.php:427
+msgid "Current Balance"
+msgstr "Saldo Actual"
+
+#: includes/dashboard-functions.php:431
+msgid "Withdraw Money"
+msgstr "Retirar Dinero"
+
+#: includes/dashboard-functions.php:461
+msgid "Top Customers"
+msgstr "Principales clientes"
+
+#: includes/dashboard-functions.php:465 includes/order-functions.php:69
+msgid "Customer"
+msgstr "Cliente"
+
+#: includes/dashboard-functions.php:466
+msgid "Money Spent"
+msgstr "Dinero gastado"
+
+#: includes/dashboard-functions.php:498 includes/order-functions.php:68
+#: includes/order-functions.php:1098 templates/dishes-listing.php:31
+msgid "Status"
+msgstr "Estatus"
+
+#: includes/dashboard-functions.php:499
+msgid "Count"
+msgstr "Conteo"
+
+#: includes/dashboard-functions.php:541 includes/order-functions.php:345
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#: includes/dashboard-functions.php:552 includes/order-functions.php:347
+#: includes/order-functions.php:519
+msgid "Refunded"
+msgstr "Reembolsado"
+
+#: includes/dashboard-functions.php:563
+msgid "On-hold"
+msgstr "Pausada"
+
+#: includes/dishes-functions.php:20 includes/sellers-functions.php:51
+#, php-format
+msgid "All (%d)"
+msgstr "Todo (%d)"
+
+#: includes/dishes-functions.php:23
+#, php-format
+msgid "Online (%d)"
+msgstr "Online (%d)"
+
+#: includes/dishes-functions.php:26
+#, php-format
+msgid "Pending Review (%d)"
+msgstr "Pendiente de revisión (%d)"
+
+#: includes/dishes-functions.php:29
+#, php-format
+msgid "Draft (%d)"
+msgstr "Borrador (%d)"
+
+#: includes/dishes-functions.php:32 lazyeater.php:252
+msgid "Add new product"
+msgstr "Agregar nuevo producto"
+
+#: includes/dishes-functions.php:47
+msgid "Online"
+msgstr "En línea"
+
+#: includes/dishes-functions.php:51 includes/dishes-functions.php:281
+msgid "Draft"
+msgstr "Borrador"
+
+#: includes/dishes-functions.php:88
+msgid "Access Denied"
+msgstr "Acceso denegado"
+
+#: includes/dishes-functions.php:111
+msgid "Update Item"
+msgstr "Atualizar producto"
+
+#: includes/dishes-functions.php:111
+msgid "Post Item"
+msgstr "Publicar producto"
+
+#: includes/dishes-functions.php:200 templates/dishes-listing.php:136
+msgid "Simple"
+msgstr "Simple"
+
+#: includes/dishes-functions.php:201 templates/dishes-listing.php:125
+msgid "Grouped"
+msgstr "Agrupado"
+
+#: includes/dishes-functions.php:203 templates/dishes-listing.php:140
+msgid "Variable"
+msgstr "Variable"
+
+#: includes/dishes-functions.php:258
+msgid "Upload item cover image"
+msgstr "Subir imagen de portada del producto"
+
+#: includes/dishes-functions.php:274 includes/restaurant-functions.php:609
+msgid "Item Title"
+msgstr "Título de Producto"
+
+#: includes/dishes-functions.php:278
+msgid "Item Status:"
+msgstr "Estatus del product:"
+
+#: includes/dishes-functions.php:280
+msgid "Publish"
+msgstr "Publicar"
+
+#: includes/dishes-functions.php:291
+msgid "Item Type:"
+msgstr "Tipo de producto:"
+
+#: includes/dishes-functions.php:309
+msgid "Inventory"
+msgstr "Inventario"
+
+#: includes/dishes-functions.php:314 includes/lazy-functions.php:1274
+msgid "Delivery"
+msgstr "Entrega"
+
+#: includes/dishes-functions.php:319
+msgid "Linked Products"
+msgstr "Productos Relacionados"
+
+#: includes/dishes-functions.php:324
+msgid "Attributes"
+msgstr "Atributos"
+
+#: includes/dishes-functions.php:329
+msgid "Variations"
+msgstr "Variaciones"
+
+#: includes/dishes-functions.php:334
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: includes/dishes-functions.php:379
+msgid "Add item gallery images"
+msgstr "Agregar imágenes a la galería"
+
+#: includes/dishes-functions.php:384
+msgid "General options"
+msgstr "Opciones generales"
+
+#: includes/dishes-functions.php:387 includes/dishes-functions.php:399
+msgid "Item Details"
+msgstr "Detalles del producto"
+
+#: includes/dishes-functions.php:391
+msgid "Item Recipe"
+msgstr "Receta del producto"
+
+#: includes/dishes-functions.php:391
+msgid ""
+"This is very important option and used to classify your items in your "
+"restaurant page. Type first two/three letters and choose from list, if "
+"recipe is not in the list then complete typing the recipe title and hit the "
+"comma button."
+msgstr ""
+"Esto es muy importante y usado para clasificar sus artículos en su página de "
+"restaurante. Escribir primeras letras de dos o tres y elegir de la lista, si "
+"la receta no está en la lista complete escribiendo el título de la receta y "
+"presione el botón de la coma."
+
+#: includes/dishes-functions.php:395
+msgid "Item Ingredients"
+msgstr "Ingredientes del producto"
+
+#: includes/dishes-functions.php:395
+msgid ""
+"Type first two/three letters and choose from list, if ingredient is not in "
+"the list then complete typing your ingredient name and hit the comma button. "
+"Try put all item Ingredients so people can reach your item when filtering "
+"products."
+msgstr ""
+"Escribir primeras letras de dos o tres y elegir de la lista, si el "
+"ingrediente no está en la lista complete escribiendo su nombre de "
+"ingrediente y presione el botón de la coma. Trate de poner todos los "
+"ingredientes de artículo para que personas puedan alcanzar su artículo "
+"cuando los productos de filtración."
+
+#: includes/dishes-functions.php:407
+msgid "Dish is Spicy."
+msgstr "Plato picante."
+
+#: includes/dishes-functions.php:410
+msgid "Show Fat Amount."
+msgstr "Muestra la cantidad grasa."
+
+#: includes/dishes-functions.php:413 metaboxes/dish_details.php:168
+msgid "Amount of Fat in Grams."
+msgstr "Cantidad de grasa en gramos."
+
+#: includes/dishes-functions.php:416
+msgid "More Details on the item"
+msgstr "Más detalles sobre del producto"
+
+#: includes/dishes-functions.php:416
+msgid "Enter more description about the item."
+msgstr "Introducir más descripción sobre el tema."
+
+#: includes/dishes-functions.php:424
+msgid "Stock Keeping Unit"
+msgstr "Unidad para existencias"
+
+#: includes/dishes-functions.php:424
+#: includes/woo-views/html-variation-admin.php:68
+#: templates/dishes-listing.php:32
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/dishes-functions.php:424
+msgid ""
+"SKU refers to a Stock-keeping unit, a unique identifier for each distinct "
+"product and service that can be purchased."
+msgstr ""
+"COD se refiere a una unidad de Mantenimiento de Stock, un identificador "
+"único para cada producto y servicio distintos que se pueden comprar."
+
+#: includes/dishes-functions.php:437
+msgid "Item URL"
+msgstr "URL del artículo"
+
+#: includes/dishes-functions.php:437
+msgid "Enter the external URL to the product."
+msgstr "Escriba la dirección URL externa al producto."
+
+#: includes/dishes-functions.php:440
+msgid "Button text"
+msgstr "Botón de texto"
+
+#: includes/dishes-functions.php:440
+msgctxt "placeholder"
+msgid "Buy product"
+msgstr "Comprar producto"
+
+#: includes/dishes-functions.php:440
+msgid "This text will be shown on the button linking to the external product."
+msgstr "Este texto se mostrará en el botón de enlace con el producto externo."
+
+#: includes/dishes-functions.php:447
+msgid "Regular Price"
+msgstr "Precio Normal"
+
+#: includes/dishes-functions.php:450
+msgid "Sale Price"
+msgstr "Ofereta"
+
+#: includes/dishes-functions.php:450
+#: includes/woo-views/html-variation-admin.php:97
+msgid "Schedule"
+msgstr "Programar"
+
+#: includes/dishes-functions.php:457
+msgid "Sale Price Dates"
+msgstr "Fechas de la oferta"
+
+#: includes/dishes-functions.php:458
+msgctxt "placeholder"
+msgid "From&hellip;"
+msgstr "De &hellip;"
+
+#: includes/dishes-functions.php:459
+msgctxt "placeholder"
+msgid "To&hellip;"
+msgstr "Para&hellip;"
+
+#: includes/dishes-functions.php:460 includes/dishes-functions.php:1027
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/dishes-functions.php:542
+msgid "Tax Status"
+msgstr "Status de Impuestos"
+
+#: includes/dishes-functions.php:544
+msgid "Taxable"
+msgstr "Sujeto a Impuestos"
+
+#: includes/dishes-functions.php:545
+msgid "Shipping only"
+msgstr "Sólo Envíos"
+
+#: includes/dishes-functions.php:546
+msgctxt "Tax status"
+msgid "None"
+msgstr "Ninguno"
+
+#: includes/dishes-functions.php:549
+msgid ""
+"Define whether or not the entire product is taxable, or just the cost of "
+"shipping it."
+msgstr ""
+"Define si todo el producto está sujeto a impuestos, o solo el costo de envío "
+"del mismo."
+
+#: includes/dishes-functions.php:564
+msgid "Tax Class"
+msgstr "Clase de Impuesto"
+
+#: includes/dishes-functions.php:567
+msgid ""
+"Choose a tax class for this product. Tax classes are used to apply different "
+"tax rates specific to certain types of product."
+msgstr ""
+"Elegir una clase de impuesto para este producto. Las Clases de impuestos se "
+"utilizan para aplicar diferentes impuestos específicos a ciertos tipos de "
+"producto."
+
+#: includes/dishes-functions.php:581
+msgid "Inventory options"
+msgstr "Opciones de Inventario"
+
+#: includes/dishes-functions.php:590
+#: includes/woo-views/html-variation-admin.php:84
+msgid "Manage stock?"
+msgstr "Manejar stock?"
+
+#: includes/dishes-functions.php:590
+msgid "Enable stock management at product level"
+msgstr "Activar administración de stock a nivel de producto"
+
+#: includes/dishes-functions.php:599
+msgid "Stock Qty"
+msgstr "Cantidad en Stock"
+
+#: includes/dishes-functions.php:601
+msgid ""
+"Stock quantity. If this is a variable product this value will be used to "
+"control stock for all variations, unless you define stock at variation level."
+msgstr ""
+"Cantidad disponible. Si se trata de un producto variable este valor se "
+"utilizará para controlar el stock para todas las variaciones, a menos que "
+"defina el stock a nivel de variación."
+
+#: includes/dishes-functions.php:610
+#: includes/woo-views/html-variation-admin.php:120
+msgid "Allow Backorders?"
+msgstr "Permitir Pedidos Pendientes?"
+
+#: includes/dishes-functions.php:614
+msgid ""
+"If managing stock, this controls whether or not backorders are allowed. If "
+"enabled, stock quantity can go below 0."
+msgstr ""
+"Si gestionás stock, esto controla si las reservas están permitidas. Si está "
+"habilitado, la cantidad de valores puede ir por debajo de 0."
+
+#: includes/dishes-functions.php:623
+#: includes/woo-views/html-variation-admin.php:134
+msgid "Stock status"
+msgstr "Status del Stock"
+
+#: includes/dishes-functions.php:626
+msgid ""
+"Controls whether or not the product is listed as \"in stock\" or \"out of "
+"stock\" on the frontend."
+msgstr ""
+"Controla si el producto está listado como \"en stock” o “sin stock” en el "
+"frontend."
+
+#: includes/dishes-functions.php:635
+msgid "Sold Individually"
+msgstr "Vendido Individualmente"
+
+#: includes/dishes-functions.php:635
+msgid ""
+"Enable this to only allow one of this item to be bought in a single order"
+msgstr ""
+"Habilitar esto para permitir que sólo un producto pueda ser solicitado en un "
+"único pedido."
+
+#: includes/dishes-functions.php:647
+msgid "Delivery options"
+msgstr "Opciones de envío"
+
+#: includes/dishes-functions.php:655 includes/dishes-functions.php:985
+#: includes/woo-views/html-variation-admin.php:149
+msgid "Weight"
+msgstr "Peso"
+
+#: includes/dishes-functions.php:655
+msgid "Weight in decimal form"
+msgstr "Peso en forma decimal"
+
+#: includes/dishes-functions.php:661
+msgid "Dimensions"
+msgstr "Dimensiones"
+
+#: includes/dishes-functions.php:688
+msgid "No shipping class"
+msgstr "Sin Clases de Envío"
+
+#: includes/dishes-functions.php:694
+msgid "Shipping class"
+msgstr "Clase de envío"
+
+#: includes/dishes-functions.php:704
+msgid "Item Attributes"
+msgstr "Atributos del producto"
+
+#: includes/dishes-functions.php:707 includes/dishes-functions.php:765
+#: includes/dishes-functions.php:998 includes/dishes-functions.php:1032
+msgid "Expand"
+msgstr "Expandir"
+
+#: includes/dishes-functions.php:707 includes/dishes-functions.php:765
+#: includes/dishes-functions.php:998 includes/dishes-functions.php:1032
+#: includes/restaurant-functions.php:641
+msgid "Close"
+msgstr "Cerrar"
+
+#: includes/dishes-functions.php:710
+msgid "Custom product attribute"
+msgstr "Atributo de producto personalizado"
+
+#: includes/dishes-functions.php:726 templates/orders/order-details.php:97
+msgid "Add"
+msgstr "Añadir"
+
+#: includes/dishes-functions.php:767
+msgid "Save Attributes"
+msgstr "Guardar Atributos"
+
+#: includes/dishes-functions.php:773
+msgid "Linking options"
+msgstr "Opciones de vinculación"
+
+#: includes/dishes-functions.php:778
+msgid "Up-Sells"
+msgstr "Venta adicional"
+
+#: includes/dishes-functions.php:778
+msgid ""
+"Up-sells are products which you recommend instead of the currently viewed "
+"product, for example, products that are more profitable or better quality or "
+"more expensive."
+msgstr ""
+"Venta adicional son productos que recomendás en lugar del producto que se "
+"está viendo, por ejemplo, productos que son más rentables o mejor calidad o "
+"más caro."
+
+#: includes/dishes-functions.php:780 includes/dishes-functions.php:791
+#: includes/dishes-functions.php:805
+msgid "Choose Products"
+msgstr "Elegir productos"
+
+#: includes/dishes-functions.php:789
+msgid "Cross-Sells"
+msgstr "Productos relacionados"
+
+#: includes/dishes-functions.php:789
+msgid ""
+"Cross-sells are products which you promote in the cart, based on the current "
+"product."
+msgstr ""
+"Cross Sells son productos que promueves en la lista de productos, en base al "
+"producto actual."
+
+#: includes/dishes-functions.php:803
+msgid "Grouping"
+msgstr "Agrupamiento"
+
+#: includes/dishes-functions.php:803
+msgid "Set this option to make this product part of a grouped product."
+msgstr ""
+"Establezca esta opción para hacer este producto parte de un producto "
+"agrupado."
+
+#: includes/dishes-functions.php:806 includes/restaurant-functions.php:970
+msgid "None"
+msgstr "Ninguno"
+
+#: includes/dishes-functions.php:825
+msgid "Advance options"
+msgstr "Opciones Avanzadas"
+
+#: includes/dishes-functions.php:830
+msgid "Purchase Note"
+msgstr "Nota de compra"
+
+#: includes/dishes-functions.php:830
+msgid "Enter an optional note to send the customer after purchase."
+msgstr "Escriba una nota opcional para enviar al cliente después de la compra."
+
+#: includes/dishes-functions.php:837
+msgid "Menu order"
+msgstr "Orden del menú"
+
+#: includes/dishes-functions.php:837
+msgid "Custom ordering position."
+msgstr "Posición de Orden personalizada"
+
+#: includes/dishes-functions.php:845
+msgid "Enable reviews"
+msgstr "Habilitar Opiniones"
+
+#: includes/dishes-functions.php:901
+msgid "Variation options"
+msgstr "Opciones de la variación"
+
+#: includes/dishes-functions.php:906
+msgid ""
+"Before you can add a variation you need to add some variation attributes on "
+"the <strong>Attributes</strong> tab."
+msgstr ""
+"Antes de agregar una variación, tenés que agregar algunos atributos de "
+"variación en la pestaña <strong>Attributos</strong>."
+
+#: includes/dishes-functions.php:908
+msgid "Learn more"
+msgstr "Más información"
+
+#: includes/dishes-functions.php:916
+msgid "Default Form Values"
+msgstr "Valores de formulario predeterminados"
+
+#: includes/dishes-functions.php:931
+msgid "No default"
+msgstr "Sin Predeterminar"
+
+#: includes/dishes-functions.php:960
+msgid "Add variation"
+msgstr "Agregar variación"
+
+#: includes/dishes-functions.php:961
+msgid "Create variations from all attributes"
+msgstr "Crear variaciones desde todos los atributos"
+
+#: includes/dishes-functions.php:962
+msgid "Delete all variations"
+msgstr "Eliminar todas las variaciones"
+
+#: includes/dishes-functions.php:964
+msgid "Toggle &quot;Enabled&quot;"
+msgstr "Alternar &quot;Activado&quot;"
+
+#: includes/dishes-functions.php:969
+msgid "Set regular prices"
+msgstr "Establecer precios normales"
+
+#: includes/dishes-functions.php:970
+msgid "Increase regular prices (fixed amount or percentage)"
+msgstr "Aumentar los precios normales (monto fijo o porcentaje)"
+
+#: includes/dishes-functions.php:971
+msgid "Decrease regular prices (fixed amount or percentage)"
+msgstr "Disminuir los precios de oferta (monto fijo o porcentaje)"
+
+#: includes/dishes-functions.php:972
+msgid "Set sale prices"
+msgstr "Establecer precios de venta"
+
+#: includes/dishes-functions.php:973
+msgid "Increase sale prices (fixed amount or percentage)"
+msgstr "Aumentar los precios de oferta (monto fijo o porcentaje)"
+
+#: includes/dishes-functions.php:974
+msgid "Decrease sale prices (fixed amount or percentage)"
+msgstr "Disminuir los precios de oferta (monto fijo o porcentaje)"
+
+#: includes/dishes-functions.php:975
+msgid "Set scheduled sale dates"
+msgstr "Establecer precios de venta programados"
+
+#: includes/dishes-functions.php:978
+msgid "Toggle &quot;Manage stock&quot;"
+msgstr "Alternar &quot;Manejar inventario&quot;"
+
+#: includes/dishes-functions.php:979 templates/dishes-listing.php:33
+msgid "Stock"
+msgstr "Stock"
+
+#: includes/dishes-functions.php:982
+msgid "Length"
+msgstr "Longitud"
+
+#: includes/dishes-functions.php:983
+msgid "Width"
+msgstr "Ancho"
+
+#: includes/dishes-functions.php:984
+msgid "Height"
+msgstr "Altura"
+
+#: includes/dishes-functions.php:996 includes/dishes-functions.php:1030
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "Producto %s"
+msgstr[1] "Productos %s"
+
+#: includes/dishes-functions.php:1004 includes/dishes-functions.php:1038
+msgid "Select Page"
+msgstr "Seleccione una página"
+
+#: includes/dishes-functions.php:1010 includes/dishes-functions.php:1044
+msgctxt "number of pages"
+msgid "of"
+msgstr "de"
+
+#: includes/dishes-functions.php:1026
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
+#: includes/dishes-functions.php:1219
+msgid "Product SKU must be unique."
+msgstr "SKU de producto debe ser único."
+
+#: includes/dishes-functions.php:1541
+#, php-format
+msgid ""
+"The downloadable file %s cannot be used as it does not have an allowed file "
+"type. Allowed types include: %s"
+msgstr ""
+"El archivo descargable %s no puede ser usado porque no es de un tipo de "
+"archivo permitido. Los tipos permitidos son: %s"
+
+#: includes/dishes-functions.php:1555
+#, php-format
+msgid ""
+"The downloadable file %s cannot be used as it does not exist on the server."
+msgstr ""
+"El archivo descargable %s no se puede usar porque no existe en el servidor."
+
+#: includes/dishes-functions.php:1659
+#, php-format
+msgid "Variation #%s of %s"
+msgstr "Variación # %s de %s"
+
+#: includes/dishes-functions.php:1703
+msgid "Variation SKU must be unique."
+msgstr "Variación SKU debe ser único."
+
+#: includes/dishes-functions.php:1824
+#, php-format
+msgid ""
+"#%s &ndash; The downloadable file %s cannot be used as it does not have an "
+"allowed file type. Allowed types include: %s"
+msgstr ""
+"#%s &ndash; El archivo descargable %s no puede utilizarse porque no es de un "
+"tipo permitido. Los tipos permitidos son: %s"
+
+#: includes/dishes-functions.php:1832
+#, php-format
+msgid ""
+"#%s &ndash; The downloadable file %s cannot be used as it does not exist on "
+"the server."
+msgstr ""
+"#%s &ndash; El archivo descargable %s no se puede usar porque no existe en "
+"el servidor."
+
+#: includes/lazy-functions.php:19
+msgctxt "frozr"
+msgid "Ingredients"
+msgstr "Ingredientes"
+
+#: includes/lazy-functions.php:20
+msgctxt "frozr"
+msgid "Ingredient"
+msgstr "Ingrediente"
+
+#: includes/lazy-functions.php:21
+msgid "Search Ingredients"
+msgstr "Buscar Ingredientes"
+
+#: includes/lazy-functions.php:22
+msgid "Popular Ingredients"
+msgstr "Ingredientes populares"
+
+#: includes/lazy-functions.php:23
+msgid "All Ingredients"
+msgstr "Todos los ingredientes"
+
+#: includes/lazy-functions.php:26
+msgid "Edit Ingredient"
+msgstr "Editar ingredientes"
+
+#: includes/lazy-functions.php:27
+msgid "Update Ingredient"
+msgstr "Actualizar Ingrediente"
+
+#: includes/lazy-functions.php:28
+msgid "Add New Ingredient"
+msgstr "Añadir nuevo ingrediente"
+
+#: includes/lazy-functions.php:29
+msgid "New Ingredient Name"
+msgstr "Nombre del nuevo ingrediente"
+
+#: includes/lazy-functions.php:30
+msgid "Separate Ingredients with commas"
+msgstr "Separar Ingredientes con comas"
+
+#: includes/lazy-functions.php:31
+msgid "Add or remove Ingredients"
+msgstr "Agregar o quitar ingredientes"
+
+#: includes/lazy-functions.php:32
+msgid "Choose from the most used Ingredients"
+msgstr "Elegir los ingredientes más utilizados"
+
+#: includes/lazy-functions.php:33
+msgid "No Ingredients found."
+msgstr "Ingredientes no encontrados."
+
+#: includes/lazy-functions.php:34
+msgid "Ingredients"
+msgstr "Ingredientes"
+
+#: includes/lazy-functions.php:59
+msgctxt "taxonomy general name"
+msgid "Delivery Locations"
+msgstr "Ubicaciones de entrega"
+
+#: includes/lazy-functions.php:60
+msgctxt "taxonomy singular name"
+msgid "Delivery Location"
+msgstr "Ubicación de entrega"
+
+#: includes/lazy-functions.php:61
+msgid "Search Locations"
+msgstr "Buscar Ubicación"
+
+#: includes/lazy-functions.php:62
+msgid "Popular Locations"
+msgstr "Ubicaciones Populares"
+
+#: includes/lazy-functions.php:63
+msgid "All Locations"
+msgstr "Todas las ubicaciones"
+
+#: includes/lazy-functions.php:66
+msgid "Edit Location"
+msgstr "Modificar Ubicación"
+
+#: includes/lazy-functions.php:67
+msgid "Update Location"
+msgstr "Actualizar ubicación"
+
+#: includes/lazy-functions.php:68
+msgid "Add New Location"
+msgstr "Agregar Nueva Ubicación"
+
+#: includes/lazy-functions.php:69
+msgid "New Location Name"
+msgstr "Nombre Nueva Ubicación"
+
+#: includes/lazy-functions.php:70
+msgid "Separate Locations with commas"
+msgstr "Separar ubicaciones con comas"
+
+#: includes/lazy-functions.php:71
+msgid "Add or remove Locations"
+msgstr "Agregar o quitar ubicaciones"
+
+#: includes/lazy-functions.php:72
+msgid "Choose from the most used Locations"
+msgstr "Elija entre las ubicaciones más usadas"
+
+#: includes/lazy-functions.php:73
+msgid "No Locations found."
+msgstr "Sin ubicaciones"
+
+#: includes/lazy-functions.php:74 includes/restaurant-functions.php:899
+msgid "Delivery Locations"
+msgstr "Ubicaciones de entrega"
+
+#: includes/lazy-functions.php:101
+msgctxt "taxonomy general name"
+msgid "Restaurant Addresses"
+msgstr "Direcciones restaurante"
+
+#: includes/lazy-functions.php:102
+msgctxt "taxonomy singular name"
+msgid "Restaurant Address"
+msgstr "Dirección Restaurante"
+
+#: includes/lazy-functions.php:103
+msgid "Search Restaurant Addresses"
+msgstr "Buscar direcciones de restaurante"
+
+#: includes/lazy-functions.php:104
+msgid "Popular Addresses"
+msgstr "Direcciones populares"
+
+#: includes/lazy-functions.php:105
+msgid "All Addresses of Restaurants"
+msgstr "Todas las direcciones de restaurantes"
+
+#: includes/lazy-functions.php:108
+msgid "Edit Address"
+msgstr "Editar Dirección"
+
+#: includes/lazy-functions.php:109
+msgid "Update Address"
+msgstr "Actualizar dirección"
+
+#: includes/lazy-functions.php:110
+msgid "Add New Address"
+msgstr "Añadir nueva dirección"
+
+#: includes/lazy-functions.php:111
+msgid "New Address"
+msgstr "Nueva Dirección"
+
+#: includes/lazy-functions.php:112
+msgid "Separate Addresses with commas"
+msgstr "Separe las direcciones con comas"
+
+#: includes/lazy-functions.php:113
+msgid "Add or remove Addresses"
+msgstr "Añadir o eliminar direcciones"
+
+#: includes/lazy-functions.php:114
+msgid "Choose from the most used Addresses"
+msgstr "Elegir las direcciones más usadas"
+
+#: includes/lazy-functions.php:115
+msgid "No Addresses found."
+msgstr "No hay direcciones encontradas."
+
+#: includes/lazy-functions.php:116
+msgid "Restaurant Addresses"
+msgstr "Direcciones restaurante"
+
+#: includes/lazy-functions.php:143
+msgctxt "taxonomy general name"
+msgid "Restaurant Cuisine"
+msgstr "Cocina restaurante"
+
+#: includes/lazy-functions.php:144
+msgctxt "taxonomy singular name"
+msgid "Restaurant Cuisine"
+msgstr "Cocina restaurante"
+
+#: includes/lazy-functions.php:145
+msgid "Cuisines"
+msgstr "Tipo de Cocina"
+
+#: includes/lazy-functions.php:146
+msgid "Popular Restaurant Cuisines"
+msgstr "Cocinas de restaurantes populares"
+
+#: includes/lazy-functions.php:147
+msgid "All Types"
+msgstr "Todos Los Tipos"
+
+#: includes/lazy-functions.php:150
+msgid "Edit Cuisine"
+msgstr "Editar cocina"
+
+#: includes/lazy-functions.php:151
+msgid "Update Cuisine"
+msgstr "Actualizar Cocina"
+
+#: includes/lazy-functions.php:152
+msgid "Add New Cuisine"
+msgstr "Añadir nueva cocina"
+
+#: includes/lazy-functions.php:153
+msgid "New Cuisine Name"
+msgstr "Nuevo nombre de cocina"
+
+#: includes/lazy-functions.php:154
+msgid "Separate cuisines with commas"
+msgstr "Cocinas separadas con comas"
+
+#: includes/lazy-functions.php:155
+msgid "Add or remove cuisines"
+msgstr "Añadir o eliminar cocinas"
+
+#: includes/lazy-functions.php:156
+msgid "Choose from the most used cuisines"
+msgstr "Elija entre las cocinas más utilizadas"
+
+#: includes/lazy-functions.php:157
+msgid "No cuisine found."
+msgstr "Sin resultados por tipo de cocina"
+
+#: includes/lazy-functions.php:158
+msgid "Restaurant Cuisines"
+msgstr "Cocinas de restaurante"
+
+#: includes/lazy-functions.php:805
+msgid "Total Delivery"
+msgstr "Entrega total"
+
+#: includes/lazy-functions.php:866
+msgid "Admin"
+msgstr "Administración"
+
+#: includes/lazy-functions.php:872
+#, php-format
+msgid "%s Dashboard"
+msgstr "%s Tablero"
+
+#: includes/lazy-functions.php:902
+msgid "Type the first three letters and choose from the list."
+msgstr ""
+"Utilizado para clasificar los elementos en la página del restaurante. "
+"Escribir primeras letras de dos o tres y elegir de la lista, si la receta no "
+"está en la lista complete escribiendo el título de la receta y presione el "
+"botón de la coma."
+
+#: includes/lazy-functions.php:921
+msgid "products."
+msgstr "productos."
+
+#: includes/lazy-functions.php:923
+msgid "restaurants."
+msgstr "restaurantes."
+
+#: includes/lazy-functions.php:930
+msgid ""
+"You have not set your location yet, if you want to make some food delivery "
+"order, you might be out of the delivery zone of these "
+msgstr ""
+"No ha definido su ubicación sin embargo, si usted quiere hacer alguna orden "
+"de entrega de alimentos, podría estar fuera de la zona de entrega de estos "
+
+#: includes/lazy-functions.php:930
+msgid "Set your location."
+msgstr "Establecer su ubicación."
+
+#: includes/lazy-functions.php:941
+msgid "Unset"
+msgstr "No definido"
+
+#: includes/lazy-functions.php:942
+msgid "Change"
+msgstr "Cambiar"
+
+#: includes/lazy-functions.php:944
+msgid "Your location is: "
+msgstr "Su ubicación es: "
+
+#: includes/lazy-functions.php:944
+msgid " it."
+msgstr " ese."
+
+#: includes/lazy-functions.php:966
+msgid "Your Location?"
+msgstr "Su ubicación?"
+
+#: includes/lazy-functions.php:971
+msgid "This restaurant does not accept orders while closed. Please come back "
+msgstr ""
+"Este restaurante no acepta órdenes mientras que cerrado. Por favor volver "
+
+#: includes/lazy-functions.php:1015
+#, php-format
+msgid "\"%s\"! \"%s\" sent you a message from your \"%s\" restaurant page."
+msgstr ""
+"\"%s\"! \"%s\" se ha enviado un mensaje desde tu página de restaurante \"%s"
+"\"."
+
+#: includes/lazy-functions.php:1020
+#, php-format
+msgid "Invitation Letter from %s."
+msgstr "Carta de invitación desde %s."
+
+#: includes/lazy-functions.php:1024
+msgid "Withdraw Request # "
+msgstr "Solicitud de reembolso # "
+
+#: includes/lazy-functions.php:1044
+msgid "New Customer Registration at "
+msgstr "Nuevo registro de cliente en "
+
+#: includes/lazy-functions.php:1048 includes/lazy-functions.php:1052
+msgid "New Restaurant Registration at "
+msgstr "Nuevo registro de restaurante en "
+
+#: includes/lazy-functions.php:1056 includes/lazy-functions.php:1060
+msgid "Thank you for registering at "
+msgstr "Gracias por registrarse en "
+
+#: includes/lazy-functions.php:1064
+msgid "Your Selling Privileges has Updated"
+msgstr "Se han actualizado sus privilegios de venta"
+
+#: includes/lazy-functions.php:1069
+msgid "Make your review on "
+msgstr "Añade tu reseña "
+
+#: includes/lazy-functions.php:1072
+msgid "Your"
+msgstr "Mi Tablero"
+
+#: includes/lazy-functions.php:1072
+msgid "Balance Updated."
+msgstr "Balance actualizado."
+
+#: includes/lazy-functions.php:1089
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"We received your withdraw request #%s, with total amount of %s, Via %s. We "
+"will review your request as soon as possible and get back to you.\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+"Hola %s, hemos recibido su petición del reembolso #%s, por un total de %s, a "
+"través de %s. Revisaremos su petición tan pronto como sea posible y le.\n"
+"\n"
+"Saludos!\n"
+"%s\n"
+"%s"
+
+#: includes/lazy-functions.php:1098
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"Your withdraw request #%s, with total amount of %s, Via %s, has been "
+"approved.\n"
+"We will transfer this amount to your preferred destination shortly.\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+"Hola %s, su petición de reembolso #%s, por un total de %s, a través de %s, "
+"ha sido aprobado.\n"
+"SE transferirá esta cantidad a su destino preferido.\n"
+"\n"
+"Saludos!\n"
+"%s\n"
+"%s"
+
+#: includes/lazy-functions.php:1108
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"Your withdraw request #%s, with total amount of %s, Via %s, has been "
+"rejected with the following reason: %s.\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+"Hola %s, su petición de retiro #%s, cantidad total de %s, a través de %s, ha "
+"sido rechazada con el siguiente motivo: %s.\n"
+"\n"
+"Saludos!\n"
+"%s\n"
+"%s"
+
+#: includes/lazy-functions.php:1117
+#, php-format
+msgid ""
+"\n"
+"%s\n"
+"\n"
+"------------------------------\n"
+"Sent from %s\n"
+"%s"
+msgstr ""
+"\n"
+"%s\n"
+"\n"
+"------------------------------\n"
+"Enviado de %s\n"
+"%s"
+
+#: includes/lazy-functions.php:1125
+#, php-format
+msgid ""
+"From: %s\n"
+"IP: %s\n"
+"User Agent: %s\n"
+"------------------------------\n"
+"\n"
+"%s\n"
+"\n"
+"------------------------------\n"
+"Sent from %s\n"
+"%s"
+msgstr ""
+"De: %s\n"
+"IP: %s\n"
+"Agente: %s\n"
+"------------------------------\n"
+"\n"
+"%s\n"
+"\n"
+"------------------------------\n"
+"Enviado de %s\n"
+"%s"
+
+#: includes/lazy-functions.php:1137
+#, php-format
+msgid ""
+"Hello %s Admin,\n"
+"\n"
+"A New Customer has registered in your site.\n"
+"User details:\n"
+"Email : %s\n"
+"\n"
+"View all users list at %s\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+"Hola %s administrador, \n"
+"\n"
+"un nuevo cliente ha registrado en su sitio. \n"
+"Detalles del usuario: \n"
+"Correo electrónico:%s \n"
+"\n"
+"Ver la lista de usuarios en%s\n"
+"\n"
+"Saludos!\n"
+"%s\n"
+"%s"
+
+#: includes/lazy-functions.php:1150
+#, php-format
+msgid ""
+"Hello %s Admin,\n"
+"\n"
+"A New Restaurant has registered in your site.\n"
+"Restaurant details:\n"
+"Email : %s\n"
+"First Name : %s\n"
+"Last Name : %s\n"
+"Shop Name : %s\n"
+"Shop URL : %s\n"
+"Shop Address : %s\n"
+"Shop Phone : %s\n"
+"\n"
+"Activate restaurant selling privileges %s\n"
+"View all users list at %s\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+"Hola %s Admin,\n"
+"\n"
+"Un Nuevo Restaurant se ha registerado en su sitio.\n"
+"Detalles :\n"
+"Email : %s\n"
+"Nombre : %s\n"
+"Apellido : %s\n"
+"Nombre restaurante : %s\n"
+"URL : %s\n"
+"Dirección : %s\n"
+"Teléfono : %s\n"
+"\n"
+"Activar privilegios de restaurante %s\n"
+"Ver lista de usuarios en %s\n"
+"\n"
+"Saludos!\n"
+"%s\n"
+"%s"
+
+#: includes/lazy-functions.php:1170
+#, php-format
+msgid ""
+"Hello %s Admin,\n"
+"\n"
+"A New Restaurant has registered in your site.\n"
+"Restaurant details:\n"
+"Email : %s\n"
+"First Name : %s\n"
+"Last Name : %s\n"
+"Shop Name : %s\n"
+"Shop URL : %s\n"
+"Shop Address : %s\n"
+"Shop Phone : %s\n"
+"\n"
+"View all users list at %s\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+"Hola %s Admin,\n"
+"\n"
+"Un nuevo resturante ha sido registrado en su sitio.\n"
+"Detalles:\n"
+"Email : %s\n"
+"Nombre : %s\n"
+"Apellido : %s\n"
+"Nombre restaurante : %s\n"
+"URL : %s\n"
+"Dirección : %s\n"
+"Teléfono : %s\n"
+"\n"
+"Ver lista de todos los usuarios en %s\n"
+"\n"
+"Saludoss!\n"
+"%s\n"
+"%s"
+
+#: includes/lazy-functions.php:1189
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"Thank you for registering at %s.\n"
+"Your selling privileges will be activated shortly by one of the site "
+"admins.\n"
+"We will let you know if any updates.\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+"Hola %s,\n"
+"\n"
+"Gracias por registrarse en %s.\n"
+"Sus privilegios de venta eran actualizados en breve por un administrador.\n"
+"Te avisaremos en cuanto esten actualizados.\n"
+"\n"
+"Saludos!\n"
+"%s\n"
+"%s"
+
+#: includes/lazy-functions.php:1200
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"Thank you for registering at %s.\n"
+"Your selling privileges has been activated. You can staring posting your "
+"items from your dashboard %s.\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+"Hola %s,\n"
+"\n"
+"Gracias por registrarse en% s ti.\n"
+"Las ventajas de venta se haya activado. Puede que mira fijamente la "
+"publicación de sus artículos en su tablero de instrumentos% s.\n"
+"\n"
+"Saludos!\n"
+"%s\n"
+"%s"
+
+#: includes/lazy-functions.php:1210
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"Your selling privileges has updated to: %s\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+"Hola %s, \n"
+"\n"
+"Sus privilegios de venta ha actualizados a: %s \n"
+"\n"
+"Saludos!\n"
+"%s \n"
+"%s"
+
+#: includes/lazy-functions.php:1219
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"Your order number %s dated %s has been marked as completed.\n"
+"Please take few moments and make a review on %s by clicking on the following "
+"link\n"
+"%s\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+"Hola%s, \n"
+"\n"
+"Su orden de número de fecha%s%s se ha marcado como completada. \n"
+"Por favor, tome unos momentos para hacer un comentario %s en la siguiente "
+"liga \n"
+"%s\n"
+"\n"
+"Saludos¡ \n"
+"%s\n"
+"%s"
+
+#: includes/lazy-functions.php:1230
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"The order id %s status has been changed from completed to %s. The order "
+"total amount is %s an amount of %s has been dropped from your balance.\n"
+"Your new balance is %s. Please contact the website Admin if you might need "
+"any clarification.\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+"Hola %s, el estado del pedido id %s ha cambiado de a %s. La cantidad total "
+"de la orden es %s que una cantidad de %s se ha caído de su saldo.\n"
+"Su nuevo saldo es %s. Póngase en contacto con el Web Admin si puede ser que "
+"necesite cualquier aclaración.\n"
+"\n"
+"Saludos!\n"
+"%s %s"
+
+#: includes/lazy-functions.php:1268
+msgid ""
+"The Restaurant Will not deliver to your location, please choose another "
+"option."
+msgstr "Este restaurante no entrega en su ubicación, elige otra opción"
+
+#: includes/lazy-functions.php:1270 includes/lazy-functions.php:1301
+msgid "This Restaurant is in your neighbourhood."
+msgstr "Este restaurante está en su ubicación."
+
+#: includes/lazy-functions.php:1272
+msgid "Notice: The delivery will be sent to the Order Billing Address"
+msgstr "Aviso: La entrega se enviará a la dirección de facturación de la orden"
+
+#: includes/lazy-functions.php:1274
+msgid "Pickup"
+msgstr "Retiro"
+
+#: includes/lazy-functions.php:1274
+msgid "Dine-in"
+msgstr "Dine-in"
+
+#: includes/lazy-functions.php:1274
+msgid "Curbside"
+msgstr "Entrega en restaurante"
+
+#: includes/lazy-functions.php:1276
+msgid "Number of People in the Party?"
+msgstr "Número de personas"
+
+#: includes/lazy-functions.php:1278
+msgid "Car Information"
+msgstr "Información de coche"
+
+#: includes/lazy-functions.php:1278
+msgid "Car Make, Model & color"
+msgstr "Marca, Modelo & color"
+
+#: includes/lazy-functions.php:1284
+msgid ""
+"The Restaurant will not accept this type of orders at this time please "
+"choose another option or come back "
+msgstr ""
+"El restaurante no acepta este tipo de pedidos en este momento por favor, "
+"elija otra opción o volver "
+
+#: includes/lazy-functions.php:1289
+msgid ""
+"The Restaurant is currently closed, but will process your order when open "
+msgstr ""
+"El restaurante está cerrado actualmente, pero procesará su pedido cuando "
+"está abierto "
+
+#: includes/lazy-functions.php:1301
+msgid "Addresses: "
+msgstr "Domicilios: "
+
+#: includes/lazy-functions.php:1308
+msgid "Add special comments or a person name."
+msgstr "Añadir comentario especial o un nombre de persona."
+
+#: includes/lazy-functions.php:1308
+msgid ""
+"Don't add items names, that have separate prices, Just add instructions for "
+"your current item like \"add extra sauces or toppings\" ..etc."
+msgstr ""
+"No añadir nombres de elementos, que tienen precios diferentes, solo las "
+"instrucciones para el elemento actual como \"agregar extras salsas o Aderezos"
+"\"... etc."
+
+#: includes/lazy-functions.php:1466
+msgid "Food Delivery"
+msgstr "Entrega de alimentos"
+
+#: includes/lazy-functions.php:1467
+msgid "Restaurants"
+msgstr "Restaurantes"
+
+#: includes/lazy-functions.php:1469
+msgid "Set Your Location."
+msgstr "Establecer su ubicación."
+
+#: includes/lazy-functions.php:1481
+msgid "e.g. Indian, Italian, Chinese ..."
+msgstr "por ejemplo, indio, Italiano, Chino..."
+
+#: includes/lazy-functions.php:1510
+msgid "e.g. Lamp, Chicken, Onion ..."
+msgstr "por ejemplo, carne, pollo, cebolla..."
+
+#: includes/lazy-functions.php:1537
+msgid "e.g. Road One, Road Two, Road Three ..."
+msgstr "por ejemplo, 53100, 52930, 52900..."
+
+#: includes/lazy-functions.php:1564
+msgid "Restaurant Name?"
+msgstr "Nombre del restaurante?"
+
+#: includes/lazy-functions.php:1628
+msgid ""
+"You have not yet set a fee/commission on your sellers sales. Your sellers "
+"will get %100 of their sales. Set your fee/commission now from the"
+msgstr ""
+"Que aún no ha fijado una cuota / comisión por sus ventas vendidos. Sus "
+"vendedores obtendrán 100% de sus ventas. Establecer su cuota / Comisión "
+"ahora de la"
+
+#: includes/order-functions.php:20
+#, php-format
+msgid "Processing (%d)"
+msgstr "Procesando (%d)"
+
+#: includes/order-functions.php:25 includes/withdraw-functions.php:81
+#, php-format
+msgid "Completed (%d)"
+msgstr "Completado (%d)"
+
+#: includes/order-functions.php:30
+#, php-format
+msgid "On-hold (%d)"
+msgstr "En espera (%d)"
+
+#: includes/order-functions.php:35 includes/withdraw-functions.php:78
+#, php-format
+msgid "Pending (%d)"
+msgstr "Pendiente (%d)"
+
+#: includes/order-functions.php:40
+#, php-format
+msgid "Cancelled (%d)"
+msgstr "Cancelado (%d)"
+
+#: includes/order-functions.php:45
+#, php-format
+msgid "Refunded (%d)"
+msgstr "Devuelto (%d)"
+
+#: includes/order-functions.php:50
+#, php-format
+msgid "failed (%d)"
+msgstr "error (%d)"
+
+#: includes/order-functions.php:67 includes/order-functions.php:509
+msgid "Order Total"
+msgstr "Total Del Pedido"
+
+#: includes/order-functions.php:125
+msgid "No orders found"
+msgstr "No se ha encontrado ningun pedido"
+
+#: includes/order-functions.php:266 includes/print-functions.php:281
+#, php-format
+msgid "Order %s"
+msgstr "Pedido %s"
+
+#: includes/order-functions.php:271 includes/withdraw-functions.php:129
+msgid "Via"
+msgstr "Via"
+
+#: includes/order-functions.php:282
+msgid "Billing:"
+msgstr "Facturación:"
+
+#: includes/order-functions.php:286
+msgid "Tel:"
+msgstr "Tel:"
+
+#: includes/order-functions.php:313
+msgid "Guest"
+msgstr "Huésped"
+
+#: includes/order-functions.php:318 templates/orders/order-details.php:75
+#, php-format
+msgid "by %s"
+msgstr "por %s"
+
+#: includes/order-functions.php:326
+msgid "Unpublished"
+msgstr "Sin publicar"
+
+#: includes/order-functions.php:328 templates/dishes-listing.php:149
+msgid "Y/m/d g:i:s A"
+msgstr "Y/m/d g:i:s A"
+
+#: includes/order-functions.php:333 templates/dishes-listing.php:156
+#, php-format
+msgid "%s ago"
+msgstr "Hace %s"
+
+#: includes/order-functions.php:335 templates/dishes-listing.php:158
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: includes/order-functions.php:344
+msgid "Complete"
+msgstr "Completado"
+
+#: includes/order-functions.php:351
+msgid "Failed"
+msgstr "Fallado"
+
+#: includes/order-functions.php:353
+msgid "Print"
+msgstr "Impresión"
+
+#: includes/order-functions.php:409 lazyeater.php:284
+msgid "Cost"
+msgstr "Costo"
+
+#: includes/order-functions.php:410
+msgid "Qty"
+msgstr "Cant"
+
+#: includes/order-functions.php:417 includes/order-functions.php:418
+msgid "Tax"
+msgstr "Impuestos"
+
+#: includes/order-functions.php:468
+msgid "Coupon(s) Used"
+msgstr "Cupón(es) Utilizado(s)"
+
+#: includes/order-functions.php:481
+msgid "Discount"
+msgstr "Descuento"
+
+#: includes/order-functions.php:535
+msgid ""
+"Note: The website fees of this order will be detected from the current "
+"restaurant website balance. If the balance is insufficient, it will go in "
+"minus."
+msgstr ""
+"Nota: No se detectaron los honorarios de la Página Web de este orden desde "
+"la corriente de la balanza página web del restaurante. Si el saldo es "
+"insuficiente, el tope en el signo menos."
+
+#: includes/order-functions.php:540
+msgid "Order Status:"
+msgstr "Estatus de la Orden:"
+
+#: includes/order-functions.php:544
+msgid "Payment Method:"
+msgstr "Método de pago:"
+
+#: includes/order-functions.php:548
+msgid "Order Date:"
+msgstr "Fecha de Orden:"
+
+#: includes/order-functions.php:564
+msgid "Customer:"
+msgstr "Cliente:"
+
+#: includes/order-functions.php:574
+msgid "Email:"
+msgstr "E-mail:"
+
+#: includes/order-functions.php:578
+msgid "Phone:"
+msgstr "Teléfono:"
+
+#: includes/order-functions.php:582 includes/print-functions.php:81
+msgid "Address:"
+msgstr "Dirección:"
+
+#: includes/order-functions.php:593
+msgid "Customer Note:"
+msgstr "Nota del Cliente:"
+
+#: includes/order-functions.php:634 templates/orders/order-details.php:76
+msgid "Delete note"
+msgstr "borrar nota"
+
+#: includes/order-functions.php:681
+msgid "Order should be refunded. Customer please send a message to  "
+msgstr "Orden debe ser reembolsado. Cliente por favor envíe un mensaje a "
+
+#: includes/order-functions.php:681
+msgid ""
+" in reference to this order ID and your payment account details and method "
+"to complete refund."
+msgstr ""
+"en referencia a este orden ID y tu información de cuenta de pago y el método "
+"para completar el reembolso."
+
+#: includes/order-functions.php:683
+msgid "Order has been cancelled."
+msgstr "Orden ha sido cancelada."
+
+#: includes/order-functions.php:685
+msgid "Order is being prepared."
+msgstr "Orden está siendo preparado."
+
+#: includes/order-functions.php:687
+msgid "Order on its way to customer."
+msgstr "Tu pedido está en camino."
+
+#: includes/order-functions.php:689
+msgid "Customer has received the order."
+msgstr "Cliente ha recibido el pedido."
+
+#: includes/order-functions.php:691
+msgid "Order failed to process."
+msgstr "Orden no se pudo procesar."
+
+#: includes/order-functions.php:880
+msgid "Mark parent order completed as all child orders are completed."
+msgstr ""
+"Marcar el pedido padre Completo según se hayan completado los pedidos hijos."
+
+#: includes/order-functions.php:934
+#, php-format
+msgid "Order &ndash; %s"
+msgstr "Pedido &ndash; %s"
+
+#: includes/order-functions.php:934
+msgctxt "Order date parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr "%b %d, %Y @ %I:%M %p"
+
+#: includes/order-functions.php:1084
+msgid "Sub Orders"
+msgstr "Sub órdenes"
+
+#: includes/order-functions.php:1088
+msgid "Note:"
+msgstr "Nota:"
+
+#: includes/order-functions.php:1089
+msgid ""
+"This order has items from multiple vendors/restaurants. So we divided this "
+"order into multiple orders, each will be handled by their respective vendor "
+"independently."
+msgstr ""
+"Esta orden tiene elementos de múltiples proveedores y restaurantes. Así que "
+"dividimos esta orden en múltiples órdenes, cada uno será manejado por sus "
+"respectivos proveedores independientemente."
+
+#: includes/order-functions.php:1126
+#, php-format
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] "%s de %s producto"
+msgstr[1] "%s de %s productos"
+
+#: includes/order-functions.php:1137 templates/dishes-listing.php:85
+msgid "View"
+msgstr "Vista"
+
+#: includes/print-functions.php:40
+msgid ""
+"Net profit from completed orders after all sellers commissions are paid."
+msgstr ""
+"Beneficio neto de órdenes completadas después de todas las comisiones de "
+"vendedores se les paga."
+
+#: includes/print-functions.php:40
+msgid "Net of any withdraws made during this period."
+msgstr "Red de cualquiera se retira hechas durante este período."
+
+#: includes/print-functions.php:44
+msgid "All Time:"
+msgstr "Todo el tiempo"
+
+#: includes/print-functions.php:47
+msgid "Today:"
+msgstr "Hoy"
+
+#: includes/print-functions.php:50
+msgid "This Week:"
+msgstr "Esta semana:"
+
+#: includes/print-functions.php:53
+msgid "This Month:"
+msgstr "Este mes"
+
+#: includes/print-functions.php:59
+msgid "This Year:"
+msgstr "Este año"
+
+#: includes/print-functions.php:74
+msgid "General Summary Report"
+msgstr "Informe de resumen general"
+
+#: includes/print-functions.php:74
+msgid "Beta"
+msgstr "Βeta"
+
+#: includes/print-functions.php:80
+msgid "Restaurant:"
+msgstr "Restaurante:"
+
+#: includes/print-functions.php:100
+msgid "This seller has not set up this type of address yet."
+msgstr "Este vendedor no ha establecido este tipo de sitio."
+
+#: includes/print-functions.php:102
+msgid "You have not set up this type of address yet."
+msgstr "Aún no configuras este tipo de dirección."
+
+#: includes/print-functions.php:109
+msgid "Report based on all sellers actvity."
+msgstr "Informar sobre la base de todos los vendedores actvity."
+
+#: includes/print-functions.php:112
+msgid "Period:"
+msgstr "Periodo:"
+
+#: includes/print-functions.php:121
+msgid "Income Summary to Earnings Account"
+msgstr "Resumen de ingresos a cuenta de ganancias"
+
+#: includes/print-functions.php:128
+msgid "Total Orders:"
+msgstr "Total órdenes:"
+
+#: includes/print-functions.php:133
+msgid "Total Pending Orders:"
+msgstr "Total órdenes pendientes:"
+
+#: includes/print-functions.php:137
+msgid "Total Processing Orders:"
+msgstr "Total órdenes de procesamiento:"
+
+#: includes/print-functions.php:141
+msgid "Total On-hold Orders:"
+msgstr "Total pedidos en espera:"
+
+#: includes/print-functions.php:145
+msgid "Total Cancelled Orders:"
+msgstr "Total cancelado pedidos:"
+
+#: includes/print-functions.php:149
+msgid "Total refunded Orders:"
+msgstr "Pedidos de reembolsadas"
+
+#: includes/print-functions.php:154
+msgid "Total Coupon Usage:"
+msgstr "Uso de cupón"
+
+#: includes/print-functions.php:174
+msgid "Total:"
+msgstr "Total"
+
+#: includes/print-functions.php:177
+msgid "Total Withdraws:"
+msgstr "Total se retira:"
+
+#: includes/print-functions.php:178
+msgid "Actual Balance in Account:"
+msgstr "Saldo real de la cuenta:"
+
+#: includes/print-functions.php:178
+msgid "- Exclusive of Tax"
+msgstr "- Exclusivo de impuesto"
+
+#: includes/print-functions.php:188
+msgid "Profits are only gained from completed orders."
+msgstr "Beneficios sólo se obtienen de órdenes completadas."
+
+#: includes/print-functions.php:197
+msgid "Summary Sales Report."
+msgstr "Informe Resumen de ventas."
+
+#: includes/print-functions.php:292
+msgid "Print Order."
+msgstr "Orden de impresión."
+
+#: includes/registration-functions.php:23
+msgid ""
+"Please note that your selling privileges will be activated after an admin "
+"approval."
+msgstr ""
+"Tenga en cuenta que sus privilegios de venta se activarán después de la "
+"aprobación de un administrador."
+
+#: includes/registration-functions.php:29
+msgid "First Name"
+msgstr "Nombre"
+
+#: includes/registration-functions.php:34
+msgid "Last Name"
+msgstr "Apellido"
+
+#: includes/registration-functions.php:40
+msgid "Shop Name"
+msgstr "Nombre del resturante"
+
+#: includes/registration-functions.php:45
+msgid "Shop URL"
+msgstr "URL del restaurante"
+
+#: includes/registration-functions.php:52
+msgid "Phone"
+msgstr "Teléfono"
+
+#: includes/registration-functions.php:62
+#: includes/registration-functions.php:76
+msgid "I Accept"
+msgstr "Acepto"
+
+#: includes/registration-functions.php:62
+#: includes/registration-functions.php:76
+msgid "View Terms of Service"
+msgstr "Ver términos de servicio"
+
+#: includes/registration-functions.php:62
+#: includes/registration-functions.php:76
+msgid "Terms of Service."
+msgstr "Terms of Service"
+
+#: includes/registration-functions.php:85
+msgid "I'm a customer"
+msgstr "Soy un cliente"
+
+#: includes/registration-functions.php:90
+msgid "I Have a Restaurant"
+msgstr "Tengo un restaurante"
+
+#: includes/restaurant-functions.php:136
+msgid "No Ratings Yet!"
+msgstr "No hay ratings todavia!"
+
+#: includes/restaurant-functions.php:148
+#, php-format
+msgid "%1$s Based on "
+msgstr "%1$s basado en "
+
+#: includes/restaurant-functions.php:148
+#, php-format
+msgid "%2$s Rating"
+msgid_plural "%2$s Ratings"
+msgstr[0] "%2$s Rating"
+msgstr[1] "%2$s Ratings"
+
+#: includes/restaurant-functions.php:158
+msgid "Login to make your review!"
+msgstr "Inicie sesión en su cuenta"
+
+#: includes/restaurant-functions.php:160
+msgid "Username or email address"
+msgstr "Usuario o correo electrónico"
+
+#: includes/restaurant-functions.php:164
+msgid "Password"
+msgstr "Contraseña"
+
+#: includes/restaurant-functions.php:168
+msgid "Login"
+msgstr "Entrar"
+
+#: includes/restaurant-functions.php:175
+msgid "Rate"
+msgstr "Califica"
+
+#: includes/restaurant-functions.php:181
+msgid "Submit"
+msgstr "Enviar"
+
+#: includes/restaurant-functions.php:367
+msgid "&larr; Previous"
+msgstr "&rarr; Anterior"
+
+#: includes/restaurant-functions.php:368
+msgid "Next &rarr;"
+msgstr "Siguiente &rarr;"
+
+#: includes/restaurant-functions.php:416
+msgid "Visit Restaurant"
+msgstr "Visita restaurante"
+
+#: includes/restaurant-functions.php:425
+#: templates/restaurant/restaurant-header.php:80
+msgid "See Restaurants that also serve "
+msgstr "Ver restaurantes que sirven también "
+
+#: includes/restaurant-functions.php:427
+msgid " Min. Order: "
+msgstr " Pedido mínimo: "
+
+#: includes/restaurant-functions.php:427
+#: templates/restaurant/restaurant-header.php:157
+msgid "Any."
+msgstr "Cualquier"
+
+#: includes/restaurant-functions.php:428
+msgid " Delivery: "
+msgstr " Envío: "
+
+#: includes/restaurant-functions.php:428
+#: templates/restaurant/restaurant-header.php:154
+msgid "Free Delivery."
+msgstr "Envío gratuito"
+
+#: includes/restaurant-functions.php:479
+msgid "Open 24 Hours Today"
+msgstr "Abierto las 24 horas hoy"
+
+#: includes/restaurant-functions.php:480
+msgid "Open till "
+msgstr "Abierto hasta "
+
+#: includes/restaurant-functions.php:482 includes/restaurant-functions.php:487
+#: includes/restaurant-functions.php:494
+msgid " at "
+msgstr " en "
+
+#: includes/restaurant-functions.php:483
+msgid " on "
+msgstr " en "
+
+#: includes/restaurant-functions.php:484
+msgid " tomorrow "
+msgstr " mañana "
+
+#: includes/restaurant-functions.php:486
+msgid " another day "
+msgstr " otro día "
+
+#: includes/restaurant-functions.php:489
+msgid "Opens at "
+msgstr "Abre a las "
+
+#: includes/restaurant-functions.php:490
+msgid "Opens on "
+msgstr "Abre en "
+
+#: includes/restaurant-functions.php:491
+msgid "Opens Tomorrow "
+msgstr "Se abre mañana "
+
+#: includes/restaurant-functions.php:492
+msgid "Closed Today"
+msgstr "Cerrado hoy"
+
+#: includes/restaurant-functions.php:493
+msgid "Closed"
+msgstr "Cerrado"
+
+#: includes/restaurant-functions.php:610 templates/dishes-listing.php:34
+msgid "Price"
+msgstr "Precio"
+
+#: includes/restaurant-functions.php:630
+msgid "Item is Spicy"
+msgstr "El artículo es picante"
+
+#: includes/restaurant-functions.php:632
+msgid "Item is not Spicy"
+msgstr "Artículo no es picante"
+
+#: includes/restaurant-functions.php:637
+msgid "Quick View"
+msgstr "Vista Rápida"
+
+#: includes/restaurant-functions.php:649
+msgid "View full details."
+msgstr "Mostrar detalles"
+
+#: includes/restaurant-functions.php:651
+msgid "Fat"
+msgstr "Grasa"
+
+#: includes/restaurant-functions.php:651
+msgid " Grams"
+msgstr " Gramos"
+
+#: includes/restaurant-functions.php:654
+msgid "ingredients: "
+msgstr "Ingredientes "
+
+#: includes/restaurant-functions.php:658
+msgid "Item Rating"
+msgstr "Calificación del producto"
+
+#: includes/restaurant-functions.php:665 lazyeater.php:254
+msgid "Make Order!"
+msgstr "Realizar pedido"
+
+#: includes/restaurant-functions.php:826
+msgid "Change banner"
+msgstr "Banner (Anuncio)"
+
+#: includes/restaurant-functions.php:831
+msgid "Upload banner"
+msgstr "Subir anuncio"
+
+#: includes/restaurant-functions.php:832
+msgid "(Upload a banner for your store. Banner size is (825x300) pixel. )"
+msgstr ""
+"(Cargar un banner para tu restaurante. Tamaño del banner es pixel (825 x "
+"300). )"
+
+#: includes/restaurant-functions.php:842
+msgid "Change Photo"
+msgstr "Cambiar foto"
+
+#: includes/restaurant-functions.php:846
+msgid "Upload Photo"
+msgstr "Subir foto"
+
+#: includes/restaurant-functions.php:856 includes/restaurant-functions.php:913
+msgid "Delivery Settings"
+msgstr "Opciones de entrega"
+
+#: includes/restaurant-functions.php:857
+msgid "Orders Settings"
+msgstr "Configuraciones ordenes"
+
+#: includes/restaurant-functions.php:858 includes/restaurant-functions.php:983
+msgid "Social Profile"
+msgstr "Perfil social"
+
+#: includes/restaurant-functions.php:859 includes/restaurant-functions.php:1012
+msgid "Opening/Closing timings"
+msgstr "Horarios de apertura y cierre"
+
+#: includes/restaurant-functions.php:860
+msgid "Withdraw Method"
+msgstr "Método de reembolso"
+
+#: includes/restaurant-functions.php:861 includes/restaurant-functions.php:1106
+msgid "Restaurant Tables"
+msgstr "Mesas de restaurante"
+
+#: includes/restaurant-functions.php:866
+msgid "General Info"
+msgstr "Información general"
+
+#: includes/restaurant-functions.php:869
+msgid "Restaurant Name"
+msgstr "Nombre restaurante"
+
+#: includes/restaurant-functions.php:870
+msgid "e.g. BOB's Pizza"
+msgstr "por ejemplo de BOB Pizza"
+
+#: includes/restaurant-functions.php:873
+msgid "Contact Number"
+msgstr "Número de Contacto"
+
+#: includes/restaurant-functions.php:874
+msgid "e.g. +967 771 232 977"
+msgstr "por ejemplo, 55 51 5555 5555"
+
+#: includes/restaurant-functions.php:877
+msgid "Restaurant Address/Addresses"
+msgstr "Restaurante dirección/direcciones"
+
+#: includes/restaurant-functions.php:877
+msgid ""
+"Type address and hit the comma button. If your restaurant have branches, "
+"enter all branches addresses separated with commas."
+msgstr ""
+"Escribe la dirección y pulsa el botón de la coma. Si su restaurante tiene "
+"sucursales, todas sucursales separadas por comas."
+
+#: includes/restaurant-functions.php:878
+msgid "e.g. Seasons Mall, Town Mall"
+msgstr "por ejemplo, 52930, 53100 etc"
+
+#: includes/restaurant-functions.php:881
+msgid "Restaurant Cuisine"
+msgstr "Cocina restaurante"
+
+#: includes/restaurant-functions.php:881
+msgid ""
+"i.e Italian, Indian, Fast Food, Fine Dining .. etc. Type first two/three "
+"letters and choose from list, if the list doesn't appear then complete "
+"typing and hit the comma button."
+msgstr ""
+"ejemplo, Italiano, indio, Fast Food, gastronomía... etc. Escribe dos o tres "
+"iniciales y elegir de la lista, si la lista no aparecen entonces completar "
+"escribiendo y presionar el botón de coma."
+
+#: includes/restaurant-functions.php:885
+msgid "Food Types Served"
+msgstr "Tipos de alimentos servidos"
+
+#: includes/restaurant-functions.php:893
+msgid "Sea Food."
+msgstr "Marisco"
+
+#: includes/restaurant-functions.php:899
+msgid ""
+"Road/Street names. Type first two/three letters and choose from list, if the "
+"list doesn't appear then complete typing and hit the comma button."
+msgstr ""
+"Codigos postalese. Escribe dos o tres numeros y elegir de la lista, si la "
+"lista no aparecen entonces completar escribiendo y presionar el botón de "
+"coma."
+
+#: includes/restaurant-functions.php:903
+msgid "Show email address in restaurant page."
+msgstr "Mostrar dirección de correo electrónico en la página del restaurante."
+
+#: includes/restaurant-functions.php:907
+msgid "Allow receiving emails form your store page."
+msgstr ""
+"Permite recibir mensajes de correo electrónico forma tu página del "
+"restaurante."
+
+#: includes/restaurant-functions.php:918
+msgid "Delivery Fee "
+msgstr "Costo de  Envío "
+
+#: includes/restaurant-functions.php:922
+msgid "Calculate Delivery by"
+msgstr "Calcular Costo De Envío"
+
+#: includes/restaurant-functions.php:926
+msgid "Order."
+msgstr "Orden"
+
+#: includes/restaurant-functions.php:930
+msgid "Item."
+msgstr "Producto"
+
+#: includes/restaurant-functions.php:935
+msgid "Per additional item fee "
+msgstr "Cargo por artículo adicional "
+
+#: includes/restaurant-functions.php:939
+msgid "Delivery Duration (In Minutes)"
+msgstr "Entrega duración (en minutos)"
+
+#: includes/restaurant-functions.php:943
+msgid "Minimum order amount "
+msgstr "Valor mínimo del Pedido "
+
+#: includes/restaurant-functions.php:954
+msgid "Allow Orders Even while closed."
+msgstr "Permite órdenes mientras esta cerrado."
+
+#: includes/restaurant-functions.php:958
+msgid "Accepted Order Types"
+msgstr "Tipos de pedidos aceptados"
+
+#: includes/restaurant-functions.php:968
+msgid "Accepted Order Types when Closed"
+msgstr "Tipos de pedidos aceptados cuando cierra"
+
+#: includes/restaurant-functions.php:988
+msgid "Facebook Account "
+msgstr "Cuenta de Facebook "
+
+#: includes/restaurant-functions.php:992
+msgid "Google plus"
+msgstr "Google plus"
+
+#: includes/restaurant-functions.php:996
+msgid "Twitter Account"
+msgstr "Cuenta de Twitter"
+
+#: includes/restaurant-functions.php:1000
+msgid "Linkedin"
+msgstr "LinkedIn"
+
+#: includes/restaurant-functions.php:1004
+msgid "Youtube"
+msgstr "Youtube"
+
+#: includes/restaurant-functions.php:1013
+msgid ""
+"Set your timing in 24 hour format. for example, if your restaurant opens "
+"from 01:00 pm till 06:00 pm, enter 13:00 in the opening input and 18:00 in "
+"the closing input. If your restaurant opens 24 hours, enter 00:00 in both, "
+"opening and closing inputs."
+msgstr ""
+"Establezca su regulación en formato de 24 horas. por ejemplo, si su "
+"restaurante abre de 13:00 hasta 18:00, entre la 13:00 en la entrada de "
+"apertura y 18:00 en el cierre de la entrada. Si su restaurante abre 24 "
+"horas, introduzca 00:00 en tanto apertura y cierre de entradas."
+
+#: includes/restaurant-functions.php:1018
+msgid "Saturday"
+msgstr "Sábado"
+
+#: includes/restaurant-functions.php:1019
+msgid "Sunday"
+msgstr "Domingo"
+
+#: includes/restaurant-functions.php:1020
+msgid "Monday"
+msgstr "Lunes"
+
+#: includes/restaurant-functions.php:1021
+msgid "Tuesday"
+msgstr "Martes"
+
+#: includes/restaurant-functions.php:1022
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: includes/restaurant-functions.php:1023
+msgid "Thursday"
+msgstr "Jueves"
+
+#: includes/restaurant-functions.php:1024
+msgid "Friday"
+msgstr "Viernes"
+
+#: includes/restaurant-functions.php:1035
+msgid "Open"
+msgstr "Abierto"
+
+#: includes/restaurant-functions.php:1039
+msgid "Two Shifts"
+msgstr "Dos turnos"
+
+#: includes/restaurant-functions.php:1046
+msgid "Shift One Opening"
+msgstr "Apertura turno 1"
+
+#: includes/restaurant-functions.php:1048
+msgid "Shift One Closing"
+msgstr "Cierre turno 1"
+
+#: includes/restaurant-functions.php:1052
+msgid "Shift two Opening"
+msgstr "Apertura turno 2"
+
+#: includes/restaurant-functions.php:1054
+msgid "Shift two Closing"
+msgstr "Cierre turno 2"
+
+#: includes/restaurant-functions.php:1063
+msgid "Unavailable Dates (mm/dd/yyyy)"
+msgstr "Fechas de cierre (mm/dd/aaaa)"
+
+#: includes/restaurant-functions.php:1080
+msgid "Add new unavailable date"
+msgstr "Añadir nueva fecha disponible"
+
+#: includes/restaurant-functions.php:1089
+msgid "Withdraw Payment Method"
+msgstr "Metodo de pago de reembolso"
+
+#: includes/restaurant-functions.php:1109
+msgid "Show Restaurant Tables."
+msgstr "Mostrar mesas de restaurante."
+
+#: includes/restaurant-functions.php:1122
+msgid "Number of Seats"
+msgstr "Número de asientos"
+
+#: includes/restaurant-functions.php:1122
+msgid ""
+"Enter the maximum number of people the table fits, so if the table fits 4 or "
+"6 people, write 6."
+msgstr ""
+"Escriba el número máximo de personas  de la mesa, así que si la mesa es de 4 "
+"o 6 personas, escriba 6."
+
+#: includes/restaurant-functions.php:1126
+msgid "Tables Numbers/Titles"
+msgstr "Números de mesas/títulos"
+
+#: includes/restaurant-functions.php:1126
+msgid "Separate by commas. i.e. n20, z22, x32"
+msgstr "Separados por comas. es decir, n20, z22, x32"
+
+#: includes/restaurant-functions.php:1127
+msgid "n20, z22, x32,"
+msgstr "N20, z22, x32,"
+
+#: includes/restaurant-functions.php:1130
+msgid "Available Table Shapes"
+msgstr "Formas de mesa disponible"
+
+#: includes/restaurant-functions.php:1134
+msgid "Circle."
+msgstr "Círculo."
+
+#: includes/restaurant-functions.php:1138
+msgid "Square."
+msgstr "Cuadrado"
+
+#: includes/restaurant-functions.php:1143
+msgid "Notes"
+msgstr "Notas"
+
+#: includes/restaurant-functions.php:1143
+msgid ""
+"Write some notes about this group of tables. i.e. Table n20 has a clear view "
+"on the beach."
+msgstr ""
+"Escriba algunas notas sobre este grupo de mesas. es decir, tabla n20 tiene "
+"una visión clara sobre la playa."
+
+#: includes/restaurant-functions.php:1144
+msgid "Table n20 has a clear view on the beach."
+msgstr "La mesa n20 tiene una visión clara sobre la playa."
+
+#: includes/restaurant-functions.php:1150
+msgid "Add New Tables Group"
+msgstr "Agregar nuevo grupo de mesas"
+
+#: includes/restaurant-functions.php:1191
+msgid ""
+"We did not find a table with an exact seats number you requested but you can "
+"also check these tables. "
+msgstr ""
+"No se encontró una mesa con un número exacto de asientos solicitaste pero "
+"también puede consultar estas mesas. "
+
+#: includes/restaurant-functions.php:1193
+msgid ""
+"We did not find a table with an exact seats number you requested but we will "
+"manage to add extra seats on the table."
+msgstr ""
+"No se encontró una mesa con un número exacto de asientos solicitaste pero "
+"conseguimos añadir sillas adicionales en la mesa."
+
+#: includes/restaurant-functions.php:1197
+msgid "Seats:"
+msgstr "Asientos:"
+
+#: includes/restaurant-functions.php:1202
+msgid "Tables Titles/Numbers:"
+msgstr "Títulos de mesas/números:"
+
+#: includes/restaurant-functions.php:1206
+msgid "Available Shapes:"
+msgstr "Formas disponibles:"
+
+#: includes/restaurant-functions.php:1206
+msgid "Other"
+msgstr "Otro"
+
+#: includes/restaurant-functions.php:1210
+msgid "Notes:"
+msgstr "Notas:"
+
+#: includes/restaurant-functions.php:1216
+msgid "Call now to reserve:"
+msgstr "Llame ahora para reservar:"
+
+#: includes/sellers-functions.php:54
+#, php-format
+msgid "Active Sellers (%d)"
+msgstr "Vendedores activos (%d)"
+
+#: includes/sellers-functions.php:57
+#, php-format
+msgid "Inactive Sellers (%d)"
+msgstr "Vendedores inactivos (%d)"
+
+#: includes/sellers-functions.php:60
+msgid "Top Sellers"
+msgstr "Lo más vendido"
+
+#: includes/sellers-functions.php:62
+msgid "Send Invitation!"
+msgstr "Enviar invitación!"
+
+#: includes/sellers-functions.php:77
+msgid "Send Invitation"
+msgstr "Enviar invitación"
+
+#: includes/sellers-functions.php:78
+msgid "Send an invitation to a vendor to join your restaurant network."
+msgstr ""
+"Enviar una invitación a un vendedor a unirse a esta red de restaurantes."
+
+#: includes/sellers-functions.php:84
+msgid "Email of recipient"
+msgstr "Correo electrónico del destinatario"
+
+#: includes/sellers-functions.php:87
+msgid "Invitation Subject"
+msgstr "Tema de la invitación"
+
+#: includes/sellers-functions.php:90
+msgid "Invitation Message"
+msgstr "Mensaje de Invitacion"
+
+#: includes/sellers-functions.php:95
+msgid "Send"
+msgstr "Enviar"
+
+#: includes/sellers-functions.php:115
+#: includes/woo-views/html-product-attribute.php:12
+#: includes/woo-views/html-variation-admin.php:206
+#: templates/dishes-listing.php:30
+msgid "Name"
+msgstr "Nombre"
+
+#: includes/sellers-functions.php:116
+msgid "Email"
+msgstr "Email"
+
+#: includes/sellers-functions.php:117
+msgid "Active Seller"
+msgstr "Vendedor activo"
+
+#: includes/sellers-functions.php:118
+msgid "Balance"
+msgstr "Saldo"
+
+#: includes/sellers-functions.php:119
+msgid "Phone & Address"
+msgstr "Teléfono y dirección"
+
+#: includes/sellers-functions.php:163
+msgid "Sellers ordered by highest completed orders."
+msgstr "Vendedores ordenados por orden más alto completado."
+
+#: includes/sellers-functions.php:177
+msgid "Sorry, no sellers found!"
+msgstr "Lo sentimos, no se encontraron vendedores!"
+
+#: includes/sellers-functions.php:209
+msgid "Processing:"
+msgstr "Procesando:"
+
+#: includes/sellers-functions.php:209
+msgid "Completed:"
+msgstr "Completado:"
+
+#: includes/sellers-functions.php:223
+msgid "Activate Selling"
+msgstr "Activar ventas"
+
+#: includes/sellers-functions.php:223
+msgid "Activate/Deactivated selling privileges for this seller."
+msgstr "Activar/desactivado venta privilegios para este vendedor."
+
+#: includes/sellers-functions.php:225
+msgid "Activated."
+msgstr "Activado."
+
+#: includes/sellers-functions.php:228
+msgid "Deactivated."
+msgstr "Desactivar."
+
+#: includes/withdraw-functions.php:22
+msgid "Withdraw Requests Post Types"
+msgstr "Tipos de requisicion de reembolso"
+
+#: includes/withdraw-functions.php:46
+msgctxt "Status General Name"
+msgid "Completed"
+msgstr "Completado"
+
+#: includes/withdraw-functions.php:74
+msgid "Withdraw Request"
+msgstr "Solicitud de reembolso"
+
+#: includes/withdraw-functions.php:84
+#, php-format
+msgid "Rejected (%d)"
+msgstr "Rechazado (%d)"
+
+#: includes/withdraw-functions.php:99
+msgid "Current Balance:"
+msgstr "Saldo actual:"
+
+#: includes/withdraw-functions.php:127
+msgid "Request ID"
+msgstr "ID de la solicitud"
+
+#: includes/withdraw-functions.php:132
+msgid "Restaurant ID"
+msgstr "Restaurante ID"
+
+#: includes/withdraw-functions.php:135
+msgid "Reject Note"
+msgstr "Nota de rechazo"
+
+#: includes/withdraw-functions.php:149
+msgid "View Invoice"
+msgstr "Ver factura"
+
+#: includes/withdraw-functions.php:150
+msgid "Are you sure?"
+msgstr "Estás seguro?"
+
+#: includes/withdraw-functions.php:150
+msgid "Delete Request"
+msgstr "Eliminar solicitud"
+
+#: includes/withdraw-functions.php:153
+msgid "View Via Details"
+msgstr "Ver via detalles"
+
+#: includes/withdraw-functions.php:156
+msgid "View Restaurant Balance"
+msgstr "Ver saldo restaurante"
+
+#: includes/withdraw-functions.php:186
+msgid "Sorry, no transactions found!"
+msgstr "Lo siento, no se encontraron transacciones!"
+
+#: includes/withdraw-functions.php:205
+msgid ""
+"You already have a pending withdraw request. Until it's been rejected or "
+"approved, you can't submit any new request."
+msgstr ""
+"Ya tiene un pendiente de retirar la solicitud. Hasta que haya sido rechazada "
+"o aprobada, no se puede presentar ninguna nueva solicitud."
+
+#: includes/withdraw-functions.php:210
+msgid "You don't have sufficient balance for a withdraw request!"
+msgstr "No tienes saldo suficiente para una solicitud de retiro!"
+
+#: includes/withdraw-functions.php:248
+msgid "Withdraw Amount "
+msgstr "Retirar la cantidad "
+
+#: includes/withdraw-functions.php:251
+msgid "Payment Method"
+msgstr "Método de Pago"
+
+#: includes/withdraw-functions.php:272
+msgid "Change Invoice Image"
+msgstr "Cambie la imagen de factura"
+
+#: includes/withdraw-functions.php:276
+msgid "Upload Invoice Image"
+msgstr "Subir imágenes de factura"
+
+#: includes/withdraw-functions.php:281
+msgid "Update Request Status"
+msgstr "Actualizar estado"
+
+#: includes/withdraw-functions.php:285
+msgid "Rejected"
+msgstr "Rechazado"
+
+#: includes/withdraw-functions.php:287
+msgid "Paid"
+msgstr "Pagado"
+
+#: includes/withdraw-functions.php:290
+msgid "Withdraw Reject Note"
+msgstr "Nota de rechazo de reembolso"
+
+#: includes/withdraw-functions.php:291
+msgid "Few lines on why you've rejected the witdraw request"
+msgstr "Unas líneas sobre por qué ha rechazado la solicitud de reembolso"
+
+#: includes/withdraw-functions.php:296
+msgid "Submit Request"
+msgstr "Enviar solicitud"
+
+#: includes/withdraw-functions.php:296
+msgid "Update Request"
+msgstr "Actualizar solicitud"
+
+#: includes/withdraw-functions.php:454
+msgid "PayPal"
+msgstr "PayPal"
+
+#: includes/withdraw-functions.php:458
+msgid "Bank Transfer"
+msgstr "Transferencia Bancaria / Deposito Bancario"
+
+#: includes/withdraw-functions.php:462
+msgid "Skrill"
+msgstr "Skrill"
+
+#: includes/withdraw-functions.php:525 includes/withdraw-functions.php:541
+msgid "E-mail"
+msgstr "E-mail"
+
+#: includes/withdraw-functions.php:562
+msgid "Name of bank"
+msgstr "Nombre del banco"
+
+#: includes/withdraw-functions.php:592
+#, php-format
+msgid "Account Name: %s"
+msgstr "Nombre de la cuenta: %s"
+
+#: includes/withdraw-functions.php:595
+#, php-format
+msgid "Account Number: %s"
+msgstr "Número de cuenta: %s"
+
+#: includes/withdraw-functions.php:598
+#, php-format
+msgid "Bank Name: %s"
+msgstr "Nombre del banco: %s"
+
+#: includes/withdraw-functions.php:601
+#, php-format
+msgid "Address: %s"
+msgstr "Dirección: %s"
+
+#: includes/withdraw-functions.php:604
+#, php-format
+msgid "SWIFT: %s"
+msgstr "SWIFT: %s"
+
+#: includes/woo-views/html-product-attribute.php:3
+#: includes/woo-views/html-variation-admin.php:17
+msgid "Remove"
+msgstr "Eliminar"
+
+#: includes/woo-views/html-product-attribute.php:25
+msgid "Value(s)"
+msgstr "Valor(es)"
+
+#: includes/woo-views/html-product-attribute.php:40
+msgid "Select all"
+msgstr "Seleccionar todo"
+
+#: includes/woo-views/html-product-attribute.php:41
+msgid "Select none"
+msgstr "Seleccione Ninguno"
+
+#: includes/woo-views/html-product-attribute.php:42
+msgid "Add new"
+msgstr "Agregar"
+
+#: includes/woo-views/html-product-attribute.php:51
+#, php-format
+msgid "\"%s\" separate terms"
+msgstr "Términos separados por “%s”"
+
+#: includes/woo-views/html-product-attribute.php:59
+#, php-format
+msgid "Enter some text, or some attributes by \"%s\" separating values."
+msgstr "Introduzca algún texto, o atributo por \"%s\" separando valores."
+
+#: includes/woo-views/html-product-attribute.php:66
+msgid "Visible on the product page"
+msgstr "Visible en la página del producto"
+
+#: includes/woo-views/html-product-attribute.php:72
+msgid "Used for variations"
+msgstr "Usado para variaciones"
+
+#: includes/woo-views/html-product-download.php:5
+#: includes/woo-views/html-product-variation-download.php:4
+msgid "Choose file"
+msgstr "Seleccionar archivo"
+
+#: includes/woo-views/html-variation-admin.php:33
+msgid "Any"
+msgstr "Cualquier"
+
+#: includes/woo-views/html-variation-admin.php:64
+msgid "Remove this image"
+msgstr "Eliminar esta imagen"
+
+#: includes/woo-views/html-variation-admin.php:64
+msgid "Upload an image"
+msgstr "Subir una imagen"
+
+#: includes/woo-views/html-variation-admin.php:76
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: includes/woo-views/html-variation-admin.php:93
+msgid "Regular Price:"
+msgstr "Precio Normal:"
+
+#: includes/woo-views/html-variation-admin.php:97
+msgid "Sale Price:"
+msgstr "Precio de Oferta:"
+
+#: includes/woo-views/html-variation-admin.php:97
+msgid "Cancel schedule"
+msgstr "Cancelar agenda"
+
+#: includes/woo-views/html-variation-admin.php:103
+msgid "Sale start date:"
+msgstr "Fecha de Inicio de la Oferta:"
+
+#: includes/woo-views/html-variation-admin.php:107
+msgid "Sale end date:"
+msgstr "Fecha de Fin de la Oferta:"
+
+#: includes/woo-views/html-variation-admin.php:116
+msgid "Stock Qty:"
+msgstr "Cantidad en Stock:"
+
+#: includes/woo-views/html-variation-admin.php:157
+msgid "Dimensions (L&times;W&times;H)"
+msgstr "Dimensiones (L&times;W&times;H)"
+
+#: includes/woo-views/html-variation-admin.php:195
+msgid "Variation Description:"
+msgstr "Descripción de la Variación"
+
+#: includes/woo-views/html-variation-admin.php:202
+msgid "Downloadable Files"
+msgstr "Archivos descargables"
+
+#: includes/woo-views/html-variation-admin.php:207
+msgid "File URL"
+msgstr "Url del Archivo"
+
+#: includes/woo-views/html-variation-admin.php:237
+msgid "Add File"
+msgstr "Agregar archivo"
+
+#: includes/woo-views/html-variation-admin.php:246
+msgid "Download Limit:"
+msgstr "Límite de descarga:"
+
+#: includes/woo-views/html-variation-admin.php:250
+msgid "Download Expiry:"
+msgstr "Caducidad de la Descarga"
+
+#: lazyeater.php:122
+msgid "Visit Premium Customer Support Forum"
+msgstr "Visitar el foro de soporte premium"
+
+#: lazyeater.php:122
+msgid "Premium Support"
+msgstr "Soporte Premium"
+
+#: lazyeater.php:198
+msgid "Variation menu order (determines position in the list of variations)"
+msgstr ""
+"Orden del menú de variación (determina la posición en la lista de "
+"variaciones)"
+
+#: lazyeater.php:199
+msgid "Remove this attribute?"
+msgstr "Eliminar este atributo?"
+
+#: lazyeater.php:200
+msgid "Enter a name for the new attribute term:"
+msgstr "Introduzca un nombre para el nuevo atributo:"
+
+#: lazyeater.php:201
+msgid "Featured"
+msgstr "Destacado"
+
+#: lazyeater.php:209
+msgid "Available"
+msgstr "Disponible"
+
+#: lazyeater.php:209
+msgid "Not Available"
+msgstr "No Disponible"
+
+#: lazyeater.php:211
+msgid ""
+"Your product has variations! Before changing the product type, it is a good "
+"idea to delete the variations to avoid errors in the stock reports."
+msgstr ""
+"Tu producto tiene variantes! Antes de cambiar el tipo de produto, es una "
+"buena idea eliminar las variaciones para evitar errores en los informes de "
+"inventario."
+
+#: lazyeater.php:214
+msgid "Choose an image"
+msgstr "Escoja una imagen"
+
+#: lazyeater.php:215
+msgid "Set variation image"
+msgstr "Asignar imagen de la variación"
+
+#: lazyeater.php:216
+msgid "Save changes before changing page?"
+msgstr "Guardar los cambios antes de cambiar de página?"
+
+#: lazyeater.php:220
+msgid "Are you sure you want to remove this variation?"
+msgstr "Estás seguro de querer eliminar esto?"
+
+#: lazyeater.php:222
+msgid ""
+"Are you sure you want to link all variations? This will create a new "
+"variation for each and every possible combination of variation attributes "
+"(max 50 per run)."
+msgstr ""
+"Estás seguro de que quieres enlazar todas las variaciones? Esto creará una "
+"nueva variación para cada posible combinación de variación de atributos (máx "
+"50 por ejecución)."
+
+#: lazyeater.php:224
+msgid "variation added"
+msgstr "variación agregada"
+
+#: lazyeater.php:225
+msgid "variations added"
+msgstr "variaciones agregadas"
+
+#: lazyeater.php:226
+msgid "No variations added"
+msgstr "No se agregaron variaciones."
+
+#: lazyeater.php:227
+msgid "Are you sure you want to delete all variations? This cannot be undone."
+msgstr ""
+"Seguro que quiere eliminar todas las variaciones? Esto no se podrá deshacer."
+
+#: lazyeater.php:228
+msgid "Last warning, are you sure?"
+msgstr "Ultima advertencia, ¿está completamente seguro?"
+
+#: lazyeater.php:229
+msgid "Enter a value (fixed or %)"
+msgstr "Introduzca un valor (fijo o en %)"
+
+#: lazyeater.php:231
+msgid "Enter a value"
+msgstr "Introduzca un valor"
+
+#: lazyeater.php:232
+msgid "Sale start date (YYYY-MM-DD format or leave blank)"
+msgstr "Fecha de Inicio de Oferta (formato AAAA-MM-DD o dejar en blanco)"
+
+#: lazyeater.php:233
+msgid "Sale end date (YYYY-MM-DD format or leave blank)"
+msgstr ""
+"Fecha de finalización de la oferta (formato AAAA-MM-DD o dejar en blanco)"
+
+#: lazyeater.php:235
+msgid "%qty% variation"
+msgstr "%qty% variación"
+
+#: lazyeater.php:236
+msgid "%qty% variations"
+msgstr "%qty% variaciones"
+
+#: lazyeater.php:250
+msgid "Are you sure you want to delete this item permanently?"
+msgstr "Está seguro que desea eliminar este elemento?"
+
+#: lazyeater.php:253
+msgid "View product"
+msgstr "Ver producto"
+
+#: lazyeater.php:255
+msgid "Back!"
+msgstr "Regresar"
+
+#: lazyeater.php:257
+msgid "Are you sure you want to delete this withdraw request!"
+msgstr "Está seguro que desea eliminar esta solicitud de reembolso!"
+
+#: lazyeater.php:261
+msgid "Are you sure you want to delete this coupon!"
+msgstr "Está seguro que desea eliminar este cupon!"
+
+#: lazyeater.php:267
+msgid "Fail to connect, please check your internet connection."
+msgstr "Por favor, comprueba tu conexión a Internet"
+
+#: lazyeater.php:279
+msgid "No row selected"
+msgstr "Ninguna fila seleccionada"
+
+#: lazyeater.php:280
+msgid "Product ID"
+msgstr "ID del Producto"
+
+#: lazyeater.php:281
+msgid "Country Code"
+msgstr "Código de País"
+
+#: lazyeater.php:282
+msgid "State/County Code"
+msgstr "Estado / Ciudad"
+
+#: lazyeater.php:283
+msgid "Zip/Postal Code"
+msgstr "CP/Código postal"
+
+#: lazyeater.php:285
+msgid "Item Cost"
+msgstr "Costo del producto"
+
+#: metaboxes/dish_details.php:66
+msgid "Dish Details"
+msgstr "Detalles de plato"
+
+#: metaboxes/dish_details.php:147
+msgid "A Veg Dish."
+msgstr "Plato vegetariano"
+
+#: metaboxes/dish_details.php:152
+msgid "A Non-Veg Dish."
+msgstr "Plato no vegetariano"
+
+#: metaboxes/dish_details.php:157
+msgid "Dish is Spicy"
+msgstr "Plato picante."
+
+#: metaboxes/dish_details.php:162
+msgid "Show Fat Amount?"
+msgstr "Muestra la cantidad grasa?"
+
+#: templates/coupons.php:19
+msgid "Add/Manage Discount Coupons."
+msgstr "Añadir y administrar cupones de descuento."
+
+#: templates/dashboard-nav.php:16
+msgid "Dashboard Menu"
+msgstr "Menú del tablero"
+
+#: templates/dashboard.php:25
+msgid "Dashboard Home"
+msgstr "Tablero"
+
+#: templates/dashboard.php:25
+msgid "Quick Reports and statistics."
+msgstr "Reportes y estadísticas rapidos"
+
+#: templates/dish-edit.php:19
+msgid "Edit Dish"
+msgstr "Editar Plato"
+
+#: templates/dish-edit.php:19
+msgid "Modify/Update your dish."
+msgstr "Modificar o actualizar su plato."
+
+#: templates/dishes-listing.php:14
+msgid "Dishes"
+msgstr "Platos"
+
+#: templates/dishes-listing.php:14
+msgid "Your menu dishes list."
+msgstr "Su lista de platos del menú."
+
+#: templates/dishes-listing.php:29
+msgid "Image"
+msgstr "Imagen"
+
+#: templates/dishes-listing.php:35
+msgid "Type"
+msgstr "Tipo"
+
+#: templates/dishes-listing.php:36
+msgid "Views"
+msgstr "Vistas"
+
+#: templates/dishes-listing.php:76
+msgid "edit product"
+msgstr "Editar Producto"
+
+#: templates/dishes-listing.php:84
+msgid "Delete Permanently"
+msgstr "Borrar Permanentemente"
+
+#: templates/dishes-listing.php:127
+msgid "External/Affiliate"
+msgstr "Externo / Afiliado"
+
+#: templates/dishes-listing.php:131
+msgid "Virtual"
+msgstr "Virtual"
+
+#: templates/dishes-listing.php:164
+msgid "Published"
+msgstr "Publicado"
+
+#: templates/dishes-listing.php:166
+msgid "Last Modified"
+msgstr "Última modificación"
+
+#: templates/dishes-listing.php:178
+msgid "No product found"
+msgstr "No se ha encontrado producto"
+
+#: templates/new_dish.php:19
+msgid "New Dish"
+msgstr "Nuevo plato"
+
+#: templates/new_dish.php:19
+msgid "Add a new dish to your menu."
+msgstr "Añadir un nuevo plato para el menú."
+
+#: templates/orders.php:31
+msgid "Manage your restaurant orders."
+msgstr "Gestionar órdenes de venta"
+
+#: templates/orders.php:40
+msgid "&larr; Orders"
+msgstr "Pedidos &larr;"
+
+#: templates/orders/html-order-fee.php:19
+msgid "Fee"
+msgstr "Tarifa"
+
+#: templates/orders/html-order-item.php:27
+msgid "Product ID:"
+msgstr "ID del Producto"
+
+#: templates/orders/html-order-item.php:30
+#: templates/orders/html-order-item.php:32
+msgid "Variation ID:"
+msgstr "ID variacion"
+
+#: templates/orders/html-order-item.php:32
+msgid "No longer exists"
+msgstr "No existe más"
+
+#: templates/orders/html-order-item.php:36
+msgid "Product SKU:"
+msgstr "SKU Producto:"
+
+#: templates/orders/order-details.php:18
+msgid "This is not yours, I swear!"
+msgstr "Esto no es tuyo, te lo garantizo!"
+
+#: templates/orders/order-details.php:27
+msgid "Order Items"
+msgstr "Productos del pedido"
+
+#: templates/orders/order-details.php:33
+msgid "Cutomer Details"
+msgstr "Cutomer Detalles"
+
+#: templates/orders/order-details.php:37
+msgid "General Details"
+msgstr "Detalles generales"
+
+#: templates/orders/order-details.php:43
+msgid "Order Notes"
+msgstr "Notas del Pedido"
+
+#: templates/orders/order-details.php:74
+#, php-format
+msgid "added on %1$s at %2$s"
+msgstr "agregado el %1$s a las %2$s"
+
+#: templates/orders/order-details.php:75
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: templates/orders/order-details.php:82
+msgid "There are no notes yet."
+msgstr "No hay notas  todavía."
+
+#: templates/orders/order-details.php:88
+msgid "Add note"
+msgstr "Agregar nota"
+
+#: templates/orders/order-details.php:94
+msgid "Private note"
+msgstr "Nota Privada"
+
+#: templates/orders/order-details.php:95
+msgid "Note to customer"
+msgstr "Nota al cliente"
+
+#: templates/restaurant/restaurant-header.php:14
+msgid "order"
+msgstr "orden"
+
+#: templates/restaurant/restaurant-header.php:14
+msgid "product"
+msgstr "producto"
+
+#: templates/restaurant/restaurant-header.php:37
+msgid "Find a Table"
+msgstr "Encontrar una mesa"
+
+#: templates/restaurant/restaurant-header.php:38
+msgid "Number of Seats?"
+msgstr "Número de asientos?"
+
+#: templates/restaurant/restaurant-header.php:39
+msgid "Search Tables"
+msgstr "Buscar Mesas"
+
+#: templates/restaurant/restaurant-header.php:45
+msgid "Contact Restaurant"
+msgstr "Contacto restaurante"
+
+#: templates/restaurant/restaurant-header.php:140
+msgid "Restaurant Address"
+msgstr "Dirección Restaurante"
+
+#: templates/restaurant/restaurant-header.php:142
+msgid "View Tables"
+msgstr "Mesas"
+
+#: templates/restaurant/restaurant-header.php:150
+msgid "Delivers in "
+msgstr "entrega en "
+
+#: templates/restaurant/restaurant-header.php:154
+msgid "Delivery Fee."
+msgstr "tarifa de entrega"
+
+#: templates/restaurant/restaurant-header.php:154
+msgid "Per"
+msgstr "Por"
+
+#: templates/restaurant/restaurant-header.php:157
+msgid "Minimun Order Amount for Delivery."
+msgstr "Cantidad de orden mínima para la entrega."
+
+#: templates/restaurants.php:15
+msgid "Most Popular Restaurants"
+msgstr "Restaurantes más populares"
+
+#: templates/restaurants.php:19
+msgid "Restaurants by Food Type"
+msgstr "Restaurantes por comida que se sirven."
+
+#: templates/restaurants.php:21
+msgid "All Restaurants"
+msgstr "Todos los restaurantes"
+
+#: templates/sellers.php:18
+msgid "Sellers Registered in Your Website."
+msgstr "Vendedores registrados en su sitio web."
+
+#: templates/settings.php:20
+msgid "Restaurant Settings"
+msgstr "Opciones Restaurant"
+
+#: templates/settings.php:20
+msgid "Manage your Account."
+msgstr "Administrar su cuenta."
+
+#: templates/taxonomy-address-location.php:16
+msgid "Filter by restaurants Addresses: "
+msgstr "Filtrar por tipo de restaurantes Direcciones: "
+
+#: templates/taxonomy-cuisine.php:17
+msgid "Filter by Cuisine: "
+msgstr "Filtrar por tipo de cocina: "
+
+#: templates/taxonomy-location.php:16
+msgid "Filter by delivery location: "
+msgstr "Filtrar por ubicación de entrega: "
+
+#: templates/withdraw.php:22
+msgid "Manage your withdraw requests."
+msgstr "Gestionar sus peticiones de reembolso de fondos."
+
+#: updater.php:637
+msgid "Check for updates"
+msgstr "Comprobar actualizaciones"
+
+#: updater.php:681
+msgid "This plugin is up to date."
+msgstr "El plugin está actualizado."
+
+#: updater.php:683
+msgid "A new version of this plugin is available."
+msgstr "Una nueva versión del plugin está disponible."
+
+#: updater.php:685
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "Estado del actualizador desconocido \"%s\""
+
+#~ msgid "General seller commission percentage."
+#~ msgstr "Porcentaje de Comisión del vendedor."
+
+#~ msgid ""
+#~ "This will identify a general commission amount any new restaurant will "
+#~ "get. If you wish to set different commissions for different restaurants "
+#~ "you can do it from the restaurant user profile settings page."
+#~ msgstr ""
+#~ "Esto permitirá identificar una cantidad de Comisión general que "
+#~ "conseguirá cualquier restaurante nuevo. Si desea establecer diferentes "
+#~ "comisiones para diferentes restaurantes puede hacerlo desde la página de "
+#~ "configuración de Perfil de usuario de restaurante."
+
+#~ msgid "LazyEater Settings"
+#~ msgstr "Mi Configuración"
+
+#~ msgid "Seller Percentage"
+#~ msgstr "Porcentaje de Comisión del vendedor."
+
+#~ msgid "Percentage"
+#~ msgstr "Porcentaje"
+
+#~ msgid "How much amount (%) will get from each order"
+#~ msgstr "Qué monto (%) percibirá un vendedor de cada pedido"
+
+#~ msgid "Enter Short description about the item."
+#~ msgstr "Introduzca una descripción breve sobre el producto,"
+
+#~ msgid "Your Dashboard"
+#~ msgstr "Mi Tablero"
+
+#~ msgid "Your Selling Percentage has Updated"
+#~ msgstr "Se ha actualizado su porcentaje de ventas"
+
+#~ msgid ""
+#~ "Hello %s,\n"
+#~ "\n"
+#~ "Thank you for registering at %s.\n"
+#~ "Your selling privileges is activated and your selling percentage is %s, "
+#~ "that is the amount you'll get from each of your completed orders.\n"
+#~ "\n"
+#~ "You can staring posting your items from your dashboard %s.\n"
+#~ "\n"
+#~ "Regards!\n"
+#~ "%s\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Hola %s,\n"
+#~ "\n"
+#~ "Gracias por registrarase en %s.\n"
+#~ "Sus privilegios de venta han sido activados y su porcentaje de venta es "
+#~ "%s, Este es el importe que recibira de cada una de sus órdenes "
+#~ "comletadas.\n"
+#~ "\n"
+#~ "Puede empezar a capturar sus porductos en su tablero %s.\n"
+#~ "\n"
+#~ "Saludos!\n"
+#~ "%s\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Hello %s,\n"
+#~ "\n"
+#~ "Your selling percentage has updated to: %s\n"
+#~ "\n"
+#~ "Regards!\n"
+#~ "%s\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Hola %s, \n"
+#~ "\n"
+#~ "Su porcentaje de ventas se ha actualizado a: %s\n"
+#~ "\n"
+#~ "Saludos!\n"
+#~ "%s\n"
+#~ "%s"
+
+#~ msgid "Actual Balance In Account:"
+#~ msgstr "Saldo real en cuenta:"
+
+#~ msgid "The percentage this seller will get after each sale."
+#~ msgstr "El porcentaje de que este vendedor se hacen después de cada venta."
+
+#~ msgid ""
+#~ "You've already pending withdraw request(s). Until it's been rejected or "
+#~ "approved, you can't submit any new request."
+#~ msgstr ""
+#~ "Hasta que se hayan sido canceladas o aprobadas, usted no puede presentar "
+#~ "ninguna solicitud de reembolso nueva."
+
+#~ msgid "Customer IP:"
+#~ msgstr "IP del cliente:"
+
+#~ msgid "paypal"
+#~ msgstr "paypal"
+
+#~ msgid "Ship to"
+#~ msgstr "Enviar a"
+
+#~ msgid "Product"
+#~ msgstr "Producto"
+
+#~ msgid "Exclude products"
+#~ msgstr "Excluir productos"
+
+#~ msgid ""
+#~ "Products which must not be in the cart to use this coupon or, for "
+#~ "\"Product Discounts\", which products are not discounted."
+#~ msgstr ""
+#~ "Los productos no deben estar en el carrito para utilizar este cupón o, "
+#~ "para \"Productos Descontados\" los cuales aún no han sido descontados."
+
+#~ msgid "Product categories"
+#~ msgstr "Categorías de producto"
+
+#~ msgid "Any category"
+#~ msgstr "Cualquier categoría"
+
+#~ msgid ""
+#~ "A product must be in this category for the coupon to remain valid or, for "
+#~ "\"Product Discounts\", products in these categories will be discounted."
+#~ msgstr ""
+#~ "Un producto debe estar en esta categoría para que el cupón siga siendo "
+#~ "válido o, para \"Descuentos del producto\", los productos en estas "
+#~ "categorías serán descontados."
+
+#~ msgid "Exclude categories"
+#~ msgstr "Excluir categorías"
+
+#~ msgid "No categories"
+#~ msgstr "Ninguna categoria"
+
+#~ msgid ""
+#~ "Product must not be in this category for the coupon to remain valid or, "
+#~ "for \"Product Discounts\", products in these categories will not be "
+#~ "discounted."
+#~ msgstr ""
+#~ "El producto no debe estar en esta categoría para que el cupón siga siendo "
+#~ "válido o, por \"Descuentos del producto\", productos de estas categorías "
+#~ "no serán descontados."
+
+#~ msgid "Refunds"
+#~ msgstr "Reembolsos"
+
+#~ msgid "Start Date"
+#~ msgstr "Fecha de inicio"
+
+#~ msgid "End Date"
+#~ msgstr "Fecha de finalización"
+
+#~ msgid ""
+#~ "The Restaurant Will not delivery to your location, please choose another "
+#~ "option."
+#~ msgstr "Este restaurante no entrega en su ubicación, elige otra opción"
+
+#~ msgid "Notice: The Delivery Will be sent to the Order Billing Address"
+#~ msgstr ""
+#~ "Aviso: La entrega se enviará a la dirección de facturación de la orden"
+
+#~ msgid "Quantity"
+#~ msgstr "Cantidad"
+
+#~ msgid "Remove this item"
+#~ msgstr "Borrar producto"
+
+#~ msgid "Coupon"
+#~ msgstr "Cupón"
+
+#~ msgid "Shipping Address"
+#~ msgstr "Dirección de Envío"
+
+#~ msgid ""
+#~ "Used to classify your items in your Restaurant page. Type first two/three "
+#~ "letters and choose from list, if recipe is not in the list then complete "
+#~ "typing the recipe title and hit the comma button."
+#~ msgstr ""
+#~ "Utilizado para clasificar los elementos en la página del restaurante. "
+#~ "Escribir primeras letras de dos o tres y elegir de la lista, si la receta "
+#~ "no está en la lista complete escribiendo el título de la receta y "
+#~ "presione el botón de la coma."
+
+#~ msgid "Order should be refunded."
+#~ msgstr "Su pedido ha sido devuelto"
+
+#~ msgid "ingredient"
+#~ msgstr "ingrediente"
+
+#~ msgid "ingredients:"
+#~ msgstr "Ingredientes:"
+
+#~ msgctxt "taxonomy general name"
+#~ msgid "Ingredients"
+#~ msgstr "Ingredientes"
+
+#~ msgctxt "taxonomy singular name"
+#~ msgid "Ingredient"
+#~ msgstr "Ingrediente"

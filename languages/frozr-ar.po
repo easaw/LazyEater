@@ -1,0 +1,3923 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frozr-lazyeater\n"
+"POT-Creation-Date: 2016-07-08 21:06+0300\n"
+"PO-Revision-Date: 2016-07-08 21:30+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-SearchPath-0: extensions\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPath-2: metaboxes\n"
+"X-Poedit-SearchPath-3: templates\n"
+"X-Poedit-SearchPath-4: woo-includes\n"
+"X-Poedit-SearchPath-5: eater-options.php\n"
+"X-Poedit-SearchPath-6: installer.php\n"
+"X-Poedit-SearchPath-7: lazyeater.php\n"
+"X-Poedit-SearchPath-8: uninstall.php\n"
+"X-Poedit-SearchPath-9: updater.php\n"
+
+#: eater-options.php:36
+msgid "Enable Auto updates for LazyEater?"
+msgstr "السماح بتحديث البرنامج تلفائياً؟"
+
+#: eater-options.php:43
+msgid "Allow Sellers to Access Admin Panel?"
+msgstr "السماح للبائعين للوصول الى لوحة ادارة WordPress؟"
+
+#: eater-options.php:50
+msgid "Auto Enable Selling on Restaurant Registration?"
+msgstr "تمكين المطاعم من بيع منتجاتهم تلقائيا بعد عملية التسجيل؟"
+
+#: eater-options.php:57
+msgid "The Minimum user balance to make a withdraw."
+msgstr "الحد الأدنى لرصيد المستخدم لتقديم طلب سحب نقدي؟"
+
+#: eater-options.php:64
+msgid "General seller commission percentage."
+msgstr "عمولة البائع العامة"
+
+#: eater-options.php:71
+msgid "Withdraw Methods."
+msgstr "طرق السحب النقدي المتاحة للبائعين."
+
+#: eater-options.php:78
+msgid "Withdraw Request Status."
+msgstr "حالة طلبات السحب الافتراضية"
+
+#: eater-options.php:85 extensions/home_extensions.php:293
+msgid "Recommended Restaurants."
+msgstr "المطاعم الموصى بها."
+
+#: eater-options.php:92
+msgid "Terms of Service for Sellers"
+msgstr "شروط الخدمة للبائعين"
+
+#: eater-options.php:99
+msgid "Terms of Service for Customers"
+msgstr "شروط الخدمة للعملاء"
+
+#: eater-options.php:124
+msgid ""
+"This is used for the recommended restaurants filter in the homepage "
+"restaurants search filters."
+msgstr "يستخدم هذا لمرشح المطاعم الموصي بها في الصفحة الرئيسية للموقع"
+
+#: eater-options.php:176
+msgid ""
+"This will identify a general commission amount any new restaurant will get. "
+"If you wish to set different commissions for different restaurants you can "
+"do it from the restaurant user profile settings page."
+msgstr ""
+"هذا وسوف يحدد العمولة العامة التي سوف يحصل عليها أي مطعم جديد. إذا كنت ترغب "
+"في تعيين عمولات مختلفة لمطاعم مختلفة يمكنك أن تفعل ذلك من صفحة إعدادات "
+"المطعم في صفحة مستخدمين ورد برس."
+
+#: eater-options.php:185
+msgid ""
+"This will be used in the new seller (restaurant) registration form. Leave "
+"empty to not use."
+msgstr ""
+"سيستخدم هذا عند قيام أي بائع جديد بالتسجيل. اتركه فارغا اذا لم ترغب "
+"باستخدامه "
+
+#: eater-options.php:194
+msgid ""
+"This will be used in the new customer registration form. Leave empty to not "
+"use."
+msgstr ""
+"سيستخدم هذا عند قيام أي عميل جديد بالتسجيل. اتركه فارغا اذا لم ترغب "
+"باستخدامه "
+
+#: eater-options.php:205
+msgid "Withdraw methods for sellers."
+msgstr "طرق السحب النقدي المتاحة للبائعين."
+
+#: eater-options.php:207
+msgid "paypal"
+msgstr "باي بال"
+
+#: eater-options.php:208 includes/withdraw-functions.php:419
+msgid "Bank Transfer"
+msgstr "التحويل المصرفي"
+
+#: eater-options.php:209 includes/withdraw-functions.php:423
+msgid "Skrill"
+msgstr "Skrill"
+
+#: eater-options.php:220 includes/dashboard-functions.php:426
+msgid "Completed"
+msgstr "منجز"
+
+#: eater-options.php:221 includes/dashboard-functions.php:448
+#: includes/order-functions.php:221
+msgid "Processing"
+msgstr "تحت المعالجة"
+
+#: eater-options.php:222 includes/dashboard-functions.php:437
+#: includes/dishes-functions.php:51 includes/order-functions.php:228
+#: includes/withdraw-functions.php:258
+msgid "Pending"
+msgstr "قيد الانتظار"
+
+#: eater-options.php:228 includes/restaurant-functions.php:796
+msgid "General Settings"
+msgstr "الإعدادات العامة"
+
+#: eater-options.php:234
+msgid "LazyEater Settings"
+msgstr "إعدادات LazyEater"
+
+#: eater-options.php:248 extensions/home_extensions.php:352
+msgid "No Icon"
+msgstr "لا ايقونة"
+
+#: eater-options.php:256 eater-options.php:257
+#: extensions/home_extensions.php:182 extensions/home_extensions.php:183
+msgid "Order your food online from local restaurants."
+msgstr "أطلب وجبتك اون لاين من المطاعم المحلية"
+
+#: eater-options.php:266
+msgid "Restaurants Search Section"
+msgstr "قسم البحث عن المطاعم"
+
+#: eater-options.php:268
+msgid "Show Restaurant Search Section?"
+msgstr "إضهار قسم البحث عن المطاعم"
+
+#: eater-options.php:272
+msgid " Search Filters Options"
+msgstr "خيارات البحث الإضافية"
+
+#: eater-options.php:274
+msgid "Show Restaurant Search Filters Section?"
+msgstr "إضهار خيارات البحث الإضافية"
+
+#: eater-options.php:277
+msgid "Search Filters Titles Color"
+msgstr "لون عناوين فلترات البحث الإضافية"
+
+#: eater-options.php:279 includes/dashboard-functions.php:320
+msgid "Top Selling Items"
+msgstr "الأصناف الأكثر مبيعا"
+
+#: eater-options.php:281
+msgid "Show Top Selling Items?"
+msgstr "إضهار الأصناف الأكثر مبيعا"
+
+#: eater-options.php:283 eater-options.php:306
+msgid "Loop title"
+msgstr "عنوان الحقل"
+
+#: eater-options.php:285 eater-options.php:308
+msgid "Loop description"
+msgstr "وصف الحقل"
+
+#: eater-options.php:288 eater-options.php:311
+msgid " Layout Options"
+msgstr "خيارات الشكل"
+
+#: eater-options.php:291 eater-options.php:314
+msgid "Show the loop top border"
+msgstr "عرض الحد الأعلى للحقل"
+
+#: eater-options.php:293 eater-options.php:316
+msgid "Loop Icon"
+msgstr "أيقونة الحقل"
+
+#: eater-options.php:296 eater-options.php:319
+msgid " Typography Options"
+msgstr "خيارات الكتابة"
+
+#: eater-options.php:298 eater-options.php:321
+msgid "Loop title color"
+msgstr "لون عنوان الحقل"
+
+#: eater-options.php:300 eater-options.php:323
+msgid "Loop description color"
+msgstr "لون وصف الحقل"
+
+#: eater-options.php:302
+msgid "Latest Restaurants"
+msgstr "المطاعم الجديدة"
+
+#: eater-options.php:304
+msgid "Show Latest Rests?"
+msgstr "إضهار المطاعم الجديدة"
+
+#: extensions/home_extensions.php:114 includes/dashboard-functions.php:333
+#, php-format
+msgid "Permalink to %s"
+msgstr "الرابط الثابت إلى %s"
+
+#: extensions/home_extensions.php:115
+msgid "Served by "
+msgstr "يقدمها "
+
+#: extensions/home_extensions.php:119 includes/dashboard-functions.php:278
+#: includes/dashboard-functions.php:326
+msgid "Sales"
+msgstr "مبيعات"
+
+#: extensions/home_extensions.php:189
+msgid "Filters Bench"
+msgstr "المرشحات الغير مرغوبة"
+
+#: extensions/home_extensions.php:200
+msgid "Drop filters you don't want to show here."
+msgstr "ارمي المرشحات التي لا تريد أن تظهر هنا."
+
+#: extensions/home_extensions.php:269
+msgid "Restaurants by name."
+msgstr "المطاعم بالاسم."
+
+#: extensions/home_extensions.php:272
+msgid "Restaurants by Cuisine."
+msgstr "المطاعم حسب نوع المطبخ."
+
+#: extensions/home_extensions.php:275
+msgid "Restaurants by location."
+msgstr "المطاعم حسب الموقع."
+
+#: extensions/home_extensions.php:278
+msgid "Restaurants deliver to you."
+msgstr "المطاعم التي توصل الطلبات إلى عنوانك."
+
+#: extensions/home_extensions.php:281
+msgid "Get me some.."
+msgstr "أعطني بعض الـ..."
+
+#: extensions/home_extensions.php:284
+msgid "Get me an item with my favourite ingredient!"
+msgstr "أعطني طبقا بالمكونات المفضلة لدي"
+
+#: extensions/home_extensions.php:287
+msgid "Get me something.."
+msgstr "اعطني شيئا .."
+
+#: extensions/home_extensions.php:290
+msgid "Popular Restaurants."
+msgstr "المطاعم الأكثر شعبية"
+
+#: extensions/home_extensions.php:296
+msgid "Restaurants by food served."
+msgstr "المطاعم بحسب نوع الطعام"
+
+#: extensions/home_extensions.php:359
+msgid "Popular Restaurants"
+msgstr "المطاعم الأكثر شعبية"
+
+#: extensions/home_extensions.php:369 templates/restaurants.php:17
+msgid "Restaurants We Recommend"
+msgstr "المطاعم التي نوصي بها"
+
+#: extensions/home_extensions.php:379 includes/dishes-functions.php:397
+#: includes/restaurant-functions.php:827
+msgid "Veg."
+msgstr "نباتي"
+
+#: extensions/home_extensions.php:389 includes/dishes-functions.php:400
+#: includes/restaurant-functions.php:830
+msgid "Non-Veg."
+msgstr "غير نباتي"
+
+#: extensions/home_extensions.php:399
+msgid "Sea Food"
+msgstr "مأكولات بحرية"
+
+#: extensions/home_extensions.php:409
+msgid "Go!"
+msgstr "إنطلق"
+
+#: extensions/home_extensions.php:418
+msgid "Edit this!"
+msgstr "عدل هذا"
+
+#: extensions/home_extensions.php:422
+msgid "Text:"
+msgstr "النص:"
+
+#: extensions/home_extensions.php:425
+msgid "Icon:"
+msgstr "الأيقونة:"
+
+#: extensions/home_extensions.php:432
+msgid "Background Color:"
+msgstr "لون الخلفية:"
+
+#: extensions/home_extensions.php:435
+msgid "Text Color:"
+msgstr "لون النص:"
+
+#: extensions/home_extensions.php:438
+msgid "Save"
+msgstr "حفظ"
+
+#: extensions/home_extensions.php:463
+msgid "Set filter box image"
+msgstr "عين الصورة الخاصة بالمرشح"
+
+#: extensions/home_extensions.php:463 includes/lazy-functions.php:921
+msgid "Set"
+msgstr "عين"
+
+#: extensions/home_extensions.php:463
+msgid "Edit Image"
+msgstr "تعديل الصورة"
+
+#: extensions/home_extensions.php:535 includes/restaurant-functions.php:571
+msgid "Vegetarian"
+msgstr "نباتي"
+
+#: extensions/home_extensions.php:536 includes/restaurant-functions.php:569
+msgid "Non-Veg"
+msgstr "غير نباتي"
+
+#: extensions/home_extensions.php:537
+msgid "Spicy"
+msgstr "حار"
+
+#: extensions/home_extensions.php:538
+msgid "Veg + Spicy"
+msgstr "نباتي + حار"
+
+#: extensions/home_extensions.php:539
+msgid "Non-Veg + Spicy"
+msgstr "غير نباتي + حار"
+
+#: includes/admin-functions.php:30 includes/order-functions.php:65
+#: includes/order-functions.php:725
+msgid "Order"
+msgstr "طلب"
+
+#: includes/admin-functions.php:31
+msgid "Purchased"
+msgstr "تم الشراء"
+
+#: includes/admin-functions.php:32
+msgid "Ship to"
+msgstr "أوصل إلى"
+
+#: includes/admin-functions.php:36 includes/order-functions.php:70
+#: includes/order-functions.php:726 includes/withdraw-functions.php:124
+#: templates/dishes-listing.php:41
+msgid "Date"
+msgstr "التاريخ"
+
+#: includes/admin-functions.php:37 includes/order-functions.php:728
+#: templates/cart.php:31 templates/orders/order-details.php:74
+msgid "Total"
+msgstr "الإجمالي"
+
+#: includes/admin-functions.php:38
+msgid "Actions"
+msgstr "الإجراءات"
+
+#: includes/admin-functions.php:39 includes/order-functions.php:75
+#: installer.php:41
+msgid "Seller"
+msgstr "بائع"
+
+#: includes/admin-functions.php:40
+msgid "Sub Order"
+msgstr "طلب فرعي"
+
+#: includes/admin-functions.php:66
+msgid "Sub Order of"
+msgstr "طلب فرعي تابع"
+
+#: includes/admin-functions.php:76
+msgid "Show Sub-Orders"
+msgstr "إظهار الطلبات الفرعيه"
+
+#: includes/admin-functions.php:76
+msgid "Hide Sub-Orders"
+msgstr "إخفاء الطلبات الفرعيه"
+
+#: includes/admin-functions.php:167
+msgid "Toggle Sub-orders"
+msgstr "إخفاء وإظهار الطلبات الفرعية"
+
+#: includes/admin-functions.php:189
+msgid "Lazy Eater Options"
+msgstr "خيارات Lazy Eater"
+
+#: includes/admin-functions.php:194
+msgid "Selling"
+msgstr "يبيع"
+
+#: includes/admin-functions.php:199
+msgid "Enable Selling"
+msgstr "تمكين البيع"
+
+#: includes/admin-functions.php:202
+msgid "Enable or disable product selling capability"
+msgstr "تمكين أو تعطيل القدرة على بيع المنتجات"
+
+#: includes/admin-functions.php:206 includes/sellers-functions.php:217
+msgid "Seller Percentage"
+msgstr "عمولة البائع"
+
+#: includes/admin-functions.php:210 includes/sellers-functions.php:101
+msgid "Percentage"
+msgstr "النسبة المئوية"
+
+#: includes/admin-functions.php:213
+msgid "How much amount (%) will get from each order"
+msgstr "النسبة التي ستحصل عليها من كل طلب"
+
+#: includes/admin-functions.php:263 includes/coupons-functions.php:63
+msgid "Author"
+msgstr "الناشر"
+
+#: includes/ajax.php:106 includes/ajax.php:2082
+msgid "Something went wrong!"
+msgstr "حدث خطأ!"
+
+#: includes/ajax.php:116 includes/ajax.php:2100
+msgid "Email sent successfully!"
+msgstr "تم إرسال رسالة إلكترونية بنجاح!"
+
+#: includes/ajax.php:157 includes/ajax.php:331 includes/ajax.php:383
+#: includes/ajax.php:407 includes/ajax.php:490
+#: includes/coupons-functions.php:434 includes/coupons-functions.php:462
+#: includes/coupons-functions.php:477 includes/coupons-functions.php:546
+msgid "Something Went Wrong!"
+msgstr "حدث خطأ ما!"
+
+#: includes/ajax.php:161 includes/ajax.php:170 includes/ajax.php:211
+msgid "View Cart"
+msgstr "عرض الطلبية"
+
+#: includes/ajax.php:161 includes/ajax.php:170
+#, php-format
+msgid "You cannot add another &quot;%s&quot; to your cart."
+msgstr "ليس من الممكن إضافة &quot;%s&quot; إلى الطلبية."
+
+#: includes/ajax.php:177
+msgid "Sorry, this product cannot be purchased."
+msgstr "عذرا، هذا المنتج لا يمكن شراؤه."
+
+#: includes/ajax.php:184
+#, php-format
+msgid ""
+"You cannot add &quot;%s&quot; to the cart because the product is out of "
+"stock."
+msgstr ""
+"لا يمكن إضافة &quot;%s&quot; للطلبية لأن المنتج أصبح غير متوفر في المخزون."
+
+#: includes/ajax.php:189
+#, php-format
+msgid ""
+"You cannot add that amount of &quot;%s&quot; to the cart because there is "
+"not enough stock (%s remaining)."
+msgstr ""
+"لا يمكنك إضافة هذه الكمية من &quot;%s&quot; لطلبيتك لأن المخزون منخفض منها "
+"(%s متبقية فقط)"
+
+#: includes/ajax.php:212
+#, php-format
+msgid ""
+"You cannot add that amount to the cart &mdash; we have %s in stock and you "
+"already have %s in your cart."
+msgstr ""
+"لا يمكنك إضافة هذه الكمية إلى الطلبية &mdash; لدينا %s في المخزون ولديك %s "
+"في طلبيتك."
+
+#: includes/ajax.php:255
+#, php-format
+msgid "%s is a required field"
+msgid_plural "%s are required fields"
+msgstr[0] "%s  هو حقل مطلوب"
+msgstr[1] "%s  هو حقل مطلوب"
+msgstr[2] "%s  هي حقول مطلوبة"
+msgstr[3] "%s  هي حقول مطلوبة"
+msgstr[4] "%s  هي حقول مطلوبة"
+msgstr[5] "%s  هي حقول مطلوبة"
+
+#: includes/ajax.php:259
+msgid "Please choose product options&hellip;"
+msgstr "الرجاء تحديد خيارات المنتج &hellip;"
+
+#: includes/ajax.php:299
+msgid ""
+"Please choose the quantity of items you wish to add to your cart&hellip;"
+msgstr "الرجاء إختيار كمية المنتجات التي ترغب بإضافتها إلى الطلبية &hellip;"
+
+#: includes/ajax.php:311
+msgid "Please choose a product to add to your cart&hellip;"
+msgstr "الرجاء إختيار منتج لإضافته لطلبيتك &hellip;"
+
+#: includes/ajax.php:394
+msgid "Title Saved!"
+msgstr "تم حفظ العنوان"
+
+#: includes/ajax.php:433 includes/ajax.php:470 includes/ajax.php:485
+msgid "Layout Saved!"
+msgstr "تم حفظ الشكل"
+
+#: includes/ajax.php:532
+msgid "Cheating!"
+msgstr "هل تحاول الغش؟"
+
+#: includes/ajax.php:542 includes/ajax.php:716
+msgid "Settings Saved!"
+msgstr "تم حفظ الإعدادات"
+
+#: includes/ajax.php:582
+msgid "Please Enable cookies in your browser."
+msgstr "يرجى تمكين ملفات الارتباط في المتصفح الخاص بك."
+
+#: includes/ajax.php:607
+msgid "Item Deleted!"
+msgstr "تم حذف الصنف!"
+
+#: includes/ajax.php:744
+msgid "Item Updated Successfully!"
+msgstr "تم تحديث الصنف!"
+
+#: includes/ajax.php:755
+msgid "No Title"
+msgstr "لا يوجد عنوان"
+
+#: includes/ajax.php:756
+msgid "No Content"
+msgstr "لا يوجد محتوى"
+
+#: includes/ajax.php:757
+msgid "No Excerpt"
+msgstr "لا يوجد موجز"
+
+#: includes/ajax.php:770
+msgid "Item Created Successfully!"
+msgstr "تم إنشاء الصنف!"
+
+#: includes/ajax.php:849 includes/ajax.php:1713
+#: includes/dishes-functions.php:550 templates/orders/order-details.php:34
+msgid "Standard"
+msgstr "المعيار"
+
+#: includes/ajax.php:859 includes/ajax.php:1723
+#: includes/dishes-functions.php:607
+msgid "Do not allow"
+msgstr "لا تسمح"
+
+#: includes/ajax.php:860 includes/ajax.php:1724
+#: includes/dishes-functions.php:608
+msgid "Allow, but notify customer"
+msgstr "السماح، ولكن بإخطار العملاء"
+
+#: includes/ajax.php:861 includes/ajax.php:1725
+#: includes/dishes-functions.php:609
+msgid "Allow"
+msgstr "السماح"
+
+#: includes/ajax.php:866 includes/ajax.php:1730
+#: includes/dishes-functions.php:620 templates/dishes-listing.php:104
+msgid "In stock"
+msgstr "في المخزن"
+
+#: includes/ajax.php:867 includes/ajax.php:1731
+#: includes/dishes-functions.php:621 templates/dishes-listing.php:106
+msgid "Out of stock"
+msgstr "إنتهى من المخزن"
+
+#: includes/ajax.php:2035
+#, php-format
+msgid "File %d"
+msgstr "ملف %d"
+
+#: includes/ajax.php:2137
+msgid "Empty username or password."
+msgstr "اسم المستخدم أو كلمة المرور فارغة."
+
+#: includes/ajax.php:2139
+msgid "Wrong username or password."
+msgstr "اسم المستخدم أو كلمة مرور خاطئة."
+
+#: includes/ajax.php:2159
+msgid "You cant review this restaurant."
+msgstr "انت غير قادر على تقيم هذا المطعم."
+
+#: includes/ajax.php:2163
+msgid "You cant review your self."
+msgstr "كنت غير قادر على تقيم نفسك."
+
+#: includes/ajax.php:2176
+msgid "You've already made a review."
+msgstr "لفد قمت بتقييم هذا المطعم"
+
+#: includes/ajax.php:2183
+msgid "Thank you!"
+msgstr "شكرا!"
+
+#: includes/coupons-functions.php:21
+msgid "&larr; Coupons"
+msgstr ";larr& كوبونات"
+
+#: includes/coupons-functions.php:26
+msgid "Add new Coupon"
+msgstr "إضافة قسيمة جديدة"
+
+#: includes/coupons-functions.php:56
+msgid "Code"
+msgstr "رمز"
+
+#: includes/coupons-functions.php:57
+msgid "Coupon type"
+msgstr "نوع القسيمة"
+
+#: includes/coupons-functions.php:58
+msgid "Coupon amount"
+msgstr "مبلغ القسيمة"
+
+#: includes/coupons-functions.php:59
+msgid "Product IDs"
+msgstr "رقم المنتج"
+
+#: includes/coupons-functions.php:60
+msgid "Usage / Limit"
+msgstr "عدد الاستخدامات / الحد الأقصى"
+
+#: includes/coupons-functions.php:61
+msgid "Expiry date"
+msgstr "تاريخ الإنتهاء"
+
+#: includes/coupons-functions.php:80 includes/withdraw-functions.php:144
+#: templates/dishes-listing.php:84
+msgid "Edit"
+msgstr "تحربر"
+
+#: includes/coupons-functions.php:81
+msgid "delete"
+msgstr "حذف"
+
+#: includes/coupons-functions.php:139 includes/order-functions.php:91
+#: includes/withdraw-functions.php:165 templates/dishes-listing.php:193
+msgid "&laquo; Previous"
+msgstr ";laquo& السابق"
+
+#: includes/coupons-functions.php:140 includes/order-functions.php:92
+#: includes/withdraw-functions.php:166 templates/dishes-listing.php:194
+msgid "Next &raquo;"
+msgstr ";laquo& التالي"
+
+#: includes/coupons-functions.php:153
+msgid "Sorry, no coupons found!"
+msgstr "عذرا، لا توجد قسائم!"
+
+#: includes/coupons-functions.php:161
+msgid "Create Coupon"
+msgstr "إنشاء قسيمة"
+
+#: includes/coupons-functions.php:166
+msgid "Are you cheating?"
+msgstr "هل تحاول الغش؟"
+
+#: includes/coupons-functions.php:170
+msgid "Update Coupon"
+msgstr "تحديث القسيمة"
+
+#: includes/coupons-functions.php:257
+msgid "Coupon Title"
+msgstr "عنوان القسيمة"
+
+#: includes/coupons-functions.php:261
+msgid "Description"
+msgstr "الوصف"
+
+#: includes/coupons-functions.php:267
+msgid "Discount Type"
+msgstr "نوع التخفيض"
+
+#: includes/coupons-functions.php:270
+msgid "Product Discount"
+msgstr "خصم المنتج"
+
+#: includes/coupons-functions.php:271
+msgid "Product % Discount"
+msgstr "نسية خصم المنتج"
+
+#: includes/coupons-functions.php:276 includes/withdraw-functions.php:122
+msgid "Amount"
+msgstr "القيمة"
+
+#: includes/coupons-functions.php:280
+msgid "Email Restrictions"
+msgstr "قيود بواسطة البريد الإلكتروني"
+
+#: includes/coupons-functions.php:281
+msgid "Email restrictions"
+msgstr "قيود بواسطة البريد الإلكتروني"
+
+#: includes/coupons-functions.php:284
+msgid "Usage Limit per coupon"
+msgstr "اقصى استخدامات القسيمة."
+
+#: includes/coupons-functions.php:284
+msgid "How many times this coupon can be used before it is void."
+msgstr "كم مرة هذه القسيمة يمكن استخدامها قبل أن تلغى."
+
+#: includes/coupons-functions.php:285 includes/coupons-functions.php:293
+msgid "Unlimited usage"
+msgstr "استخدام غير محدود"
+
+#: includes/coupons-functions.php:288
+msgid "Limit usage to X items"
+msgstr "احصر استخدام القسيمة حول منتجات معينة"
+
+#: includes/coupons-functions.php:288
+msgid ""
+"The maximum number of individual items this coupon can apply to when using "
+"product discounts. Leave blank to apply to all qualifying items in cart."
+msgstr ""
+"الحد الأقصى لعدد الأصناف في عربة  التسوق التي يمكن أن تستخدم هذه القسيمة "
+"لتخفيض سعرها. اتركه فارغا لتطبيقه على جميع الأصناف في عربة التسوق."
+
+#: includes/coupons-functions.php:289
+msgid "Apply to all qualifying items in cart"
+msgstr "تطبيقها على جميع الأصناف في عربة التسوق."
+
+#: includes/coupons-functions.php:292
+msgid "Usage limit per user"
+msgstr "حد الاستخدام الاقصى لكل مستخدم"
+
+#: includes/coupons-functions.php:292
+msgid ""
+"How many times this coupon can be used by an invidual user. Uses billing "
+"email for guests, and user ID for logged in users."
+msgstr ""
+"كم مرة  يمكن استخدام هذه القسيمة من قبل المستخدم الواحد. (يتم استخدم البريد "
+"الإلكتروني المدون على الفاتورة للضيوف، وأسم المستخدم للأعضاء المسجلين.)"
+
+#: includes/coupons-functions.php:296 includes/coupons-functions.php:297
+msgid "Expire Date"
+msgstr "تاريخ انتهاء الصلاحية"
+
+#: includes/coupons-functions.php:314 templates/cart.php:27
+msgid "Product"
+msgstr "المنتج"
+
+#: includes/coupons-functions.php:327
+msgid ""
+"Products which need to be in the cart to use this coupon or, for \"Product "
+"Discounts\", which products are discounted."
+msgstr ""
+"المنتجات التي تحتاج إلى أن تكون في عربة التسوق لاستخدام هذه القسيمة أو، ل "
+"\"تخفيضات المنتج\"، المنتحبات التي يتم تخفيضها."
+
+#: includes/coupons-functions.php:335
+msgid "Exclude products"
+msgstr "استبعاد المنتجات"
+
+#: includes/coupons-functions.php:348
+msgid ""
+"Products which must not be in the cart to use this coupon or, for \"Product "
+"Discounts\", which products are not discounted."
+msgstr ""
+"المنتجات التي يجب أن لا يكون في عربة التسوق لاستخدام هذه القسيمة أو، ل "
+"\"تخفيضات المنتج\"، والتي لا يشملها التخفيض."
+
+#: includes/coupons-functions.php:352
+msgid "Enable Free Shipping"
+msgstr "تمكين شحن مجاني"
+
+#: includes/coupons-functions.php:354
+msgid "Check this box if the coupon grants free delivery."
+msgstr "حدد هذا المربع إذا القسيمة تمنح التوصيل المجاني."
+
+#: includes/coupons-functions.php:359
+msgid "Individual use only"
+msgstr "الاستعمال الفردي فقط"
+
+#: includes/coupons-functions.php:361
+msgid ""
+"Check this box if the coupon cannot be used in conjunction with other "
+"coupons."
+msgstr ""
+"حدد هذا المربع إذا القسيمة لا يمكن استخدامها جنبا إلى جنب مع قسائم أخرى."
+
+#: includes/coupons-functions.php:366
+msgid "Exclude Sale Items"
+msgstr "استبعاد الأصناف التي عليها تخفيض."
+
+#: includes/coupons-functions.php:368
+msgid ""
+"Check this box if the coupon should not apply to items on sale. Per-item "
+"coupons will only work if the item is not on sale. Per-cart coupons will "
+"only work if there are no sale items in the cart."
+msgstr ""
+"حدد هذا المربع إذا لا ينبغي أن تنطبق هذه القسيمة على المنتجات التي عليها "
+"تخفيض. القسائم المرتبطة بالمنتج فرديا لن تعمل على المنتج الذي عليه تخفيض "
+"بيمنا القسيمة المرتبطة بعربة التسوق لن تعمل إذا وجد منتح عليه تخفيض ضمن "
+"المنتجات في العربة."
+
+#: includes/coupons-functions.php:373
+msgid "Minimum spend"
+msgstr "الحد الأدنى للإنفاق"
+
+#: includes/coupons-functions.php:373
+msgid ""
+"This field allows you to set the minimum subtotal needed to use the coupon."
+msgstr ""
+"هذا الحقل يسمح لك لتحديد الحد الأدنى للمجموع الفرعي اللازمة لاستخدام القسيمة."
+
+#: includes/coupons-functions.php:374
+msgid "No Minimum"
+msgstr "لا يوجد حد أدنى"
+
+#: includes/coupons-functions.php:377
+msgid "Maximum spend"
+msgstr "الحد الأقصى للإنفاق"
+
+#: includes/coupons-functions.php:377
+msgid ""
+"This field allows you to set the maximum subtotal allowed when using the "
+"coupon."
+msgstr ""
+"يسمح لك هذا الحقل لتعيين الحد الأقصى للمجموع الفرعي الذي يسمح استخدام "
+"القسيمة."
+
+#: includes/coupons-functions.php:378
+msgid "No Maximum"
+msgstr "لا الحد الأقصى"
+
+#: includes/coupons-functions.php:381
+msgid "Product categories"
+msgstr "فئات المنتجات"
+
+#: includes/coupons-functions.php:383
+msgid "Any category"
+msgstr "أي فئة"
+
+#: includes/coupons-functions.php:391
+msgid ""
+"A product must be in this category for the coupon to remain valid or, for "
+"\"Product Discounts\", products in these categories will be discounted."
+msgstr ""
+"يجب أن يكون المنتج في هذه الفئة لتبقى القسيمة سارية المفعول، أو ل \"تخفيضات "
+"المنتج\"، سيتم الخصم للمنتجات في هذه الفئة فقط."
+
+#: includes/coupons-functions.php:395
+msgid "Exclude categories"
+msgstr "استبعاد فئات"
+
+#: includes/coupons-functions.php:397
+msgid "No categories"
+msgstr "لا يوجد فئات"
+
+#: includes/coupons-functions.php:406
+msgid ""
+"Product must not be in this category for the coupon to remain valid or, for "
+"\"Product Discounts\", products in these categories will not be discounted."
+msgstr ""
+"لا يجب أن يكون المنتج في هذه الفئة لتبقى القسيمة سارية المفعول، أو ل "
+"\"تخفيضات المنتج\"، لن يتم تخفيض المنتجات الموجودة في هذه الفئة."
+
+#: includes/coupons-functions.php:410
+msgid "Go public"
+msgstr "انشر للعامة"
+
+#: includes/coupons-functions.php:412
+msgid "Show the Coupon in the Restaurant page?"
+msgstr "عرض القسيمة في صفحة المطعم؟"
+
+#: includes/coupons-functions.php:417
+msgid "Coupon Text to show in restaurant page."
+msgstr "نص قسيمة الذي سيظهر في الصفحة المطعم."
+
+#: includes/coupons-functions.php:418
+msgid "Use (example) coupon in check out to get 10% OFF our items?"
+msgstr "استخدم القسيمة (رمز القسيمة)عند الدفع للحصول على 10٪ خصم من منتجاتنا؟"
+
+#: includes/coupons-functions.php:444
+msgid "You're the site admin, you cant post coupons!"
+msgstr "انت مشرف الموقع، انت غير قادر على انشاء قسائم!"
+
+#: includes/coupons-functions.php:457
+msgid "Coupon has been saved successfully!"
+msgstr "تم حفظ القسيمة بنجاح!"
+
+#: includes/coupons-functions.php:473
+msgid "Coupon has been updated successfully!"
+msgstr "تم تحديث القسيمة بنجاح!"
+
+#: includes/coupons-functions.php:553
+msgid "Coupon has been deleted successfully!"
+msgstr "لقد تم حذف القسيمة بنجاح!"
+
+#: includes/dashboard-functions.php:27
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+#: includes/dashboard-functions.php:32 includes/sellers-functions.php:104
+msgid "Products"
+msgstr "المنتجات"
+
+#: includes/dashboard-functions.php:37 includes/dashboard-functions.php:411
+#: includes/sellers-functions.php:105 templates/orders.php:22
+msgid "Orders"
+msgstr "الطلبات"
+
+#: includes/dashboard-functions.php:42 includes/sellers-functions.php:106
+#: templates/coupons.php:19
+msgid "Coupons"
+msgstr "القسائم"
+
+#: includes/dashboard-functions.php:47 includes/dashboard-functions.php:354
+#: includes/withdraw-functions.php:21 templates/withdraw.php:22
+msgid "Withdraw"
+msgstr "المسحوبات"
+
+#: includes/dashboard-functions.php:52
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: includes/dashboard-functions.php:57 templates/sellers.php:18
+msgid "Sellers"
+msgstr "البائعين"
+
+#: includes/dashboard-functions.php:247
+msgid "Gross"
+msgstr "الإيرادات"
+
+#: includes/dashboard-functions.php:248
+msgid "Refunds"
+msgstr "المبالغ المستردة"
+
+#: includes/dashboard-functions.php:249
+msgid "Fees"
+msgstr "رسوم"
+
+#: includes/dashboard-functions.php:249
+msgid "Seller Fees"
+msgstr "عمولة البائع"
+
+#: includes/dashboard-functions.php:250
+msgid "Net"
+msgstr "صافي الربح"
+
+#: includes/dashboard-functions.php:278
+msgid "From all sellers"
+msgstr "من جميع البائعين"
+
+#: includes/dashboard-functions.php:279
+msgid "Year"
+msgstr "عام"
+
+#: includes/dashboard-functions.php:279
+msgid "Last Month"
+msgstr "الشهر الماضي"
+
+#: includes/dashboard-functions.php:279
+msgid "Month"
+msgstr "شهر"
+
+#: includes/dashboard-functions.php:279
+msgid "Week"
+msgstr "أسبوع"
+
+#: includes/dashboard-functions.php:279
+msgid "Today"
+msgstr "اليوم"
+
+#: includes/dashboard-functions.php:281
+msgid "Start Date"
+msgstr "تاريخ البدء"
+
+#: includes/dashboard-functions.php:284
+msgid "End Date"
+msgstr "تاريخ الإنتهاء"
+
+#: includes/dashboard-functions.php:287 includes/dishes-functions.php:989
+#: templates/restaurant/restaurant-header.php:39
+msgid "Go"
+msgstr "إنطلق"
+
+#: includes/dashboard-functions.php:325 templates/orders/order-details.php:68
+msgid "Item"
+msgstr "صنف"
+
+#: includes/dashboard-functions.php:350
+msgid "Current Balance"
+msgstr "الرصيد الحالي"
+
+#: includes/dashboard-functions.php:354
+msgid "Withdraw Money"
+msgstr "قدم طلب سحب"
+
+#: includes/dashboard-functions.php:383
+msgid "Top Customers"
+msgstr "كبار العملاء"
+
+#: includes/dashboard-functions.php:387 includes/order-functions.php:69
+msgid "Customer"
+msgstr "زبون"
+
+#: includes/dashboard-functions.php:388
+msgid "Money Spent"
+msgstr "الأموال المنفقة"
+
+#: includes/dashboard-functions.php:416 includes/order-functions.php:68
+#: includes/order-functions.php:727 templates/dishes-listing.php:35
+msgid "Status"
+msgstr "الحالة"
+
+#: includes/dashboard-functions.php:417
+msgid "Count"
+msgstr "عد"
+
+#: includes/dashboard-functions.php:459 includes/order-functions.php:224
+msgid "Cancelled"
+msgstr "ألغيت"
+
+#: includes/dashboard-functions.php:470 includes/order-functions.php:226
+#: templates/orders/order-details.php:182
+msgid "Refunded"
+msgstr "المردود"
+
+#: includes/dashboard-functions.php:481
+msgid "On-hold"
+msgstr "في الانتظار"
+
+#: includes/dishes-functions.php:20 includes/sellers-functions.php:47
+#, php-format
+msgid "All (%d)"
+msgstr "الجميع (%d)"
+
+#: includes/dishes-functions.php:23
+#, php-format
+msgid "Online (%d)"
+msgstr "اون لاين (%d)"
+
+#: includes/dishes-functions.php:26
+#, php-format
+msgid "Pending Review (%d)"
+msgstr "قيد المراجعة (%d)"
+
+#: includes/dishes-functions.php:29
+#, php-format
+msgid "Draft (%d)"
+msgstr "مسودة (%d)"
+
+#: includes/dishes-functions.php:43
+msgid "Online"
+msgstr "اون لاين"
+
+#: includes/dishes-functions.php:47 includes/dishes-functions.php:277
+msgid "Draft"
+msgstr "مسودة"
+
+#: includes/dishes-functions.php:84
+msgid "Access Denied"
+msgstr "ممنوع الدخول"
+
+#: includes/dishes-functions.php:107
+msgid "Update Item"
+msgstr "تحديث الصنف"
+
+#: includes/dishes-functions.php:107
+msgid "Post Item"
+msgstr "إنشاء الصنف"
+
+#: includes/dishes-functions.php:196 templates/dishes-listing.php:137
+msgid "Simple"
+msgstr "عادي"
+
+#: includes/dishes-functions.php:197 templates/dishes-listing.php:126
+msgid "Grouped"
+msgstr "مجموعة"
+
+#: includes/dishes-functions.php:199 templates/dishes-listing.php:141
+msgid "Variable"
+msgstr "متغير"
+
+#: includes/dishes-functions.php:254
+msgid "Upload item cover image"
+msgstr "تحميل صورة للصنف"
+
+#: includes/dishes-functions.php:270 includes/restaurant-functions.php:554
+msgid "Item Title"
+msgstr "عنوان الصنف"
+
+#: includes/dishes-functions.php:274
+msgid "Item Status:"
+msgstr "الحالة"
+
+#: includes/dishes-functions.php:276
+msgid "Publish"
+msgstr "انشر للعامة"
+
+#: includes/dishes-functions.php:287
+msgid "Item Type:"
+msgstr "نوع الصنف"
+
+#: includes/dishes-functions.php:300
+msgid "General"
+msgstr "العامة"
+
+#: includes/dishes-functions.php:305
+msgid "Inventory"
+msgstr "المخزون"
+
+#: includes/dishes-functions.php:310 includes/lazy-functions.php:1240
+#: includes/restaurant-functions.php:891 includes/restaurant-functions.php:901
+#: templates/cart.php:30
+msgid "Delivery"
+msgstr "خدمه توصيل"
+
+#: includes/dishes-functions.php:315
+msgid "Linked Products"
+msgstr "المنتجات المرتبطة"
+
+#: includes/dishes-functions.php:320
+msgid "Attributes"
+msgstr "الصفات"
+
+#: includes/dishes-functions.php:325
+msgid "Variations"
+msgstr "الاختلافات"
+
+#: includes/dishes-functions.php:330
+msgid "Advanced"
+msgstr "متقدم"
+
+#: includes/dishes-functions.php:375
+msgid "Add item gallery images"
+msgstr "إضافة معرض صور للصنف"
+
+#: includes/dishes-functions.php:380
+msgid "General options"
+msgstr "خيارات عامة"
+
+#: includes/dishes-functions.php:383 includes/dishes-functions.php:395
+msgid "Item Details"
+msgstr "تفاصيل الصنف"
+
+#: includes/dishes-functions.php:387
+msgid "Item Recipe"
+msgstr "فئة الصنف"
+
+#: includes/dishes-functions.php:387
+msgid ""
+"This is very important option and used to classify your items in your "
+"restaurant page. Type first two/three letters and choose from list, if "
+"recipe is not in the list then complete typing the recipe title and hit the "
+"comma button."
+msgstr ""
+"من الضروري تعبئة هذا الحقل لاستخدامه في تصنيف منتجاتك في صفحتك. اطبع اول "
+"حرفين او ثلاثة ثم اختر من القائمة اذا لم تظهر القائمة قم باستكمال الطباعة ثم "
+"اضغط رمز الفاصلة في لوحة المفاتيح."
+
+#: includes/dishes-functions.php:391
+msgid "Item Ingredients"
+msgstr "مكونات الصنف"
+
+#: includes/dishes-functions.php:391
+msgid ""
+"Type first two/three letters and choose from list, if ingredient is not in "
+"the list then complete typing your ingredient name and hit the comma button. "
+"Try put all item Ingredients so people can reach your item when filtering "
+"products."
+msgstr ""
+"اكتب أول اثنين / ثلاثة حروف واختيار من القائمة، إذا المكون غير موجود في "
+"القائمة،أكمل كتابة اسم المكون واضغط على زر الفاصلة. حاول وضع كل مكونات الصنف "
+"حتى يتمكن الناس من الوصول إلى المنتجات الخاصة بك عند البحث عن المنتجات."
+
+#: includes/dishes-functions.php:403
+msgid "Dish is Spicy."
+msgstr "الطبق حار"
+
+#: includes/dishes-functions.php:406
+msgid "Show Fat Amount."
+msgstr "إظهار مقدار الدهون."
+
+#: includes/dishes-functions.php:409 metaboxes/dish_details.php:166
+msgid "Amount of Fat in Grams."
+msgstr "كمية الدهون في الغرام الواحد."
+
+#: includes/dishes-functions.php:412
+msgid "More Details on the item"
+msgstr "المزيد من التفاصيل حول هذا الصنف"
+
+#: includes/dishes-functions.php:412
+msgid "Enter Short description about the item."
+msgstr "أدخل معلومات ملخصة حول هذا الصنف."
+
+#: includes/dishes-functions.php:420
+msgid "Stock Keeping Unit"
+msgstr "وحدة حفظ المخزون"
+
+#: includes/dishes-functions.php:420
+#: includes/woo-views/html-variation-admin.php:68
+#: templates/dishes-listing.php:36
+msgid "SKU"
+msgstr "الرمز التسلسلي المنتج"
+
+#: includes/dishes-functions.php:420
+msgid ""
+"SKU refers to a Stock-keeping unit, a unique identifier for each distinct "
+"product and service that can be purchased."
+msgstr ""
+"يشير الرمز التسلسلي للمنتج إلى وحدة حفظ المخزون من المنتج، يجب ان يحمل كل "
+"منتج من المنتجات رمز تسلسلي خاص ومختلف."
+
+#: includes/dishes-functions.php:433
+msgid "Item URL"
+msgstr "رابط الصنف"
+
+#: includes/dishes-functions.php:433
+msgid "Enter the external URL to the product."
+msgstr "أدخل عنوان URL الخارجي للمنتج."
+
+#: includes/dishes-functions.php:436
+msgid "Button text"
+msgstr "نص الزر"
+
+#: includes/dishes-functions.php:436
+msgctxt "placeholder"
+msgid "Buy product"
+msgstr "اشتري المنتج"
+
+#: includes/dishes-functions.php:436
+msgid "This text will be shown on the button linking to the external product."
+msgstr "سيتم عرض هذا النص على زر رابط المنتج الخارجي."
+
+#: includes/dishes-functions.php:443
+msgid "Regular Price"
+msgstr "السعر الاساسي"
+
+#: includes/dishes-functions.php:446
+msgid "Sale Price"
+msgstr "السعر بعد الخصم"
+
+#: includes/dishes-functions.php:446
+#: includes/woo-views/html-variation-admin.php:97
+msgid "Schedule"
+msgstr "جدول"
+
+#: includes/dishes-functions.php:453
+msgid "Sale Price Dates"
+msgstr "تاريخ الأسعار المخفضة"
+
+#: includes/dishes-functions.php:454
+msgctxt "placeholder"
+msgid "From&hellip;"
+msgstr "من;hellip&"
+
+#: includes/dishes-functions.php:455
+msgctxt "placeholder"
+msgid "To&hellip;"
+msgstr "إلى;hellip&"
+
+#: includes/dishes-functions.php:456 includes/dishes-functions.php:1023
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: includes/dishes-functions.php:538
+msgid "Tax Status"
+msgstr "الحالة الضريبية"
+
+#: includes/dishes-functions.php:540
+msgid "Taxable"
+msgstr "خاضع للضريبة"
+
+#: includes/dishes-functions.php:541
+msgid "Shipping only"
+msgstr "للشحن فقط"
+
+#: includes/dishes-functions.php:542
+msgctxt "Tax status"
+msgid "None"
+msgstr "عدم تعين"
+
+#: includes/dishes-functions.php:545
+msgid ""
+"Define whether or not the entire product is taxable, or just the cost of "
+"shipping it."
+msgstr ""
+"تحديد ما إذا كان أو لم يكن المنتج بأكمله هو الخاضع للضريبة، أو مجرد تكلفة "
+"شحنه."
+
+#: includes/dishes-functions.php:560
+msgid "Tax Class"
+msgstr "فئة الضريبة"
+
+#: includes/dishes-functions.php:563
+msgid ""
+"Choose a tax class for this product. Tax classes are used to apply different "
+"tax rates specific to certain types of product."
+msgstr ""
+"اختيار فئة الضريبة لهذا المنتج. تستخدم فئات الضريبة على تطبيق معدلات ضريبية "
+"مختلفة محددة لأنواع معينة من المنتجات."
+
+#: includes/dishes-functions.php:577
+msgid "Inventory options"
+msgstr "خيارات المخزون"
+
+#: includes/dishes-functions.php:586
+#: includes/woo-views/html-variation-admin.php:84
+msgid "Manage stock?"
+msgstr "إدارة المخزون"
+
+#: includes/dishes-functions.php:586
+msgid "Enable stock management at product level"
+msgstr "تمكين إدارة المخزون على مستوى المنتج"
+
+#: includes/dishes-functions.php:595
+msgid "Stock Qty"
+msgstr "كمية المخزون"
+
+#: includes/dishes-functions.php:597
+msgid ""
+"Stock quantity. If this is a variable product this value will be used to "
+"control stock for all variations, unless you define stock at variation level."
+msgstr ""
+"كمية المخزون. إذا كان هذا هو منتج متغير، سوف تستخدم هذه القيمة للسيطرة على "
+"مخزون لجميع الاختلافات، إلا إذا قمت بتحديد كمية المخزون على مستوى الإختلافات"
+
+#: includes/dishes-functions.php:606
+#: includes/woo-views/html-variation-admin.php:120
+msgid "Allow Backorders?"
+msgstr "السماح بالطلبات حتى اذا نفذ المخزون"
+
+#: includes/dishes-functions.php:610
+msgid ""
+"If managing stock, this controls whether or not backorders are allowed. If "
+"enabled, stock quantity can go below 0."
+msgstr ""
+"إذا هناك إدارة للمخزون، سيحدد هذا الخيار إذا كان بالإمكان استقبال الطلبات "
+"حتى ولو نفذ المخزون،إذا مكن، يمكن لكمية المخزون أن تهبط دون مستوى 0."
+
+#: includes/dishes-functions.php:619
+#: includes/woo-views/html-variation-admin.php:134
+msgid "Stock status"
+msgstr "حالة المخزون"
+
+#: includes/dishes-functions.php:622
+msgid ""
+"Controls whether or not the product is listed as \"in stock\" or \"out of "
+"stock\" on the frontend."
+msgstr ""
+"للتحكم في إظهار كلمة \"متوفر في المخزن\" أو \"غير متوفر في المخزن\" على "
+"المنتج في الواجهة."
+
+#: includes/dishes-functions.php:631
+msgid "Sold Individually"
+msgstr "تباع بشكل فردي"
+
+#: includes/dishes-functions.php:631
+msgid ""
+"Enable this to only allow one of this item to be bought in a single order"
+msgstr ""
+"حدد هذا الخيار لعدم السماح في بيع اكثر من حبة واحدة من هذا المنتج في كل طلب "
+"شراء."
+
+#: includes/dishes-functions.php:643
+msgid "Delivery options"
+msgstr "خيارات التوصيل"
+
+#: includes/dishes-functions.php:651 includes/dishes-functions.php:981
+#: includes/woo-views/html-variation-admin.php:149
+msgid "Weight"
+msgstr "الوزن"
+
+#: includes/dishes-functions.php:651
+msgid "Weight in decimal form"
+msgstr "الوزن بالصيغة العشرية"
+
+#: includes/dishes-functions.php:657
+msgid "Dimensions"
+msgstr "الأبعاد"
+
+#: includes/dishes-functions.php:684
+msgid "No shipping class"
+msgstr "عدم تعين فئة للشحن"
+
+#: includes/dishes-functions.php:690
+msgid "Shipping class"
+msgstr "درجة الشحن"
+
+#: includes/dishes-functions.php:700
+msgid "Item Attributes"
+msgstr "سمات الصنف"
+
+#: includes/dishes-functions.php:703 includes/dishes-functions.php:761
+#: includes/dishes-functions.php:994 includes/dishes-functions.php:1028
+msgid "Expand"
+msgstr "وسع"
+
+#: includes/dishes-functions.php:703 includes/dishes-functions.php:761
+#: includes/dishes-functions.php:994 includes/dishes-functions.php:1028
+#: includes/restaurant-functions.php:584
+msgid "Close"
+msgstr "إغلاق"
+
+#: includes/dishes-functions.php:706
+msgid "Custom product attribute"
+msgstr "سمات المنتج الخصصه"
+
+#: includes/dishes-functions.php:722 templates/orders/order-details.php:317
+msgid "Add"
+msgstr "إضافة"
+
+#: includes/dishes-functions.php:763
+msgid "Save Attributes"
+msgstr "حفظ السمة"
+
+#: includes/dishes-functions.php:769
+msgid "Linking options"
+msgstr "ربط السمات"
+
+#: includes/dishes-functions.php:774
+msgid "Up-Sells"
+msgstr "المنتجات الموصي بها"
+
+#: includes/dishes-functions.php:774
+msgid ""
+"Up-sells are products which you recommend instead of the currently viewed "
+"product, for example, products that are more profitable or better quality or "
+"more expensive."
+msgstr ""
+"المنتجات الموصي بها هي المنتجات التي تقوم بتحديدها لإظهارها بدل عن المنتجات "
+"الموصي بها الافتراضية، على سبيل المثال، المنتجات التي هي أكثر ربحية أو جودة "
+"أفضل أو أكثر تكلفة."
+
+#: includes/dishes-functions.php:776 includes/dishes-functions.php:787
+#: includes/dishes-functions.php:801
+msgid "Choose Products"
+msgstr "اختر المنتجات"
+
+#: includes/dishes-functions.php:785
+msgid "Cross-Sells"
+msgstr "المنتجات ذات الصلة"
+
+#: includes/dishes-functions.php:785
+msgid ""
+"Cross-sells are products which you promote in the cart, based on the current "
+"product."
+msgstr ""
+"المنتجات ذات الصلة هي المنتجات التي تقوم بتحديدها لإظهارها في عربة التسوق "
+"والمتعلقة بهذا المنتج."
+
+#: includes/dishes-functions.php:799
+msgid "Grouping"
+msgstr "مجموعة"
+
+#: includes/dishes-functions.php:799
+msgid "Set this option to make this product part of a grouped product."
+msgstr "تعيين هذا الخيار لجعل هذا المنتج جزءا من مجموعة منتجات."
+
+#: includes/dishes-functions.php:802 includes/restaurant-functions.php:900
+msgid "None"
+msgstr "عدم تعين"
+
+#: includes/dishes-functions.php:821
+msgid "Advance options"
+msgstr "خيارات متقدمة"
+
+#: includes/dishes-functions.php:826
+msgid "Purchase Note"
+msgstr "ملاحظة الشراء"
+
+#: includes/dishes-functions.php:826
+msgid "Enter an optional note to send the customer after purchase."
+msgstr "ادخل ملاحظة هنا لإرسالها إلى العميل عند الشراء"
+
+#: includes/dishes-functions.php:833
+msgid "Menu order"
+msgstr "ترتيب القوائم"
+
+#: includes/dishes-functions.php:833
+msgid "Custom ordering position."
+msgstr "ترتيب افتراضي"
+
+#: includes/dishes-functions.php:841
+msgid "Enable reviews"
+msgstr "السماح بتقييم المنتج"
+
+#: includes/dishes-functions.php:897
+msgid "Variation options"
+msgstr "خيارات الإختلافات"
+
+#: includes/dishes-functions.php:902
+msgid ""
+"Before you can add a variation you need to add some variation attributes on "
+"the <strong>Attributes</strong> tab."
+msgstr ""
+"قبل أن تتمكن من إضافة تباين تحتاج إلى إضافة بعض سمات الاختلاف في صفحة سمات "
+"المنتج."
+
+#: includes/dishes-functions.php:904
+msgid "Learn more"
+msgstr "أعرف أكثر"
+
+#: includes/dishes-functions.php:912
+msgid "Default Form Values"
+msgstr "قيم افتراضية"
+
+#: includes/dishes-functions.php:927
+msgid "No default"
+msgstr "عدم تعين إفتراضي"
+
+#: includes/dishes-functions.php:956
+msgid "Add variation"
+msgstr "أضافة تباين"
+
+#: includes/dishes-functions.php:957
+msgid "Create variations from all attributes"
+msgstr "إنشاء تباينات من كل السمات"
+
+#: includes/dishes-functions.php:958
+msgid "Delete all variations"
+msgstr "حذف كل التباينات"
+
+#: includes/dishes-functions.php:960
+msgid "Toggle &quot;Enabled&quot;"
+msgstr "تمكين ;quot&تفعيل;quot&"
+
+#: includes/dishes-functions.php:965
+msgid "Set regular prices"
+msgstr "السعر الاساسي"
+
+#: includes/dishes-functions.php:966
+msgid "Increase regular prices (fixed amount or percentage)"
+msgstr "زيادة أسعار العادية (مبلغ ثابت أو نسبة مئوية)"
+
+#: includes/dishes-functions.php:967
+msgid "Decrease regular prices (fixed amount or percentage)"
+msgstr "خفض أسعار العادية (مبلغ ثابت أو نسبة مئوية)"
+
+#: includes/dishes-functions.php:968
+msgid "Set sale prices"
+msgstr "السعر بعد الخصم"
+
+#: includes/dishes-functions.php:969
+msgid "Increase sale prices (fixed amount or percentage)"
+msgstr "زيادة أسعار التخفيض (مبلغ ثابت أو نسبة مئوية)"
+
+#: includes/dishes-functions.php:970
+msgid "Decrease sale prices (fixed amount or percentage)"
+msgstr "خفض أسعار التخفيض (مبلغ ثابت أو نسبة مئوية)"
+
+#: includes/dishes-functions.php:971
+msgid "Set scheduled sale dates"
+msgstr "حدد تواريخ محددة للأسعار المخفضة"
+
+#: includes/dishes-functions.php:974
+msgid "Toggle &quot;Manage stock&quot;"
+msgstr "تمكي ;quot&إدارة المخزون ;quot&"
+
+#: includes/dishes-functions.php:975 templates/dishes-listing.php:37
+msgid "Stock"
+msgstr "المخزون"
+
+#: includes/dishes-functions.php:978
+msgid "Length"
+msgstr "الطول"
+
+#: includes/dishes-functions.php:979
+msgid "Width"
+msgstr "عرض"
+
+#: includes/dishes-functions.php:980
+msgid "Height"
+msgstr "الإرتفاع"
+
+#: includes/dishes-functions.php:992 includes/dishes-functions.php:1026
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "لا توجد أصناف"
+msgstr[1] "صنف واحد"
+msgstr[2] "صنفان"
+msgstr[3] "%s صنف"
+msgstr[4] "%s صنف"
+msgstr[5] "%s صنف"
+
+#: includes/dishes-functions.php:1000 includes/dishes-functions.php:1034
+msgid "Select Page"
+msgstr "حدد صفحة"
+
+#: includes/dishes-functions.php:1006 includes/dishes-functions.php:1040
+msgctxt "number of pages"
+msgid "of"
+msgstr "من"
+
+#: includes/dishes-functions.php:1022
+msgid "Save Changes"
+msgstr "حفظ التغيرات"
+
+#: includes/dishes-functions.php:1215
+msgid "Product SKU must be unique."
+msgstr "يجب أن يكون الرمز التسلسلي فريدة من نوعها."
+
+#: includes/dishes-functions.php:1537
+#, php-format
+msgid ""
+"The downloadable file %s cannot be used as it does not have an allowed file "
+"type. Allowed types include: %s"
+msgstr ""
+"لا يمكن استخدام الملف %s لعدم وجود تحديد لأنواع الملفات المسموح بها، الملفات "
+"المسموح بها تشمل: %s"
+
+#: includes/dishes-functions.php:1551
+#, php-format
+msgid ""
+"The downloadable file %s cannot be used as it does not exist on the server."
+msgstr "لا يمكن استخدام الملف %s لعدم وجودة على الخادم."
+
+#: includes/dishes-functions.php:1655
+#, php-format
+msgid "Variation #%s of %s"
+msgstr "التباين %s لي %s"
+
+#: includes/dishes-functions.php:1699
+msgid "Variation SKU must be unique."
+msgstr "يجب أن يكون الرمز التسلسلي للتباين فريد من نوعها."
+
+#: includes/dishes-functions.php:1820
+#, php-format
+msgid ""
+"#%s &ndash; The downloadable file %s cannot be used as it does not have an "
+"allowed file type. Allowed types include: %s"
+msgstr ""
+"%s لا يمكن استخدام الملف %s لعدم وجود تحديد لأنواع الملفات المسموح بها، "
+"الملفات المسموح بها تشمل: %s"
+
+#: includes/dishes-functions.php:1828
+#, php-format
+msgid ""
+"#%s &ndash; The downloadable file %s cannot be used as it does not exist on "
+"the server."
+msgstr "%s لا يمكن استخدام الملف %s لعدم وجوده على الخادم."
+
+#: includes/lazy-functions.php:19
+msgctxt "frozr"
+msgid "Ingredients"
+msgstr "ألمكونات"
+
+#: includes/lazy-functions.php:20
+msgctxt "frozr"
+msgid "Ingredient"
+msgstr "ألمكون"
+
+#: includes/lazy-functions.php:21
+msgid "Search Ingredients"
+msgstr "البحث عن المكونات"
+
+#: includes/lazy-functions.php:22
+msgid "Popular Ingredients"
+msgstr "المكونات الأكثر شعبية"
+
+#: includes/lazy-functions.php:23
+msgid "All Ingredients"
+msgstr "كل المكونات"
+
+#: includes/lazy-functions.php:26
+msgid "Edit Ingredient"
+msgstr "تعديل المكون"
+
+#: includes/lazy-functions.php:27
+msgid "Update Ingredient"
+msgstr "تحديث المكون"
+
+#: includes/lazy-functions.php:28
+msgid "Add New Ingredient"
+msgstr "اضف مكون جديد"
+
+#: includes/lazy-functions.php:29
+msgid "New Ingredient Name"
+msgstr "أسم المكون الجديد"
+
+#: includes/lazy-functions.php:30
+msgid "Separate Ingredients with commas"
+msgstr "أضف فاصلة بعد كل مكون"
+
+#: includes/lazy-functions.php:31
+msgid "Add or remove Ingredients"
+msgstr "أضافة/إزالة المكونات"
+
+#: includes/lazy-functions.php:32
+msgid "Choose from the most used Ingredients"
+msgstr "اختر من المكونات الأكثر استخداما"
+
+#: includes/lazy-functions.php:33
+msgid "No Ingredients found."
+msgstr "لا يوجد مكونات"
+
+#: includes/lazy-functions.php:34
+msgid "Ingredients"
+msgstr "مكونات"
+
+#: includes/lazy-functions.php:59
+msgctxt "taxonomy general name"
+msgid "Delivery Locations"
+msgstr "مواقع التوصيل"
+
+#: includes/lazy-functions.php:60
+msgctxt "taxonomy singular name"
+msgid "Delivery Location"
+msgstr "موقع التوصيل"
+
+#: includes/lazy-functions.php:61
+msgid "Search Locations"
+msgstr "ابحث في المواقع"
+
+#: includes/lazy-functions.php:62
+msgid "Popular Locations"
+msgstr "مواقع شعبية"
+
+#: includes/lazy-functions.php:63
+msgid "All Locations"
+msgstr "كل المواقع"
+
+#: includes/lazy-functions.php:66
+msgid "Edit Location"
+msgstr "تعديل الموقع"
+
+#: includes/lazy-functions.php:67
+msgid "Update Location"
+msgstr "تحديث الموقع"
+
+#: includes/lazy-functions.php:68
+msgid "Add New Location"
+msgstr "أضف موقع جديد"
+
+#: includes/lazy-functions.php:69
+msgid "New Location Name"
+msgstr "موقع جديد"
+
+#: includes/lazy-functions.php:70
+msgid "Separate Locations with commas"
+msgstr "أضف فاصلة بعد كل موقع"
+
+#: includes/lazy-functions.php:71
+msgid "Add or remove Locations"
+msgstr "إضافة/إزله المواقع"
+
+#: includes/lazy-functions.php:72
+msgid "Choose from the most used Locations"
+msgstr "اختر من المواقع الأكثر استخداما"
+
+#: includes/lazy-functions.php:73
+msgid "No Locations found."
+msgstr "لا توجد مواقع"
+
+#: includes/lazy-functions.php:74 includes/restaurant-functions.php:839
+msgid "Delivery Locations"
+msgstr "مواقع التوصيل"
+
+#: includes/lazy-functions.php:101
+msgctxt "taxonomy general name"
+msgid "Restaurant Addresses"
+msgstr "عناوين المطاعم"
+
+#: includes/lazy-functions.php:102
+msgctxt "taxonomy singular name"
+msgid "Restaurant Address"
+msgstr "عنوان المطعم"
+
+#: includes/lazy-functions.php:103
+msgid "Search Restaurant Addresses"
+msgstr "ابحث في عناوين المطاعم"
+
+#: includes/lazy-functions.php:104
+msgid "Popular Addresses"
+msgstr "العناوين الأكثر شعبية"
+
+#: includes/lazy-functions.php:105
+msgid "All Addresses of Restaurants"
+msgstr "كل عناوين المطاعم"
+
+#: includes/lazy-functions.php:108
+msgid "Edit Address"
+msgstr "تعديل العنوان"
+
+#: includes/lazy-functions.php:109
+msgid "Update Address"
+msgstr "تحديث العنوان"
+
+#: includes/lazy-functions.php:110
+msgid "Add New Address"
+msgstr "أضف عنوان جديد"
+
+#: includes/lazy-functions.php:111
+msgid "New Address"
+msgstr "عنوان جديد"
+
+#: includes/lazy-functions.php:112
+msgid "Separate Addresses with commas"
+msgstr "أضف فاصلة بعد كل عنوان"
+
+#: includes/lazy-functions.php:113
+msgid "Add or remove Addresses"
+msgstr "إضافة/إزالة العناوين"
+
+#: includes/lazy-functions.php:114
+msgid "Choose from the most used Addresses"
+msgstr "اختر من العناوين الأكثر استخداما"
+
+#: includes/lazy-functions.php:115
+msgid "No Addresses found."
+msgstr "لا توجد عناوين"
+
+#: includes/lazy-functions.php:116
+msgid "Restaurant Addresses"
+msgstr "عناوين المطاعم"
+
+#: includes/lazy-functions.php:143
+msgctxt "taxonomy general name"
+msgid "Restaurant Cuisine"
+msgstr "المطاعم حسب نوع المطبخ."
+
+#: includes/lazy-functions.php:144
+msgctxt "taxonomy singular name"
+msgid "Restaurant Cuisine"
+msgstr "المطاعم حسب نوع المطبخ."
+
+#: includes/lazy-functions.php:145
+msgid "Cuisines"
+msgstr "المطابخ"
+
+#: includes/lazy-functions.php:146
+msgid "Popular Restaurant Cuisines"
+msgstr "المطابخ الأكثر شعبية"
+
+#: includes/lazy-functions.php:147
+msgid "All Types"
+msgstr "كل الأنواع"
+
+#: includes/lazy-functions.php:150
+msgid "Edit Cuisine"
+msgstr "تعديل مطبخ"
+
+#: includes/lazy-functions.php:151
+msgid "Update Cuisine"
+msgstr "تحديث مطبخ"
+
+#: includes/lazy-functions.php:152
+msgid "Add New Cuisine"
+msgstr "إضافة مطبخ جديد"
+
+#: includes/lazy-functions.php:153
+msgid "New Cuisine Name"
+msgstr "أسم مطبخ جديد"
+
+#: includes/lazy-functions.php:154
+msgid "Separate cuisines with commas"
+msgstr "اضف فاصلة بعد كل اسم مطبخ"
+
+#: includes/lazy-functions.php:155
+msgid "Add or remove cuisines"
+msgstr "إضافة/إزالة مطبخ"
+
+#: includes/lazy-functions.php:156
+msgid "Choose from the most used cuisines"
+msgstr "اختر من المطابخ الأكثر استخداما"
+
+#: includes/lazy-functions.php:157
+msgid "No cuisine found."
+msgstr "لا توجد مطابخ"
+
+#: includes/lazy-functions.php:158
+msgid "Restaurant Cuisines"
+msgstr "المطابخ"
+
+#: includes/lazy-functions.php:806
+msgid "Total Delivery"
+msgstr "إجمالي التوصيل"
+
+#: includes/lazy-functions.php:871
+msgid "Your Dashboard"
+msgstr "لوحة التحكم"
+
+#: includes/lazy-functions.php:892
+msgid "Type the first three letters and choose from the list."
+msgstr "اكتب الأحرف الثلاثة الأولى ثم اختيار من القائمة."
+
+#: includes/lazy-functions.php:908
+msgid "products."
+msgstr "المنتجات"
+
+#: includes/lazy-functions.php:910
+msgid "restaurants."
+msgstr "المطاعم"
+
+#: includes/lazy-functions.php:913
+msgid ""
+"You have not set your location yet, if you want to make some food delivery "
+"order, you might be out of the delivery zone of these "
+msgstr ""
+"انت لم تحدد موقعك بعد، إذا كنت تريد أن تقوم بطلب بعض الطعام، فمن الممكن أن "
+"تكون خارج نطاق التوصيل لـ: "
+
+#: includes/lazy-functions.php:913
+msgid "Set your location."
+msgstr "حدد موقعك."
+
+#: includes/lazy-functions.php:921
+msgid "Change"
+msgstr "تغير"
+
+#: includes/lazy-functions.php:923
+msgid "Your location is: "
+msgstr "موقعك الحالي هو: "
+
+#: includes/lazy-functions.php:923
+msgid " it."
+msgstr " ذلك"
+
+#: includes/lazy-functions.php:939
+msgid "Your Location?"
+msgstr "موقعك؟"
+
+#: includes/lazy-functions.php:944
+msgid "This restaurant does not accept orders while closed. Please come back "
+msgstr "هذا المطعم لا يقبل الطلبات خارج ساعات الدوام. يرجى العودة في: "
+
+#: includes/lazy-functions.php:982
+#, php-format
+msgid "\"%s\"! \"%s\" sent you a message from your \"%s\" restaurant page."
+msgstr ""
+
+#: includes/lazy-functions.php:987
+#, php-format
+msgid "Invitation Letter from %s."
+msgstr ""
+
+#: includes/lazy-functions.php:991
+msgid "Withdraw Request # "
+msgstr ""
+
+#: includes/lazy-functions.php:1012
+msgid "New Customer Registration at "
+msgstr ""
+
+#: includes/lazy-functions.php:1016 includes/lazy-functions.php:1020
+msgid "New Restaurant Registration at "
+msgstr ""
+
+#: includes/lazy-functions.php:1024 includes/lazy-functions.php:1028
+msgid "Thank you for registering at "
+msgstr ""
+
+#: includes/lazy-functions.php:1032
+msgid "Your Selling Percentage has Updated"
+msgstr ""
+
+#: includes/lazy-functions.php:1036
+msgid "Your Selling Privileges has Updated"
+msgstr ""
+
+#: includes/lazy-functions.php:1041
+msgid "Make your review on "
+msgstr ""
+
+#: includes/lazy-functions.php:1058
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"We received your withdraw request #%s, with total amount of %s, Via %s. We "
+"will review your request as soon as possible and get back to you.\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+
+#: includes/lazy-functions.php:1067
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"Your withdraw request #%s, with total amount of %s, Via %s, has been "
+"approved.\n"
+"We will transfer this amount to your preferred destination shortly.\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+
+#: includes/lazy-functions.php:1077
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"Your withdraw request #%s, with total amount of %s, Via %s, has been "
+"rejected with the following reason: %s.\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+
+#: includes/lazy-functions.php:1086
+#, php-format
+msgid ""
+"\n"
+"%s\n"
+"\n"
+"------------------------------\n"
+"Sent from %s\n"
+"%s"
+msgstr ""
+
+#: includes/lazy-functions.php:1094
+#, php-format
+msgid ""
+"From: %s\n"
+"IP: %s\n"
+"User Agent: %s\n"
+"------------------------------\n"
+"\n"
+"%s\n"
+"\n"
+"------------------------------\n"
+"Sent from %s\n"
+"%s"
+msgstr ""
+
+#: includes/lazy-functions.php:1106
+#, php-format
+msgid ""
+"Hello %s Admin,\n"
+"\n"
+"A New Customer has registered in your site.\n"
+"User details:\n"
+"Email : %s\n"
+"\n"
+"View all users list at %s\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+
+#: includes/lazy-functions.php:1119
+#, php-format
+msgid ""
+"Hello %s Admin,\n"
+"\n"
+"A New Restaurant has registered in your site.\n"
+"Restaurant details:\n"
+"Email : %s\n"
+"First Name : %s\n"
+"Last Name : %s\n"
+"Shop Name : %s\n"
+"Shop URL : %s\n"
+"Shop Address : %s\n"
+"Shop Phone : %s\n"
+"\n"
+"Activate restaurant selling privileges %s\n"
+"View all users list at %s\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+
+#: includes/lazy-functions.php:1139
+#, php-format
+msgid ""
+"Hello %s Admin,\n"
+"\n"
+"A New Restaurant has registered in your site.\n"
+"Restaurant details:\n"
+"Email : %s\n"
+"First Name : %s\n"
+"Last Name : %s\n"
+"Shop Name : %s\n"
+"Shop URL : %s\n"
+"Shop Address : %s\n"
+"Shop Phone : %s\n"
+"\n"
+"View all users list at %s\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+
+#: includes/lazy-functions.php:1158
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"Thank you for registering at %s.\n"
+"Your selling privileges will be activated shortly by one of the site "
+"admins.\n"
+"We will let you know if any updates.\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+
+#: includes/lazy-functions.php:1169
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"Thank you for registering at %s.\n"
+"Your selling privileges is activated and your selling percentage is %s, that "
+"is the amount you'll get from each of your completed orders.\n"
+"\n"
+"You can staring posting your items from your dashboard %s.\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+
+#: includes/lazy-functions.php:1181
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"Your selling percentage has updated to: %s\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+
+#: includes/lazy-functions.php:1190
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"Your selling privileges has updated to: %s\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+
+#: includes/lazy-functions.php:1199
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"Your order number %s dated %s has been marked as completed.\n"
+"Please take few moments and make a review on %s by clicking on the following "
+"link\n"
+"%s\n"
+"\n"
+"Regards!\n"
+"%s\n"
+"%s"
+msgstr ""
+
+#: includes/lazy-functions.php:1234
+msgid ""
+"The Restaurant Will not delivery to your location, please choose another "
+"option."
+msgstr "لن يقوم المطعم بتوصيل الطعام إلى منطقتك، يرجى اختيار خيار اخر."
+
+#: includes/lazy-functions.php:1236 includes/lazy-functions.php:1253
+msgid "This Restaurant is in your neighbourhood."
+msgstr "يقع هذا المطعم في منطقتكم."
+
+#: includes/lazy-functions.php:1238
+msgid "Notice: The Delivery Will be sent to the Order Billing Address"
+msgstr "ملاحظة: سيتم إرسال الطلب إلى العنوان المسجل في فاتورة الشراء"
+
+#: includes/lazy-functions.php:1240 includes/restaurant-functions.php:892
+#: includes/restaurant-functions.php:902
+msgid "Pickup"
+msgstr "سفري"
+
+#: includes/lazy-functions.php:1240 includes/restaurant-functions.php:893
+#: includes/restaurant-functions.php:903
+msgid "Dine-in"
+msgstr "محلي"
+
+#: includes/lazy-functions.php:1240 includes/restaurant-functions.php:894
+#: includes/restaurant-functions.php:904
+msgid "Curbside"
+msgstr "رصيف الطلبات"
+
+#: includes/lazy-functions.php:1242
+msgid "Number of People in the Party?"
+msgstr "عدد الأشخاص المدعوون"
+
+#: includes/lazy-functions.php:1244
+msgid "Car Information"
+msgstr "بيانات السيارة"
+
+#: includes/lazy-functions.php:1244
+msgid "Car Make, Model & color"
+msgstr "نوع السيارة، الموديل، اللون"
+
+#: includes/lazy-functions.php:1248
+msgid ""
+"The Restaurant will not accept this type of orders at this time please "
+"choose another option or come back "
+msgstr ""
+"إن مطعم لا يقبل هذا النوع من الطلبات في هذا الوقت الرجاء اختيار خيار آخر أو "
+"العودة في "
+
+#: includes/lazy-functions.php:1249
+msgid ""
+"The Restaurant is currently closed, but will process your order when open "
+msgstr ""
+"المطعم مغلق في الوقت الراهن، ولكن سوف نقوم بمعالجة طلبك عند فتح المطعم. "
+
+#: includes/lazy-functions.php:1253
+msgid "Addresses: "
+msgstr "العناوين: "
+
+#: includes/lazy-functions.php:1258
+msgid "Add special comments or a person name."
+msgstr "إضافة تعليقات خاصة أو اسم الشخص."
+
+#: includes/lazy-functions.php:1258
+msgid ""
+"Don't add items names, that have separate prices, Just add instructions for "
+"your current item like \"add extra sauces or toppings\" ..etc."
+msgstr ""
+"لا تضف اسماء الاصناف التي لديها أسعار منفصلة، ​​فقط أضف تعليمات للصنف الحالي "
+"مثل \"إضافة صلصات إضافية أو الطبقة\" ... الخ."
+
+#: includes/lazy-functions.php:1406
+msgid "Set Your Location."
+msgstr "حدد موقعك."
+
+#: includes/lazy-functions.php:1408
+msgid "Food Delivery"
+msgstr "توصيل طلبات الطعام"
+
+#: includes/lazy-functions.php:1409
+msgid "Restaurants"
+msgstr "المطاعم"
+
+#: includes/lazy-functions.php:1415
+msgid "e.g. Indian, Italian, Chinese ..."
+msgstr "مثلا الهندية، الإيطالية، الصينية ..."
+
+#: includes/lazy-functions.php:1443
+msgid "e.g. Lamp, Chicken, Onion ..."
+msgstr "مثلا لحم الماعز، الدجاج، البصل ..."
+
+#: includes/lazy-functions.php:1468
+msgid "e.g. Road One, Road Two, Road Three ..."
+msgstr "مثلا شارع واحد، شارع اثنين، شارع ثلاثة ..."
+
+#: includes/lazy-functions.php:1492
+msgid "Restaurant Name?"
+msgstr "أسم المطعم"
+
+#: includes/order-functions.php:20
+#, php-format
+msgid "Processing (%d)"
+msgstr "تحت المعالجة (%d)"
+
+#: includes/order-functions.php:25 includes/withdraw-functions.php:80
+#, php-format
+msgid "Completed (%d)"
+msgstr "منجز (%d)"
+
+#: includes/order-functions.php:30
+#, php-format
+msgid "On-hold (%d)"
+msgstr "في الانتظار (%d)"
+
+#: includes/order-functions.php:35 includes/withdraw-functions.php:77
+#, php-format
+msgid "Pending (%d)"
+msgstr "قيد المراجعة (%d)"
+
+#: includes/order-functions.php:40
+#, php-format
+msgid "Cancelled (%d)"
+msgstr "ألغيت (%d)"
+
+#: includes/order-functions.php:45
+#, php-format
+msgid "Refunded (%d)"
+msgstr "المردود (%d)"
+
+#: includes/order-functions.php:50
+#, php-format
+msgid "failed (%d)"
+msgstr "فشل  (%d)"
+
+#: includes/order-functions.php:66 templates/orders/order-details.php:172
+msgid "Order Total"
+msgstr "إجمالي الطلب"
+
+#: includes/order-functions.php:67 includes/withdraw-functions.php:123
+msgid "Via"
+msgstr "عبر"
+
+#: includes/order-functions.php:72
+msgid "Action"
+msgstr "العمل"
+
+#: includes/order-functions.php:127
+msgid "No orders found"
+msgstr "لا توجد طلبات"
+
+#: includes/order-functions.php:142
+#, php-format
+msgid "Order %s"
+msgstr "طلب  %s"
+
+#: includes/order-functions.php:160
+msgid "Billing:"
+msgstr "الفاتورة:"
+
+#: includes/order-functions.php:164
+msgid "Tel:"
+msgstr "الهاتف:"
+
+#: includes/order-functions.php:191
+msgid "Guest"
+msgstr "ضيف:"
+
+#: includes/order-functions.php:196 templates/orders/order-details.php:294
+#, php-format
+msgid "by %s"
+msgstr "بواسطة %s"
+
+#: includes/order-functions.php:204
+msgid "Unpublished"
+msgstr "غير منشورة"
+
+#: includes/order-functions.php:206 templates/dishes-listing.php:150
+msgid "Y/m/d g:i:s A"
+msgstr "Y/m/d g:i:s A"
+
+#: includes/order-functions.php:211 templates/dishes-listing.php:157
+#, php-format
+msgid "%s ago"
+msgstr "منذ %s"
+
+#: includes/order-functions.php:213 templates/dishes-listing.php:159
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: includes/order-functions.php:223
+msgid "Complete"
+msgstr "منجز"
+
+#: includes/order-functions.php:230
+msgid "Failed"
+msgstr "فشل"
+
+#: includes/order-functions.php:274 templates/orders/order-details.php:295
+msgid "Delete note"
+msgstr "حذف الملاحظة"
+
+#: includes/order-functions.php:321
+msgid "Order should be refunded. Customer please send a message to  "
+msgstr "يجب إعادة قيمة الطلب للزبون .. الرجاء قيام الزبون بإرسال رسالة إلى "
+
+#: includes/order-functions.php:321
+msgid ""
+" in reference to this order ID and your payment account details and method "
+"to complete refund."
+msgstr "والإشارة إلى رقم هذا الطلب وبيانات الحساب المراد تحول قيمة الطلب إليه."
+
+#: includes/order-functions.php:323
+msgid "Order has been cancelled."
+msgstr "تم إلغاء الطلب"
+
+#: includes/order-functions.php:325
+msgid "Order is being prepared."
+msgstr "يتم تجهيز الطلب"
+
+#: includes/order-functions.php:327
+msgid "Order on its way to customer."
+msgstr "الطلب قيد التوصيل للزبون"
+
+#: includes/order-functions.php:329
+msgid "Customer has received the order."
+msgstr "قام الزبون باستلام الطلب."
+
+#: includes/order-functions.php:331
+msgid "Order failed to process."
+msgstr "فشل الطلب"
+
+#: includes/order-functions.php:506
+msgid "Mark parent order completed as all child orders are completed."
+msgstr ""
+"تحويل حالة الطلب الأساسي إلى منجز كون جميع الطلبات الفرعية قد تم إنجازها."
+
+#: includes/order-functions.php:560
+#, php-format
+msgid "Order &ndash; %s"
+msgstr "طلب %s"
+
+#: includes/order-functions.php:560
+msgctxt "Order date parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr "%b %d, %Y @ %I:%M %p"
+
+#: includes/order-functions.php:712
+msgid "Sub Orders"
+msgstr "الطلبات الفرعية"
+
+#: includes/order-functions.php:716
+msgid "Note:"
+msgstr "ملاحظة:"
+
+#: includes/order-functions.php:717
+msgid ""
+"This order has items from multiple vendors/restaurants. So we divided this "
+"order into multiple orders, each will be handled by their respective vendor "
+"independently."
+msgstr ""
+"هذا الطلب يحتوي على عناصر من عدة بائعين / مطاعم. لذلك قسمنا هذا الطلب إلى "
+"طلبات فرعية متعددة، وسيقوم البائعين كلا بالتعامل مع الطلب الخاص به."
+
+#: includes/order-functions.php:752
+#, php-format
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] "%s لـ  %s من الاصناف"
+msgstr[1] "%s لـ  %s من الاصناف"
+msgstr[2] "%s لـ  %s من الاصناف"
+msgstr[3] "%s لـ  %s من الاصناف"
+msgstr[4] "%s لـ  %s من الاصناف"
+msgstr[5] "%s لـ  %s من الاصناف"
+
+#: includes/order-functions.php:760 templates/dishes-listing.php:86
+msgid "View"
+msgstr "شاهد"
+
+#: includes/registration-functions.php:23
+msgid ""
+"Please note that your selling privileges will be activated after an admin "
+"approval."
+msgstr ""
+"يرجى الإحاطة أن امتيازات البيع الخاصة بك سوف يتم تفعيلها بعد موافقة المشرف."
+
+#: includes/registration-functions.php:29
+msgid "First Name"
+msgstr "الاسم الاول"
+
+#: includes/registration-functions.php:34
+msgid "Last Name"
+msgstr "الاسم العائلة"
+
+#: includes/registration-functions.php:40
+msgid "Shop Name"
+msgstr "اسم المتجر"
+
+#: includes/registration-functions.php:45
+msgid "Shop URL"
+msgstr "رابط المتجر"
+
+#: includes/registration-functions.php:52
+msgid "Phone"
+msgstr "الهاتف"
+
+#: includes/registration-functions.php:62
+#: includes/registration-functions.php:76
+msgid "I Accept"
+msgstr "أوافق على"
+
+#: includes/registration-functions.php:62
+#: includes/registration-functions.php:76
+msgid "View Terms of Service"
+msgstr "الاطلاع على شروط الخدمة"
+
+#: includes/registration-functions.php:62
+#: includes/registration-functions.php:76
+msgid "Terms of Service."
+msgstr "شروط الخدمة"
+
+#: includes/registration-functions.php:85
+msgid "I'm a customer"
+msgstr "أنا زبون"
+
+#: includes/registration-functions.php:90
+msgid "I Have a Restaurant"
+msgstr "أنا صاحب مطعم"
+
+#: includes/restaurant-functions.php:87
+msgid "No Ratings Yet!"
+msgstr "لا توجد تقييمات بعد"
+
+#: includes/restaurant-functions.php:99
+#, php-format
+msgid "%1$s Based on "
+msgstr "%1$s استنادا على "
+
+#: includes/restaurant-functions.php:99
+#, php-format
+msgid "%2$s Rating"
+msgid_plural "%2$s Ratings"
+msgstr[0] "%2$s تقيماَ"
+msgstr[1] "%2$s تقيماَ"
+msgstr[2] "%2$s تقيماَ"
+msgstr[3] "%2$s تقيماَ"
+msgstr[4] "%2$s تقيماَ"
+msgstr[5] "%2$s تقيماَ"
+
+#: includes/restaurant-functions.php:109
+msgid "Login to make your review!"
+msgstr "قم بتسجيل الدخول حتى يمكنك التقيم"
+
+#: includes/restaurant-functions.php:111
+msgid "Username or email address"
+msgstr "اسم المستخدم أو البريد الالكتروني"
+
+#: includes/restaurant-functions.php:115
+msgid "Password"
+msgstr "كلمه السر"
+
+#: includes/restaurant-functions.php:119
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: includes/restaurant-functions.php:126
+msgid "Rate"
+msgstr "قيم"
+
+#: includes/restaurant-functions.php:132
+msgid "Submit"
+msgstr "عرض"
+
+#: includes/restaurant-functions.php:316
+msgid "&larr; Previous"
+msgstr "السابق"
+
+#: includes/restaurant-functions.php:317
+msgid "Next &rarr;"
+msgstr "التالي"
+
+#: includes/restaurant-functions.php:363
+msgid "Visit Restaurant"
+msgstr "زور المطعم"
+
+#: includes/restaurant-functions.php:372
+#: templates/restaurant/restaurant-header.php:80
+msgid "See Restaurants that also serve "
+msgstr "شاهد المطاعم التي تقدم "
+
+#: includes/restaurant-functions.php:374
+msgid " Min. Order: "
+msgstr " اصغر طلب: "
+
+#: includes/restaurant-functions.php:374
+#: templates/restaurant/restaurant-header.php:144
+msgid "Any."
+msgstr "بلا حدود"
+
+#: includes/restaurant-functions.php:375
+msgid " Delivery: "
+msgstr " التوصيل: "
+
+#: includes/restaurant-functions.php:375
+#: templates/restaurant/restaurant-header.php:141
+msgid "Free Delivery."
+msgstr "توصيل مجاني"
+
+#: includes/restaurant-functions.php:425
+msgid "Open 24 Hours Today"
+msgstr "مفتوح 24 الساعه"
+
+#: includes/restaurant-functions.php:426
+msgid "Open till "
+msgstr "مفتوح حتى "
+
+#: includes/restaurant-functions.php:428 includes/restaurant-functions.php:433
+#: includes/restaurant-functions.php:440
+msgid " at "
+msgstr " في "
+
+#: includes/restaurant-functions.php:429
+msgid " on "
+msgstr " في "
+
+#: includes/restaurant-functions.php:430
+msgid " tomorrow "
+msgstr " غدا "
+
+#: includes/restaurant-functions.php:432
+msgid " another day "
+msgstr " يوم أخر "
+
+#: includes/restaurant-functions.php:435
+msgid "Opens at "
+msgstr "يفتح في "
+
+#: includes/restaurant-functions.php:436
+msgid "Opens on "
+msgstr "يفتح في "
+
+#: includes/restaurant-functions.php:437
+msgid "Opens Tomorrow "
+msgstr "يفتح غدا "
+
+#: includes/restaurant-functions.php:438
+msgid "Closed Today"
+msgstr "مغلق اليوم"
+
+#: includes/restaurant-functions.php:439
+msgid "Closed"
+msgstr "مغلق"
+
+#: includes/restaurant-functions.php:555 templates/cart.php:28
+#: templates/dishes-listing.php:38
+msgid "Price"
+msgstr "السعر"
+
+#: includes/restaurant-functions.php:574
+msgid "Item is Spicy"
+msgstr "الطبق حار"
+
+#: includes/restaurant-functions.php:576
+msgid "Item is not Spicy"
+msgstr "الطبق ليس حار"
+
+#: includes/restaurant-functions.php:581
+msgid "Quick View"
+msgstr "نظرة سريعة"
+
+#: includes/restaurant-functions.php:592
+msgid "View full details."
+msgstr "عرض كل التفاصيل."
+
+#: includes/restaurant-functions.php:594
+msgid "Fat"
+msgstr "الدهون"
+
+#: includes/restaurant-functions.php:594
+msgid " Grams"
+msgstr " غرام"
+
+#: includes/restaurant-functions.php:597
+msgid "ingredients: "
+msgstr "ألمكونات: "
+
+#: includes/restaurant-functions.php:601
+msgid "Item Rating"
+msgstr "تقيم الطبق"
+
+#: includes/restaurant-functions.php:608 lazyeater.php:244
+msgid "Make Order!"
+msgstr "إطلب"
+
+#: includes/restaurant-functions.php:767
+msgid "Change banner"
+msgstr "تغيير لافنة"
+
+#: includes/restaurant-functions.php:772
+msgid "Upload banner"
+msgstr "تحميل لافتة"
+
+#: includes/restaurant-functions.php:773
+msgid "(Upload a banner for your store. Banner size is (825x300) pixel. )"
+msgstr "(تحميل لافتة لمطعمك. حجم (825x300) بيكسل)."
+
+#: includes/restaurant-functions.php:783
+msgid "Change Photo"
+msgstr "تغيير الصورة"
+
+#: includes/restaurant-functions.php:787
+msgid "Upload Photo"
+msgstr "حمل الصورة"
+
+#: includes/restaurant-functions.php:797 includes/restaurant-functions.php:852
+msgid "Delivery Settings"
+msgstr "إعدادات التوصيل"
+
+#: includes/restaurant-functions.php:798
+msgid "Orders Settings"
+msgstr "عدادات الطلبات"
+
+#: includes/restaurant-functions.php:799 includes/restaurant-functions.php:909
+msgid "Social Profile"
+msgstr "التواصل الاجتماعي"
+
+#: includes/restaurant-functions.php:800 includes/restaurant-functions.php:932
+msgid "Opening/Closing timings"
+msgstr "أوقات الدوام"
+
+#: includes/restaurant-functions.php:801
+msgid "Withdraw Method"
+msgstr "أساليب السحب"
+
+#: includes/restaurant-functions.php:802 includes/restaurant-functions.php:1016
+msgid "Restaurant Tables"
+msgstr "طاولات المطعم"
+
+#: includes/restaurant-functions.php:807
+msgid "General Info"
+msgstr "معلومات عامة"
+
+#: includes/restaurant-functions.php:809
+msgid "Restaurant Name"
+msgstr "أسم المطعم"
+
+#: includes/restaurant-functions.php:810
+msgid "e.g. BOB's Pizza"
+msgstr "على سبيل المثال: بيتزا أبو علي"
+
+#: includes/restaurant-functions.php:813
+msgid "Contact Number"
+msgstr "ارقام التواصل"
+
+#: includes/restaurant-functions.php:814
+msgid "e.g. +967 771 232 977"
+msgstr "على سبيل المثال: +155496843"
+
+#: includes/restaurant-functions.php:817
+msgid "Restaurant Address/Addresses"
+msgstr "عنوان/عناوين المطعم"
+
+#: includes/restaurant-functions.php:817
+msgid ""
+"Type address and hit the comma button. If your restaurant have branches, "
+"enter all branches addresses separated with commas."
+msgstr ""
+"اكتب عنوان واضغط على زر الفاصلة. إذا مطعمك له فروع، أدخل كل عناوين الفروع "
+"مفارقة بفواصل."
+
+#: includes/restaurant-functions.php:818
+msgid "e.g. Seasons Mall, Town Mall"
+msgstr "مثلا مواسم مول، تاون مول"
+
+#: includes/restaurant-functions.php:821
+msgid "Restaurant Cuisine"
+msgstr "المطبخ"
+
+#: includes/restaurant-functions.php:821
+msgid ""
+"i.e Italian, Indian, Fast Food, Fine Dining .. etc. Type first two/three "
+"letters and choose from list, if the list doesn't appear then complete "
+"typing and hit the comma button."
+msgstr ""
+"مثلا: الإيطالية او الهندية، الوجبات السريعة، مأكولات شعبية .. الخ اكتب "
+"الحرفين / الثلاثة الأولى واختيار من القائمة، إذا لم تظهر قائمة المطابخ، اكمل "
+"الكتابة وضرب زر فاصلة."
+
+#: includes/restaurant-functions.php:825
+msgid "Food Types Served"
+msgstr "فئات المأكولات المقدمة"
+
+#: includes/restaurant-functions.php:833
+msgid "Sea Food."
+msgstr "مأكولات بحرية"
+
+#: includes/restaurant-functions.php:839
+msgid ""
+"Road/Street names. Type first two/three letters and choose from list, if the "
+"list doesn't appear then complete typing and hit the comma button."
+msgstr ""
+"أسماء الطرق / الشوارع. اكتب أول اثنين / ثلاثة حروف واختيار من القائمة، إذا "
+"لم تظهر القائمة، اكمل الكتابة وضرب زر فاصلة."
+
+#: includes/restaurant-functions.php:843
+msgid "Show email address in restaurant page."
+msgstr "إظهار عنوان البريد الإلكتروني في صفحة مطعم."
+
+#: includes/restaurant-functions.php:847
+msgid "Allow receiving emails form your store page."
+msgstr "السماح بتلقي رسائل البريد الإلكتروني من صفحة مطعمك."
+
+#: includes/restaurant-functions.php:854
+msgid "Delivery Fee "
+msgstr "رسوم التوصيل "
+
+#: includes/restaurant-functions.php:858
+msgid "Calculate Delivery by"
+msgstr "احتساب رسوم التوصيل بـ"
+
+#: includes/restaurant-functions.php:862
+msgid "Order."
+msgstr "الطلب."
+
+#: includes/restaurant-functions.php:866
+msgid "Item."
+msgstr "الصنف."
+
+#: includes/restaurant-functions.php:871
+msgid "Per additional item fee "
+msgstr "رسم إضافي لكل طبق إضافي "
+
+#: includes/restaurant-functions.php:875
+msgid "Delivery Duration (In Minutes)"
+msgstr "مدة التوصيل"
+
+#: includes/restaurant-functions.php:879
+msgid "Minimum order amount "
+msgstr "الحد الأدنى للطلب "
+
+#: includes/restaurant-functions.php:885
+msgid "Allow Orders Even while closed."
+msgstr "استقبل الطلبات خارج أوقات الدوام"
+
+#: includes/restaurant-functions.php:889
+msgid "Accepted Order Types"
+msgstr "الطلبات المقبولة"
+
+#: includes/restaurant-functions.php:898
+msgid "Accepted Order Types when Closed"
+msgstr "الطلبات المقبولة خارج أوقات الدوام"
+
+#: includes/restaurant-functions.php:911
+msgid "Facebook Account "
+msgstr "حسابة الفيسبوك "
+
+#: includes/restaurant-functions.php:915
+msgid "Google plus"
+msgstr "حساب جوجل بلس"
+
+#: includes/restaurant-functions.php:919
+msgid "Twitter Account"
+msgstr "حساب تويتر"
+
+#: includes/restaurant-functions.php:923
+msgid "Linkedin"
+msgstr "حساب لينكدن"
+
+#: includes/restaurant-functions.php:927
+msgid "Youtube"
+msgstr "حساب يوتوب"
+
+#: includes/restaurant-functions.php:933
+msgid ""
+"Set your timing in 24 hour format. for example, if your restaurant opens "
+"from 01:00 pm till 06:00 pm, enter 13:00 in the opening input and 18:00 in "
+"the closing input. If your restaurant opens 24 hours, enter 00:00 in both, "
+"opening and closing inputs."
+msgstr ""
+"تعيين التوقيت الخاص بك في شكل 24 ساعة. على سبيل المثال، إذا فتح المطعم الخاص "
+"بك من 1:00 حتى 6:00، أدخل 13:00 في خانة الفتح و18:00 في خانة الإغلاق. إذا "
+"فتح مطعم على مدار 24 ساعة، أدخل 00:00 في كليهما."
+
+#: includes/restaurant-functions.php:935
+msgid "Saturday"
+msgstr "يوم السبت"
+
+#: includes/restaurant-functions.php:936
+msgid "Sunday"
+msgstr "الأحد"
+
+#: includes/restaurant-functions.php:937
+msgid "Monday"
+msgstr "الإثنين"
+
+#: includes/restaurant-functions.php:938
+msgid "Tuesday"
+msgstr "الثلاثاء"
+
+#: includes/restaurant-functions.php:939
+msgid "Wednesday"
+msgstr "الأربعاء"
+
+#: includes/restaurant-functions.php:940
+msgid "Thursday"
+msgstr "الخميس"
+
+#: includes/restaurant-functions.php:941
+msgid "Friday"
+msgstr "الجمعة"
+
+#: includes/restaurant-functions.php:952
+msgid "Open"
+msgstr "مفتوح"
+
+#: includes/restaurant-functions.php:956
+msgid "Two Shifts"
+msgstr "ورديتان"
+
+#: includes/restaurant-functions.php:962
+msgid "Shift One Opening"
+msgstr "بداية الوردية الأولى"
+
+#: includes/restaurant-functions.php:964
+msgid "Shift One Closing"
+msgstr "نهاية الوردية الثانية"
+
+#: includes/restaurant-functions.php:968
+msgid "Shift two Opening"
+msgstr "بداية الوردية الثانية"
+
+#: includes/restaurant-functions.php:970
+msgid "Shift two Closing"
+msgstr "نهاية الوردية الثانية"
+
+#: includes/restaurant-functions.php:978
+msgid "Unavailable Dates (mm/dd/yyyy)"
+msgstr "تواريخ يتم فيها إغلاق المطعم"
+
+#: includes/restaurant-functions.php:995
+msgid "Add new unavailable date"
+msgstr "أضف تاريخ جديد"
+
+#: includes/restaurant-functions.php:1001
+msgid "Withdraw Payment Method"
+msgstr "طرق دفع المسحوبات"
+
+#: includes/restaurant-functions.php:1018
+msgid "Show Restaurant Tables."
+msgstr "أظهر طاولات المطعم"
+
+#: includes/restaurant-functions.php:1028
+msgid "Number of Seats"
+msgstr "عدد المقاعد"
+
+#: includes/restaurant-functions.php:1028
+msgid ""
+"Enter the maximum number of people the table fits, so if the table fits 4 or "
+"6 people, write 6."
+msgstr ""
+"أدخل أقصى عدد يمكن للطاولة استقباله، إذا كانت الطاولة تناسب 4 أو 6 أشخاص، "
+"اكتب 6."
+
+#: includes/restaurant-functions.php:1032
+msgid "Tables Numbers/Titles"
+msgstr "ارقام/أسماء الطاولات"
+
+#: includes/restaurant-functions.php:1032
+msgid "Separate by commas. i.e. n20, z22, x32"
+msgstr "فرق بين الأسماء/الأرقام بزر الفاصلة"
+
+#: includes/restaurant-functions.php:1033
+msgid "n20, z22, x32,"
+msgstr "22، 23، 24"
+
+#: includes/restaurant-functions.php:1036
+msgid "Available Table Shapes"
+msgstr "إشكال الطاولات المتوفرة"
+
+#: includes/restaurant-functions.php:1040
+msgid "Circle."
+msgstr "دائرة"
+
+#: includes/restaurant-functions.php:1044
+msgid "Square."
+msgstr "مربعة"
+
+#: includes/restaurant-functions.php:1049
+msgid "Notes"
+msgstr "ملاحظات"
+
+#: includes/restaurant-functions.php:1049
+msgid ""
+"Write some notes about this group of tables. i.e. Table n20 has a clear view "
+"on the beach."
+msgstr "اكتب بعض الملاحظات حول هذه المجموعة من الطاولات."
+
+#: includes/restaurant-functions.php:1050
+msgid "Table n20 has a clear view on the beach."
+msgstr "الطاولة 20 تطل على البحر"
+
+#: includes/restaurant-functions.php:1055
+msgid "Add New Tables Group"
+msgstr "أضف مجموعة طاولات جديدة"
+
+#: includes/restaurant-functions.php:1091
+msgid ""
+"We did not find a table with an exact seats number you requested but you can "
+"also check these tables. "
+msgstr ""
+"لم نجد طاولة بعدد المقاعد التي طلبتها ولكن يمكنك أيضا طلب هذه الطاولات."
+
+#: includes/restaurant-functions.php:1093
+msgid ""
+"We did not find a table with an exact seats number you requested but we will "
+"manage to add extra seats on the table."
+msgstr ""
+"لم نجد طاولة بعدد المقاعد التي طلبتها ولكننا سنعمل على إضافة مقاعد إضافية "
+"على الطاولة."
+
+#: includes/restaurant-functions.php:1097
+msgid "Seats:"
+msgstr "المقاعد"
+
+#: includes/restaurant-functions.php:1102
+msgid "Tables Titles/Numbers:"
+msgstr "ارقام/أسماء الطاولات"
+
+#: includes/restaurant-functions.php:1106
+msgid "Available Shapes:"
+msgstr "إشكال الطاولات المتوفرة"
+
+#: includes/restaurant-functions.php:1106
+msgid "Other"
+msgstr "أخرى"
+
+#: includes/restaurant-functions.php:1110
+msgid "Notes:"
+msgstr "ملاحظات"
+
+#: includes/restaurant-functions.php:1113
+msgid "Call now to reserve:"
+msgstr "أتصل للحجز"
+
+#: includes/sellers-functions.php:50
+#, php-format
+msgid "Active Sellers (%d)"
+msgstr "البائعين المفعلين (%d)"
+
+#: includes/sellers-functions.php:53
+#, php-format
+msgid "Inactive Sellers (%d)"
+msgstr "البائعين الغير مفعلين (%d)"
+
+#: includes/sellers-functions.php:56
+msgid "Top Sellers"
+msgstr "البائعين الأكثر مبيعا"
+
+#: includes/sellers-functions.php:58
+msgid "Send Invitation!"
+msgstr "أرسل دعوة!"
+
+#: includes/sellers-functions.php:68
+msgid "Send Invitation"
+msgstr "أرسل دعوة"
+
+#: includes/sellers-functions.php:69
+msgid "Send an invitation to a vendor to join your restaurant network."
+msgstr "أرسل دعوة للانضمام إلى الموقع"
+
+#: includes/sellers-functions.php:72
+msgid "Email of recipient"
+msgstr "البريد الإلكتروني للشخص / المطعم"
+
+#: includes/sellers-functions.php:75
+msgid "Invitation Subject"
+msgstr "موضوع رسالة الدعوة"
+
+#: includes/sellers-functions.php:78
+msgid "Invitation Message"
+msgstr "نص رسالة الدعوة"
+
+#: includes/sellers-functions.php:80
+msgid "Send"
+msgstr "ارسل"
+
+#: includes/sellers-functions.php:98
+#: includes/woo-views/html-product-attribute.php:12
+#: includes/woo-views/html-variation-admin.php:206
+#: templates/dishes-listing.php:34
+msgid "Name"
+msgstr "الاسم"
+
+#: includes/sellers-functions.php:99
+msgid "Email"
+msgstr "البريد الالكتروني"
+
+#: includes/sellers-functions.php:100
+msgid "Active Seller"
+msgstr "بائع مفعل"
+
+#: includes/sellers-functions.php:102
+msgid "Balance"
+msgstr "الرصيد"
+
+#: includes/sellers-functions.php:103
+msgid "Phone & Address"
+msgstr "الهاتف / العنوان"
+
+#: includes/sellers-functions.php:147
+msgid "Sellers ordered by highest completed orders."
+msgstr "البائعين بحسب اكبر عدد من الطلبات الناجحة"
+
+#: includes/sellers-functions.php:161
+msgid "Sorry, no sellers found!"
+msgstr "عذرا، لا يوجد بائعين!"
+
+#: includes/sellers-functions.php:194
+msgid "Processing:"
+msgstr "تحت المعالجة"
+
+#: includes/sellers-functions.php:194
+msgid "Completed:"
+msgstr "منجز"
+
+#: includes/sellers-functions.php:206
+msgid "Activate Selling"
+msgstr "تمكين البيع"
+
+#: includes/sellers-functions.php:206
+msgid "Activate/Deactivated selling privileges for this seller."
+msgstr "تفعيل/تعطيل قدرات البيع لهذا البائع"
+
+#: includes/sellers-functions.php:208
+msgid "Activated."
+msgstr "مفعل"
+
+#: includes/sellers-functions.php:211
+msgid "Deactivated."
+msgstr "غير مفعل"
+
+#: includes/sellers-functions.php:217
+msgid "The percentage this seller will get after each sale."
+msgstr "النسبة التي سيحصل عليها هذا البائع بعد كل طلب"
+
+#: includes/withdraw-functions.php:22
+msgid "Withdraw Requests Post Types"
+msgstr "طلبات السحب"
+
+#: includes/withdraw-functions.php:46
+msgctxt "Status General Name"
+msgid "Completed"
+msgstr "منجز"
+
+#: includes/withdraw-functions.php:73
+msgid "Withdraw Request"
+msgstr "طلب سحب"
+
+#: includes/withdraw-functions.php:83
+#, php-format
+msgid "Rejected (%d)"
+msgstr "ألغيت (%d)"
+
+#: includes/withdraw-functions.php:95
+msgid "Current Balance:"
+msgstr "الرصيد الحالي"
+
+#: includes/withdraw-functions.php:121
+msgid "Request ID"
+msgstr "رقم الطلب"
+
+#: includes/withdraw-functions.php:126
+msgid "Restaurant ID"
+msgstr "رقم المطعم"
+
+#: includes/withdraw-functions.php:129
+msgid "Reject Note"
+msgstr "ملاحظة الرفض"
+
+#: includes/withdraw-functions.php:143
+msgid "View Invoice"
+msgstr "شاهد الفاتورة"
+
+#: includes/withdraw-functions.php:144
+msgid "Are you sure?"
+msgstr "هل انت متأكد؟"
+
+#: includes/withdraw-functions.php:144
+msgid "Delete Request"
+msgstr "حذف الطلب"
+
+#: includes/withdraw-functions.php:147
+msgid "View Via Details"
+msgstr "شاهد من خلال التفاصيل"
+
+#: includes/withdraw-functions.php:150
+msgid "View Restaurant Balance"
+msgstr "شاهد الرصيد الحالي للمطعم"
+
+#: includes/withdraw-functions.php:178
+msgid "Sorry, no transactions found!"
+msgstr "عذرا، لا توجد معاملات!"
+
+#: includes/withdraw-functions.php:195
+msgid ""
+"You've already pending withdraw request(s). Until it's been rejected or "
+"approved, you can't submit any new request."
+msgstr ""
+"لديك طلب قيد الانتظار. حتى يتم رفضه أو الموافقة عليه، لا يمكن تقديم أي طلب "
+"جديد."
+
+#: includes/withdraw-functions.php:200
+msgid "You don't have sufficient balance for a withdraw request!"
+msgstr "ليس لديك رصيد كاف لتقديم طلب سحب!"
+
+#: includes/withdraw-functions.php:223
+msgid "Withdraw Amount "
+msgstr "المبلغ المسحوب "
+
+#: includes/withdraw-functions.php:226
+msgid "Payment Method"
+msgstr "طريقة الدفع"
+
+#: includes/withdraw-functions.php:247
+msgid "Change Invoice Image"
+msgstr "تغير الفاتورة"
+
+#: includes/withdraw-functions.php:251
+msgid "Upload Invoice Image"
+msgstr "حمل الفاتورة"
+
+#: includes/withdraw-functions.php:256
+msgid "Update Request Status"
+msgstr "تحديث حالة طلب السحب"
+
+#: includes/withdraw-functions.php:260
+msgid "Rejected"
+msgstr "رفض"
+
+#: includes/withdraw-functions.php:262
+msgid "Paid"
+msgstr "مدفوع"
+
+#: includes/withdraw-functions.php:265
+msgid "Withdraw Reject Note"
+msgstr "ملاحظة الرفض"
+
+#: includes/withdraw-functions.php:266
+msgid "Few lines on why you've rejected the witdraw request"
+msgstr "أسباب رفض الطلب"
+
+#: includes/withdraw-functions.php:271
+msgid "Submit Request"
+msgstr "تقديم الطلب"
+
+#: includes/withdraw-functions.php:271
+msgid "Update Request"
+msgstr "تحديث الطلب"
+
+#: includes/withdraw-functions.php:415
+msgid "PayPal"
+msgstr "باي بال"
+
+#: includes/withdraw-functions.php:486 includes/withdraw-functions.php:501
+msgid "E-mail"
+msgstr "البريد الإلكتروني"
+
+#: includes/withdraw-functions.php:520
+msgid "Name of bank"
+msgstr "اسم البنك"
+
+#: includes/withdraw-functions.php:549
+#, php-format
+msgid "Account Name: %s"
+msgstr "أسم صاحب الحساب: %s"
+
+#: includes/withdraw-functions.php:552
+#, php-format
+msgid "Account Number: %s"
+msgstr "رقم الحساب: %s"
+
+#: includes/withdraw-functions.php:555
+#, php-format
+msgid "Bank Name: %s"
+msgstr "اسم البنك: %s"
+
+#: includes/withdraw-functions.php:558
+#, php-format
+msgid "Address: %s"
+msgstr "العنوان: %s"
+
+#: includes/withdraw-functions.php:561
+#, php-format
+msgid "SWIFT: %s"
+msgstr "SWIFT: %s"
+
+#: includes/woo-views/html-product-attribute.php:3
+#: includes/woo-views/html-variation-admin.php:17
+msgid "Remove"
+msgstr "إزالة"
+
+#: includes/woo-views/html-product-attribute.php:25
+msgid "Value(s)"
+msgstr "القيم"
+
+#: includes/woo-views/html-product-attribute.php:40
+msgid "Select all"
+msgstr "تحديد الكل"
+
+#: includes/woo-views/html-product-attribute.php:41
+msgid "Select none"
+msgstr "عدم نحديد"
+
+#: includes/woo-views/html-product-attribute.php:42
+msgid "Add new"
+msgstr "أضف جديد"
+
+#: includes/woo-views/html-product-attribute.php:51
+#, php-format
+msgid "\"%s\" separate terms"
+msgstr "\"%s\" أصناف متفرقة"
+
+#: includes/woo-views/html-product-attribute.php:59
+#, php-format
+msgid "Enter some text, or some attributes by \"%s\" separating values."
+msgstr "أدخل بعض النص، أو بعض الصفات وفرق بينها بـ \"%s\" ."
+
+#: includes/woo-views/html-product-attribute.php:66
+msgid "Visible on the product page"
+msgstr "مرئية على صفحة المنتج"
+
+#: includes/woo-views/html-product-attribute.php:72
+msgid "Used for variations"
+msgstr "تستخدم للتباينات"
+
+#: includes/woo-views/html-product-download.php:5
+#: includes/woo-views/html-product-variation-download.php:4
+msgid "Choose file"
+msgstr "اختر ملف"
+
+#: includes/woo-views/html-product-download.php:6
+#: includes/woo-views/html-product-variation-download.php:5
+msgid "Delete"
+msgstr "حذف"
+
+#: includes/woo-views/html-variation-admin.php:33
+msgid "Any"
+msgstr "أي"
+
+#: includes/woo-views/html-variation-admin.php:64
+msgid "Remove this image"
+msgstr "إزالة هذه الصورة"
+
+#: includes/woo-views/html-variation-admin.php:64
+msgid "Upload an image"
+msgstr "حمل صورة"
+
+#: includes/woo-views/html-variation-admin.php:76
+msgid "Enabled"
+msgstr "تمكين"
+
+#: includes/woo-views/html-variation-admin.php:93
+msgid "Regular Price:"
+msgstr "السعر الاساسي"
+
+#: includes/woo-views/html-variation-admin.php:97
+msgid "Sale Price:"
+msgstr "السعر بعد الخصم"
+
+#: includes/woo-views/html-variation-admin.php:97
+msgid "Cancel schedule"
+msgstr "إلغاء الجدول"
+
+#: includes/woo-views/html-variation-admin.php:103
+msgid "Sale start date:"
+msgstr "تاريخ البدء بالسعر المخفض"
+
+#: includes/woo-views/html-variation-admin.php:107
+msgid "Sale end date:"
+msgstr "تاريخ إنتهاء السعر المخفض"
+
+#: includes/woo-views/html-variation-admin.php:116
+msgid "Stock Qty:"
+msgstr "كمية المخزون"
+
+#: includes/woo-views/html-variation-admin.php:157
+msgid "Dimensions (L&times;W&times;H)"
+msgstr "الأبعاد (الطول X العرض)"
+
+#: includes/woo-views/html-variation-admin.php:195
+msgid "Variation Description:"
+msgstr "وصف التباين"
+
+#: includes/woo-views/html-variation-admin.php:202
+msgid "Downloadable Files"
+msgstr "الملفات القابلة للتنزيل"
+
+#: includes/woo-views/html-variation-admin.php:207
+msgid "File URL"
+msgstr "رابط الملف"
+
+#: includes/woo-views/html-variation-admin.php:237
+msgid "Add File"
+msgstr "أضف ملف"
+
+#: includes/woo-views/html-variation-admin.php:246
+msgid "Download Limit:"
+msgstr "عدد التنزيل المسموح"
+
+#: includes/woo-views/html-variation-admin.php:250
+msgid "Download Expiry:"
+msgstr "انتهاء صلاحية التنزيل"
+
+#: lazyeater.php:113
+msgid "Visit Premium Customer Support Forum"
+msgstr "قم بزيارة منتديات خدمة العملاء"
+
+#: lazyeater.php:113
+msgid "Premium Support"
+msgstr "خدمة عملاء مميزة"
+
+#: lazyeater.php:188
+msgid "Variation menu order (determines position in the list of variations)"
+msgstr "ترتيب قوائم التباينات (هذا يبين مواقع التباينات)"
+
+#: lazyeater.php:189
+msgid "Remove this attribute?"
+msgstr "إزالة هذه السمة"
+
+#: lazyeater.php:190
+msgid "Enter a name for the new attribute term:"
+msgstr "ادخل اسم للسمة الجديدة للصنف"
+
+#: lazyeater.php:191
+msgid "Featured"
+msgstr "متميز"
+
+#: lazyeater.php:199
+msgid "Available"
+msgstr "متوفر"
+
+#: lazyeater.php:199
+msgid "Not Available"
+msgstr "غير متوفر"
+
+#: lazyeater.php:201
+msgid ""
+"Your product has variations! Before changing the product type, it is a good "
+"idea to delete the variations to avoid errors in the stock reports."
+msgstr ""
+"المنتج لديه تباينات! قبل تغيير نوع المنتج، انها فكرة جيدة لحذف التباينات "
+"لتجنب الأخطاء في التقرير المخزني."
+
+#: lazyeater.php:204
+msgid "Choose an image"
+msgstr "أختر صورة"
+
+#: lazyeater.php:205
+msgid "Set variation image"
+msgstr "عين صورة للتباين"
+
+#: lazyeater.php:206
+msgid "Save changes before changing page?"
+msgstr "حفظ التغييرات قبل تغيير الصفحة؟"
+
+#: lazyeater.php:210
+msgid "Are you sure you want to remove this variation?"
+msgstr "هل أنت متأكد أنك تريد إزالة هذا التباين؟"
+
+#: lazyeater.php:212
+msgid ""
+"Are you sure you want to link all variations? This will create a new "
+"variation for each and every possible combination of variation attributes "
+"(max 50 per run)."
+msgstr ""
+"هل أنت متأكد أنك تريد ربط كل التباينات؟ هذا سيخلق تباين لكل الاحتمالات "
+"الممكنة في جمع السمات (بحد أقصى 50 في المدى)."
+
+#: lazyeater.php:214
+msgid "variation added"
+msgstr "تم إضافة التباين"
+
+#: lazyeater.php:215
+msgid "variations added"
+msgstr "تم إضافة التباينات"
+
+#: lazyeater.php:216
+msgid "No variations added"
+msgstr "لم يتم إضافة أي تباينات"
+
+#: lazyeater.php:217
+msgid "Are you sure you want to delete all variations? This cannot be undone."
+msgstr ""
+"هل أنت متأكد أنك تريد حذف كل التباينات؟ هذه الخطوة لا يمكن التراجع عنها."
+
+#: lazyeater.php:218
+msgid "Last warning, are you sure?"
+msgstr "التحذير الأخير، هل أنت متأكد؟"
+
+#: lazyeater.php:219
+msgid "Enter a value (fixed or %)"
+msgstr "أدخل قيمة (ثابتة أو٪)"
+
+#: lazyeater.php:221
+msgid "Enter a value"
+msgstr "أدخل قيمة"
+
+#: lazyeater.php:222
+msgid "Sale start date (YYYY-MM-DD format or leave blank)"
+msgstr "تاريخ البدء بالسعر المخفض (الشكل-MM-DD YYYY أو اتركه فارغا)"
+
+#: lazyeater.php:223
+msgid "Sale end date (YYYY-MM-DD format or leave blank)"
+msgstr "تاريخ الانتهاء للسعر المخفض (الشكل-MM-DD YYYY أو اتركه فارغا)"
+
+#: lazyeater.php:225
+msgid "%qty% variation"
+msgstr "كمية التباين"
+
+#: lazyeater.php:226
+msgid "%qty% variations"
+msgstr "كمية التباينات"
+
+#: lazyeater.php:240
+msgid "Are you sure you want to delete this item permanently?"
+msgstr "هل أنت متأكد أنك تريد حذف هذا الصنف بشكل نهائي؟"
+
+#: lazyeater.php:242 templates/dishes-listing.php:26
+msgid "Add new product"
+msgstr "أضف منتج جديد"
+
+#: lazyeater.php:243
+msgid "View product"
+msgstr "مشاهدة المنتج"
+
+#: lazyeater.php:245
+msgid "Back!"
+msgstr "تراجع"
+
+#: lazyeater.php:247
+msgid "Are you sure you want to delete this withdraw request!"
+msgstr "هل أنت متأكد أنك تريد حذف طرية السحب هذه؟"
+
+#: lazyeater.php:251
+msgid "Are you sure you want to delete this coupon!"
+msgstr "هل أنت متأكد أنك تريد حذف هذه القسيمة؟"
+
+#: lazyeater.php:257
+msgid "Fail to connect, please check your internet connection."
+msgstr "فشل في الاتصال بالأنترنت. الرجاء فحص الشبكة"
+
+#: lazyeater.php:267
+msgid "No row selected"
+msgstr "لم يحدد الصف"
+
+#: lazyeater.php:268
+msgid "Product ID"
+msgstr "رقم المنتج"
+
+#: lazyeater.php:269
+msgid "Country Code"
+msgstr "رمز البلد"
+
+#: lazyeater.php:270
+msgid "State/County Code"
+msgstr "رمز المقاطعة"
+
+#: lazyeater.php:271
+msgid "Zip/Postal Code"
+msgstr "الرمز البريدي"
+
+#: lazyeater.php:272 templates/orders/order-details.php:72
+msgid "Cost"
+msgstr "الكلفة"
+
+#: lazyeater.php:273
+msgid "Item Cost"
+msgstr "تكلفة الصنف"
+
+#: metaboxes/dish_details.php:66
+msgid "Dish Details"
+msgstr "تفاصيل الطبق"
+
+#: metaboxes/dish_details.php:145
+msgid "A Veg Dish."
+msgstr "طبق خضار"
+
+#: metaboxes/dish_details.php:150
+msgid "A Non-Veg Dish."
+msgstr "طبق غير خضار"
+
+#: metaboxes/dish_details.php:155
+msgid "Dish is Spicy"
+msgstr "طبق حار"
+
+#: metaboxes/dish_details.php:160
+msgid "Show Fat Amount?"
+msgstr "إظهار مقدار الدهون."
+
+#: templates/cart.php:29
+msgid "Quantity"
+msgstr "كمية "
+
+#: templates/cart.php:51
+msgid "Remove this item"
+msgstr "حذف الصنف"
+
+#: templates/cart.php:135
+msgid "Coupon"
+msgstr "القسيمة"
+
+#: templates/coupons.php:19
+msgid "Add/Manage Discount Coupons."
+msgstr "أضف/عدل قسائم الخصم"
+
+#: templates/dashboard-nav.php:16
+msgid "Dashboard Menu"
+msgstr "لوحة التحكم"
+
+#: templates/dashboard.php:20
+msgid "Dashboard Home"
+msgstr "لوحة التحكم"
+
+#: templates/dashboard.php:20
+msgid "Quick Reports and statistics."
+msgstr "تقارير واحصائيات مختصرة"
+
+#: templates/dish-edit.php:19
+msgid "Edit Dish"
+msgstr "تعديل الطبق"
+
+#: templates/dish-edit.php:19
+msgid "Modify/Update your dish."
+msgstr "عدل / حدث الطبق"
+
+#: templates/dishes-listing.php:14
+msgid "Dishes"
+msgstr "الاطباق"
+
+#: templates/dishes-listing.php:14
+msgid "Your menu dishes list."
+msgstr "قائمة الاطباق"
+
+#: templates/dishes-listing.php:33
+msgid "Image"
+msgstr "صورة"
+
+#: templates/dishes-listing.php:39
+msgid "Type"
+msgstr "نوع"
+
+#: templates/dishes-listing.php:40
+msgid "Views"
+msgstr "مشاهدات"
+
+#: templates/dishes-listing.php:77
+msgid "edit product"
+msgstr "تعديل المنتج"
+
+#: templates/dishes-listing.php:85
+msgid "Delete Permanently"
+msgstr "خذف نهائي"
+
+#: templates/dishes-listing.php:128
+msgid "External/Affiliate"
+msgstr "خارجي / دال"
+
+#: templates/dishes-listing.php:132
+msgid "Virtual"
+msgstr "افتراضي"
+
+#: templates/dishes-listing.php:165
+msgid "Published"
+msgstr "تم النشر"
+
+#: templates/dishes-listing.php:167
+msgid "Last Modified"
+msgstr "أخر تعديل"
+
+#: templates/dishes-listing.php:176
+msgid "No product found"
+msgstr "لا توجد منتجات"
+
+#: templates/new_dish.php:19
+msgid "New Dish"
+msgstr "طبق جديد"
+
+#: templates/new_dish.php:19
+msgid "Add a new dish to your menu."
+msgstr "إضافة طبق جديد إلى القائمة الخاصة بك."
+
+#: templates/orders.php:22
+msgid "Manage your restaurant orders."
+msgstr "أدارة الطلبات"
+
+#: templates/orders.php:28
+msgid "&larr; Orders"
+msgstr "الطلبات &larr;"
+
+#: templates/orders/html-order-fee.php:18
+msgid "Fee"
+msgstr "رسوم"
+
+#: templates/orders/html-order-item.php:25
+msgid "Product ID:"
+msgstr "رقم المنتج"
+
+#: templates/orders/html-order-item.php:28
+#: templates/orders/html-order-item.php:30
+msgid "Variation ID:"
+msgstr "رقم التباين"
+
+#: templates/orders/html-order-item.php:30
+msgid "No longer exists"
+msgstr "لم يعد موجود"
+
+#: templates/orders/html-order-item.php:34
+msgid "Product SKU:"
+msgstr "الرمز التسلسلي للمنتج"
+
+#: templates/orders/order-details.php:18
+msgid "This is not yours, I swear!"
+msgstr "هذا لا يتبعك!"
+
+#: templates/orders/order-details.php:63
+msgid "Order Items"
+msgstr "أطلب الأصناف"
+
+#: templates/orders/order-details.php:73
+msgid "Qty"
+msgstr "الكمية"
+
+#: templates/orders/order-details.php:80 templates/orders/order-details.php:81
+msgid "Tax"
+msgstr "الضريبة"
+
+#: templates/orders/order-details.php:131
+msgid "Coupon(s) Used"
+msgstr "القسائم المستخدمة"
+
+#: templates/orders/order-details.php:144
+msgid "Discount"
+msgstr "التخفيض"
+
+#: templates/orders/order-details.php:194
+msgid "Billing Address"
+msgstr "عنوان الفاتورة"
+
+#: templates/orders/order-details.php:203
+msgid "Shipping Address"
+msgstr "عنوان الشحن"
+
+#: templates/orders/order-details.php:212
+msgid "General Details"
+msgstr "المعلومات العامة"
+
+#: templates/orders/order-details.php:216
+msgid "Order Status:"
+msgstr "حالة الطلب"
+
+#: templates/orders/order-details.php:220
+msgid "Order Date:"
+msgstr "تاريخ الطلب"
+
+#: templates/orders/order-details.php:226
+msgid "Customer:"
+msgstr "الزبون:"
+
+#: templates/orders/order-details.php:234
+msgid "Email:"
+msgstr "البريد:"
+
+#: templates/orders/order-details.php:238
+msgid "Phone:"
+msgstr "الهاتف:"
+
+#: templates/orders/order-details.php:242
+msgid "Customer IP:"
+msgstr "أي بي المستخدم:"
+
+#: templates/orders/order-details.php:253
+msgid "Customer Note:"
+msgstr "ملاحظة الزبون:"
+
+#: templates/orders/order-details.php:262
+msgid "Order Notes"
+msgstr "ملاحظات الطلب:"
+
+#: templates/orders/order-details.php:293
+#, php-format
+msgid "added on %1$s at %2$s"
+msgstr "أضف في %1$s في %2$s"
+
+#: templates/orders/order-details.php:294
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: templates/orders/order-details.php:302
+msgid "There are no notes yet."
+msgstr "لا توجد ملاحظات بعد."
+
+#: templates/orders/order-details.php:308
+msgid "Add note"
+msgstr "أضف ملاحظة"
+
+#: templates/orders/order-details.php:314
+msgid "Private note"
+msgstr "ملاحظة خاصة"
+
+#: templates/orders/order-details.php:315
+msgid "Note to customer"
+msgstr "ملاحظة للزبون"
+
+#: templates/restaurant/restaurant-header.php:14
+msgid "order"
+msgstr "طلب"
+
+#: templates/restaurant/restaurant-header.php:14
+msgid "product"
+msgstr "منتج"
+
+#: templates/restaurant/restaurant-header.php:37
+msgid "Find a Table"
+msgstr "أبحث عن طاولة"
+
+#: templates/restaurant/restaurant-header.php:38
+msgid "Number of Seats?"
+msgstr "عدد المقاعد؟"
+
+#: templates/restaurant/restaurant-header.php:39
+msgid "Search Tables"
+msgstr "ابحث عن الطاولات"
+
+#: templates/restaurant/restaurant-header.php:45
+msgid "Contact Restaurant"
+msgstr "تواصل مع المطعم"
+
+#: templates/restaurant/restaurant-header.php:127
+msgid "Restaurant Address"
+msgstr "عنوان المطعم"
+
+#: templates/restaurant/restaurant-header.php:129
+msgid "View Tables"
+msgstr "مشاهدة الطاولات"
+
+#: templates/restaurant/restaurant-header.php:137
+msgid "Delivers in "
+msgstr "التوصيل خلال "
+
+#: templates/restaurant/restaurant-header.php:141
+msgid "Delivery Fee."
+msgstr "تكلفة التوصيل"
+
+#: templates/restaurant/restaurant-header.php:141
+msgid "Per"
+msgstr "لكل"
+
+#: templates/restaurant/restaurant-header.php:144
+msgid "Minimun Order Amount for Delivery."
+msgstr "الحد الأدنى للطلب حتى يتم التوصيل"
+
+#: templates/restaurants.php:15
+msgid "Most Popular Restaurants"
+msgstr "المطاعم الأكثر شعبية"
+
+#: templates/restaurants.php:19
+msgid "Restaurants by Food Type"
+msgstr "المطاعم بحسب نوع الطعام المقدم"
+
+#: templates/restaurants.php:21
+msgid "All Restaurants"
+msgstr "كل المطاعم"
+
+#: templates/sellers.php:18
+msgid "Sellers Registered in Your Website."
+msgstr "البائعين المسجلين في موقعك"
+
+#: templates/settings.php:20
+msgid "Restaurant Settings"
+msgstr "إعدادات المطعم"
+
+#: templates/settings.php:20
+msgid "Manage your Account."
+msgstr "أدر حسابك"
+
+#: templates/taxonomy-address-location.php:16
+msgid "Filter by restaurants Addresses: "
+msgstr "البحث من خلال عناوين المطاعم"
+
+#: templates/taxonomy-cuisine.php:17
+msgid "Filter by Cuisine: "
+msgstr "البحث بالمطبخ "
+
+#: templates/taxonomy-location.php:16
+msgid "Filter by delivery location: "
+msgstr "البحث بمواقع التوصيل: "
+
+#: templates/withdraw.php:22
+msgid "Manage your withdraw requests."
+msgstr "أدر طلبات السحب"
+
+#: updater.php:637
+msgid "Check for updates"
+msgstr "ابحث عن تحديثات"
+
+#: updater.php:681
+msgid "This plugin is up to date."
+msgstr "البرنامج محدث إلى اليوم"
+
+#: updater.php:683
+msgid "A new version of this plugin is available."
+msgstr "هناك نسخة جديدة للبرنامج"
+
+#: updater.php:685
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "نسخة باحث التحديثات غير معروف \"%s\""
+
+#~ msgid ""
+#~ "Used to classify your items in your Restaurant page. Type first two/three "
+#~ "letters and choose from list, if recipe is not in the list then complete "
+#~ "typing the recipe title and hit the comma button."
+#~ msgstr ""
+#~ "يستخدمة لتصنيف الاطباق في صفحة المطعم الخاص بك. اكتب أول اثنين / ثلاثة "
+#~ "حروف واختيار من القائمة، إذا فئة الصنف ليست في القائمة، أكمل كتابة عنوان "
+#~ "الفئة وإضغط زر فاصلة."
+
+#~ msgid "Order should be refunded."
+#~ msgstr "يجب ان يتم إعادة مبلغ الطلب للزبون"
+
+#~ msgid "ingredient"
+#~ msgstr "ألمكون"
+
+#~ msgid "ingredients:"
+#~ msgstr "ألمكونات"
+
+#~ msgctxt "taxonomy general name"
+#~ msgid "Ingredients"
+#~ msgstr "مكونات الصنف"
+
+#~ msgctxt "taxonomy singular name"
+#~ msgid "Ingredient"
+#~ msgstr "مكون"
