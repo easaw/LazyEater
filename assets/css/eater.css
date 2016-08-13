@@ -1,0 +1,434 @@
+﻿.seller-items{margin:5px;width:32.5%}
+th.dish-header{width:100px;height:100px;position:relative}
+th.dish-header .onsale{padding:0!important;font-size:10px!important;left:9px!important;right:auto}
+.fl-form-field.dish_special_comments_field{display:block;margin:10px 0}
+.dish_special_comments_field label{font-weight:700;cursor:pointer}
+.rest-thumbnail{width:100%;height:100%}
+.dish-info{width:480px;border:none!important}
+.dish_pop_thumb{background-color:rgba(0,0,0,0.5);display:table-cell;width:480px;height:180px;text-align:center;vertical-align:middle;color:#fff;font-weight:700;font-size:25px}
+.dish_pop_thumb .price{background-color:green;padding:5px 8px;border-radius:5px;margin:9px 0 0;display:inline-block;line-height:17px}
+.dish_pop_thumb .price .amount{color:#fff;font-size:17px;font-style:italic}
+.dish_pop_titls{text-transform:uppercase;padding:0 10px 0 0}
+.dish-info .p-price-wrapper{display:none}
+.rest-cont-thumbnail{width:100%;height:180px;display:table}
+.dish-more{width:100%;display:block;padding:12px 0;background-color:#333;color:#eee}
+ul.pagination{overflow:hidden;margin:0 auto}
+span.dish-is-spicy{background-image:url(../imgs/spicy.png);width:32px;height:32px;background-position:center;display:block;background-repeat:no-repeat}
+.veg,.nonveg{background-image:url(../imgs/ver-nonveg.png);width:32px;height:32px;display:block;background-repeat:no-repeat}
+.dish_veg_sp > span > span{margin:5px auto}
+.veg{background-position:left}
+.nonveg{background-position:right}
+.dish_quick_info{overflow:hidden}
+.dish_quick_info .dish-fat{padding:15px 11px;background-color:rgba(0,0,0,0.1);}
+.profile-info{margin:0 auto;position:relative;overflow:hidden;height:300px}
+.dish_quick_info .woocommerce{padding:12px;background-color:rgba(0,0,0,0.01);}
+.rest-title > div{margin:0 10px!important}
+.rest-title,ul.rest-social{overflow:hidden}
+ul.rest-social li{background-color:rgba(0,0,0,0.5);float:left;padding:0 2px}
+h1.store-name{text-align:left;background-color:rgba(0,0,0,0.5);line-height:1.7em;display:table;color:#fff;padding:0 20px;border-radius:0 0 5px 5px}
+ul.list-inline.rest-info{position:absolute;overflow:hidden;margin:0;padding:10px;background-color:rgba(0,0,0,0.5);border-radius:3px 3px 0 0;bottom:0}
+.rest-social a{font-size:1.6em;color:#fff;margin:0 4px}
+ul.rest-social, .rest-cusines{display:table;margin:10px;padding:5px;border-radius:5px}
+ul.list-inline.rest-info li{float:left;margin:0 10px}
+ul.list-inline.rest-info *{color:#fff}
+.rest-info .seller-rating{display:none}
+.hm_dish_products{background-repeat:no-repeat;background-size:cover;margin:10px;border:1px solid #ddd;border-radius:5px;width:30%;height:230px}
+.restaurant_wrap{margin:10px;border-left:1px solid #ddd;width:30%;border-radius:5px;display:flex!important;align-content:flex-end;flex-flow:row wrap;justify-content:center;-webkit-justify-content:center}
+.restaurant_wrap > a{display:block;text-align:left;border-radius:5px 5px 0 0;font-size:1.5em;width:100%;background-size:cover;height:180px;border-right:1px solid #ddd;border-top:1px solid #ddd}
+.restaurant_wrap span.rest-Closed{background-color:#ff5433;color:#fff}
+.restaurant_wrap span.rest-Open{background-color:#4ab64e;color:#fff}
+.restaurant_wrap > span{text-align:center;display:block;padding:8px;border-bottom:1px solid #ddd;background-color:#f5f5f5;border-right:1px solid #ddd;flex-grow:1}
+a.new_rest_name{padding: 20px 0;color:#fff}
+#restfilters{background-color:#fff}
+#new_rest_wrapper .st_posts_list_home,#top_dishes_wrapper .st_posts_list_home{padding:60px 0;position:relative}
+.top_pro_details{text-align:center;display:flex;display:-webkit-flex;flex-flow:row wrap;position:absolute;bottom:0;left:0;padding:10px 0;width:100%;background-color:#eee}
+.top_pro_details > span{margin:0 auto;display:flex;display:-webkit-flex;align-items:center;-webkit-align-items:center;justify-content:center;-webkit-justify-content:center}
+a.top_pro_vendor{text-indent:-999px;width:70px;height:70px;overflow:hidden;position:absolute;background-size:cover;right:0;top:0;border-radius:0 0 0 5px}
+a.top_pro_title{width:50%;position:absolute;left:0;top:5%;color:#fff;padding:10px;background-color:rgba(0,0,0,0.5);border-radius:0 5px 5px 0}
+.rest-title img{float:left;margin:10px 20px}
+.store-page-wrap{margin:25px auto;overflow:hidden}
+.rsb_wrapper{margin:0 auto;padding:5em 0}
+h1.lei_h1{background-color:rgba(0,0,0,0.3);display:table;margin:0 auto;padding:10px;border-radius:5px;text-align:center;font-size:3em!important;color:#eee}
+form.rest-search-form{padding:10px;background-color:rgba(0,0,0,0.4);border-radius:5px;display:flex;display:-webkit-flex;align-items:center;-webkit-align-items:center;justify-content:center;-webkit-justify-content:center;width:73%;position:relative;margin:20px auto}
+.rest-search-form div.ui-btn{flex:1;background:#ff5433;padding:14px 10px}
+.rest-search-form div{flex:3}
+input#rest-location,input#rest-cuisine{padding:17px 5px 17px 30px;width:90%}
+.search_adv_wrapper:nth-child(2){background-color:rgba(0,0,0,0.1)}
+.search_adv_wrapper:nth-child(2){border-right:1px solid rgba(0,0,0,0.2);border-left:1px solid rgba(0,0,0,0.2)}
+.rest_delivery_date{position:absolute;bottom:0;padding:10px;border-radius:5px 6px 0 0;color:#fff;font-weight:700}
+.rest_delivery_date.Closed{background-color:#ff5433}
+.profile-info-box.Closed{border-bottom:7px solid #ff5433}
+.rest_delivery_date.Open{background-color:#26bf4d}
+.profile-info-box.Open{border-bottom:7px solid #26bf4d}
+.resturant_cats_title{font-size:16px;display:block;text-transform:uppercase;font-weight:700;padding:12px;border-bottom:2px dotted}
+#store-table-drink th{font-size:12px;color:#999}
+td.dish-price{font-size:14px;text-align:right!important}
+.dish-title a{font-weight:700}
+.lazy_store_btn{padding:2px 5px!important}
+th.store_dish_price{text-align:right!important}
+ul.store_reviews_list.commentlist{overflow:hidden;margin:0 auto}
+li.comment.buyer_comment{width:300px;padding:10px;border:1px solid #eee;margin:10px}
+.frozr-review-author-img img{width:100px;height:100px}
+a.review_rat_time.ui-link{display:block;margin:0 0 10px;font-size:12px}
+.review_comment_container .description *{font-size:14px}
+h2.rest-review-title{text-align:left;padding:20px;margin:30px auto 0}
+.f_go_back{padding:5px 9px;border-radius:50%;background-color:rgba(0,0,0,0.7);width:2em;color:#fff;cursor:pointer}
+.dash_p_addnewp,.dash_p_viewp{background-color:rgba(0,0,0,0.7);margin:0 10px;padding:4px 9px;border-radius:5px;color:#fff}
+i.fs-icon-cutlery.cuis-ico,i.fs-icon-map-o.loc-ico{position:absolute;top:25%;margin:10px 0 0 10px}
+span.rest_cops{background-color:rgba(0,0,0,0.5);padding:7px;border-radius:3px;color:#fff}
+.f_control_nav{margin:10px 0 20px;padding:0 5px}
+.frozr-edit-sidebar{width:25%}
+.frozr-edit-sidebar .tablist-left{float:none;width:auto;border:1px solid rgba(0,0,0,0.2);border-radius:5px;margin:0}
+div#woocommerce-product-data{width:95%;margin:10px 0 0}
+div#woocommerce-product-data .type_box > label > div{float:left;width:25%}
+#woocommerce-product-data .ui-tabs-panel{min-height:270px;padding:0 12px}
+#woocommerce-product-data table{width:100%;position:relative;background-color:#fdfdfd;padding:1em;border-top:1px solid #eee}
+.woocommerce_options_panel .description{padding:0;margin:0 0 0 7px;clear:none;display:inline}
+.form-wrap p,p.description,p.help,span.description{font-size:13px;font-style:italic}
+.fl-form-field,.form-group{position:relative;display:flex;display:-webkit-flex;align-items:center;-webkit-align-items:center;font-size:14px;padding:5px 0}
+#woocommerce-product-data .options_group{border-bottom:1px solid rgba(0,0,0,0.1);padding:5px 10px;margin:5px 0}
+#woocommerce-product-data textarea{width:46%;margin:0 20px}
+#woocommerce-product-data .fl-form-field > label,#woocommerce-product-data .fl-form-field > div.ui-checkbox{width:28%;margin:0}
+.attribute_name{vertical-align:text-bottom}
+.woocommerce_options_panel label::after{right:-26%;left:auto}
+#variable_product_options_inner > div > p{width:93%;margin:0 auto;padding:0;font-size:13px}
+#woocommerce-product-data input[type="checkbox"]{width:auto}
+input#post_title{pointer-events:auto}
+.rest_rating_form_wrapper{position:absolute;background-color:#fff;z-index:999;padding:10px;border:1px solid #ddd;border-radius:5px;left:50%;margin:0 -200px;width:400px}
+span.delete_dish{cursor:pointer}
+.common_pop{padding:5%;min-width:300px}
+.search_adv_wrapper,.rsb-boxes{flex:1;padding:20px 2%;position:relative;text-align: center;}
+.tables_seats_numbers, .tables_shape, .tables_notes{display:flex;display:-webkit-flex;align-items:flex-start;-webkit-align-items:flex-start;}
+#resturants_advance_search_box{display:flex;display:-webkit-flex;align-items:center;-webkit-align-items:center;}
+#rest_tables{width:400px;border:none!important}
+.table_search_input {padding:20px 20px;overflow: hidden;}
+.rest_table_info_wrapper > div{font-weight: bold;padding: 12px 20px;border-top: 1px solid rgba(0,0,0,0.1);color: rgba(0,0,0,0.7);}
+.rest_table_info_wrapper i {font-weight: normal;padding: 0 5px 0 0;}
+.rest_table_info_wrapper .tables_reservation {background-color:#4ab64e;padding: 20px;}
+.rest_table_info_wrapper .tables_reservation, .tables_reservation a {color: #fff;text-transform: uppercase;}
+.tbls_numbrs {padding: 2px 7px;background-color: rgba(0,0,0,0.06);border: 1px solid rgba(0,0,0,0.1);border-radius: 4px;margin: 0 8px 5px 0;display: inline-block;}
+.table_info_span {font-weight: normal;text-transform: uppercase;}
+.rest_table_info_wrapper .tables_search_notice {font-weight: normal;font-style: italic;padding: 0 20px 8px 20px;border: none;}
+h2.alei_h2{text-align:center}
+h2.lei_h2{text-align:center;color:#fff}
+.front_inputs {
+    background-color: transparent;
+    margin: 0 !important;
+    padding: 8px 5px !important;
+}
+.ingsearchimg,.catsearchimg,.spysearchimg,.cusearchimg,.adlocsearchimg,.restsearchimg,.restdimg,.typeimg,.recoimg,.popuimg{width:100%;height:229px;display:block;background-repeat:no-repeat;background-position:center}
+.search_adv_wrapper ul.products,.ingsearch_ul,.user_location_ul,.cussearch_ul,.adlocsearch_ul{position:absolute;width:88%;z-index:9999;border-radius:5px;background-color:rgba(0,0,0,0.8)}
+.user_location_ul{width:100%}
+#resturants_advance_search_box .search_adv_wrapper ul li a > *{float:left;padding:6px 0;margin:0}
+ul.ingsearch_ul li a,.user_location_ul li a,.cussearch_ul li a{display:block;width:96%;border-bottom:1px solid rgba(255,255,255,0.1);padding:10px 2%;color:#fff;overflow:hidden;}
+ul.adlocsearch_ul a{display:block;border-bottom:1px solid rgba(255,255,255,0.1);color:#fff;overflow:hidden;}
+#resturants_advance_search_box .search_adv_wrapper ul li a img{width:30px;margin:0 0 0 10px}
+.search_adv_wrapper .woocommerce ul.products li{float:none;width:100%;margin:0;overflow:hidden}
+.search_adv_wrapper mark.count{display:none}
+.search_adv_wrapper .woocommerce ul.products li.product a{width:100%;display:block;overflow:hidden;color:#fff}
+#resturants_advance_search_box .search_adv_wrapper ul li a h3{padding:8px 0 0 10px;font-size:18px!important;line-height:1.4em!important}
+.search_adv_wrapper > a, .search_adv_wrapper > div > a{padding:10px;display:inline-block;margin:16px 15px 0;border-radius:5px}
+.search_adv_wrapper > a{background-color:#fff;}
+a.new_rest_name span{background-color:rgba(0,0,0,0.3);padding:0 10px}
+.pro-head > *{width:90%}
+.dish_quick_info > div{margin:0;display:flex;display:-webkit-flex;align-items:center;-webkit-align-items:center;color:rgba(0,0,0,0.6);font-size:14px;font-weight:700;}
+.ui-popup form > button.single_add_to_cart_button{width:auto;margin:0 12px;padding:0 10px;height:32px;display:inline-block;}
+.dish_veg_sp{padding:9px;text-align:center !important;overflow:hidden;}
+.dish_veg_sp > span{width:49%;text-transform:uppercase;font-size:14px;font-weight:700;float:left;text-align:center;}
+.dish-info .reset_variations{position:absolute;bottom:50%;right:-50px;text-transform:uppercase;font-size:13px;font-weight:700;color:rgba(0,0,0,0.5);margin:0 0 -9px}
+.dish-info .value select{margin:0 5px}
+.dish-info .value{position:relative}
+.woocommerce-variation-add-to-cart button.single_add_to_cart_button{height:auto;margin:0 15px;padding:6px;width:auto}
+.woocommerce-variation.single_variation{margin:0 5px}
+.single_variation_wrap{display:flex;display:-webkit-flex;align-items:center;-webkit-align-items:center;padding:0 10px}
+.dish-info table{width:auto;margin:10px 0}
+.dish_pop_makeaorder{background-color:#faebd7;padding:10px;border-radius:0 0 5px 5px}
+.pop_make_order_wrapper{min-height:200px;min-height:200px;margin:10px 0;padding:10px 0;border-top:1px solid rgba(0,0,0,0.2)}
+.dish-info table tr{height:40px;border:none}
+.dish-info form{margin:0}
+.dish-info .dish_ing_single{background-color:#4ab64e;border-radius:0;color:#fff;text-transform:uppercase;}
+.dish-info .dish_ing_single a{color:#fff;padding: 0 5px;}
+form .quantity{width:100px;float:left}
+.dish-info form .quantity input,.le_makeorder_content form .quantity input{padding:8px;width:85%;margin:0}
+.dish_det{font-size:20px;color:rgba(0,0,0,0.4);padding:12px;display:block!important;border-top:1px dotted}
+.dish_det p{font-size:12px;font-style:italic;margin:5px 0;padding:0}
+.dish_ing_single{background-color:#9acd32;padding:12px;border-radius:5px;width:auto;margin:0 0 10px;clear:both}
+.loc_inst{font-size:11px;padding:0;margin:10px 0 0}
+.rsb-boxes p.loc_inst{color:#fff}
+div#loc_pop{max-width:500px;padding:20px}
+.loc_form_wrapper{width:90%;position:relative;margin:0 auto}
+.rsbs_box{display:flex;display:-webkit-flex;width:90%;align-items:center;-webkit-align-items:center;background-color:rgba(0,0,0,0.4);margin:20px auto 0;padding:20px 0;border-radius:5px}
+.rsb-boxes h1.lei_h1{background:none}
+.rsb-boxes a {color: #fff;}
+h2.lei_h2 i,#loc_pop i{font-weight:400}
+.ui-header .user_loc_top_menu a.ui-btn{vertical-align:initial;display:initial}
+.user_loc_top_menu{float:right;font-size:12px;line-height:30px;padding:0 5px}
+.reg_note_box{background-color:#9acd32;margin:10px 0}
+div.le_makeorder_content{padding:20px;max-width:400px}
+a.le_makeorder_button{display:block;text-align:center;padding:15px 10px;color:#fff;border-radius:5px}
+.order_l_type_field li{font-size:15px;line-height:2.1em;text-align:center;position:relative;float: left;}
+.order_l_type_field .wc-radios .ui-radio input{width:90px;height:90px;top:-2.5em;cursor:pointer;z-index:999}
+.dish_special_comments_field a{display:block;padding:7px 0}
+i.fado_radio_icon{font-size:2em}
+.order_l_type_field ul.wc-radios{overflow:hidden;margin:15px 0;display:flex;display:-webkit-flex}
+.order_car_info_field textarea{height:150px!important}
+.delivery_notice,.lepop_rest_address,.open_closed_order_notice,.closed_order_notice{font-size:14px;font-style:italic;margin:10px 0}
+p.fl-form-field.order_car_info_field,p.fl-form-field.order_ppl_num_field{display:block}
+.style_box i {display: inline-block;vertical-align: top;margin: 0 8px 0 0;}
+.style_box p {display: inline-block;width: 94%;}
+.multi-field.rest_tables_fields {background-color: rgba(0,0,0,0.02);padding: 10px;border-radius: 5px;border: 1px solid rgba(0,0,0,0.06);margin: 0 0 15px 0;}
+.rest_tables_fields .remove-field.fs-icon-close {right: 0px;left: auto;top: 0px;margin: 0;background-color: rgba(0,0,0,0.4);color: #fff;padding: 10px 13px;border-radius: 0 5px;}
+.ui-radio {position: relative;cursor: pointer;}
+.withdraw_reject_note {width: 20%;}
+.ajax-response {margin: 0 0 15px 0;}
+.delete_coupon {cursor: pointer;}
+.wid_req_sts {margin: 13px 0 !important;}
+.adv_src_checkbox a {
+width: 48%;
+display: inline-block;
+border-radius: 0 !important;
+}
+.adv_src_checkbox {
+    display: flex;
+    display: -webkit-flex;
+    margin: 10px auto 0;
+    border-radius: 3px;
+    font-size: 13px;
+    width: 80%;
+}
+.rsb-boxes > div > a, .rest_typ_list_box a {
+    padding: 12px 20px;
+    margin: 0 auto;
+    font-weight: bold;
+	border-radius: 3px;
+}
+.rsb-boxes.cusrc_box form {
+    width: 80%;
+    margin: 5px auto;
+}
+.rest_typ_list_box {
+    display: flex;
+    display: -webkit-flex;
+}
+.rest_typ_list_box > div {
+    margin: 0 5px;
+    flex: 1;
+}
+#restaurant_search_box_trash {
+    position: absolute;
+    width: 200px;
+    background-color: rgba(0,0,0,0.8);
+    min-height: 95px;
+    border-radius: 0 3px 3px 0;
+    bottom: -2em;
+    left: -200px;
+	-webkit-transition: left .5s; /* Safari */
+    transition: left .5s;
+	z-index: 999;
+}
+#restaurant_search_box_trash .sortable_front_boxes > *:not(h2){
+	display: none;
+}
+#restaurant_search_box_trash.show_trash {
+    left: 0;
+	-webkit-transition: left .5s; /* Safari */
+    transition: left .5s;
+}
+#restaurant_search_box_trash .rsb-boxes, #restaurant_search_box_trash .search_adv_wrapper{
+	padding: 0;
+	border: none;
+}
+#restaurant_search_box_trash h2 {
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    padding: 7px;
+    background-color: rgba(255,255,255,0.2);
+    font-size: 1em !important;
+	text-align: left;
+}
+.rest_hide_title.rsb-boxes h2, .rest_hide_title.search_adv_wrapper h2{
+    display: none !important;
+}
+#restaurant_search_box_trash .rest_hide_title.rsb-boxes h2, #restaurant_search_box_trash .rest_hide_title.search_adv_wrapper h2{
+    display: block !important;
+}
+.trash_box_title {
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    font-size: 17px !important;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0;
+    position: relative;
+}
+.rest_trash_empty {
+    text-align: center;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.26);
+    display: block;
+    position: absolute;
+    top: 40%;
+}
+.trash_btn.fs-icon-filter {
+    position: absolute;
+    right: -36px;
+    width: 36px;
+    background-color: red;
+    padding: 7px 0;
+    top: 0;
+    cursor: pointer;
+}
+.front_edit_btns {
+    position: absolute;
+    right: 2%;
+    margin: 0 0 0 -1em;
+    background-color: rgba(255, 0, 0, 0.62);
+    padding: 5px 17px;
+    color: #fff;
+ 	opacity:0;
+   border-radius: 3px;
+    z-index: 999;
+}
+.front_edit_btns.texts {
+    background: none;
+    margin: 0;
+    padding: 0;
+    top: 0.3em;
+    opacity: 1;
+}
+.front_edit_btns.texts i {
+    padding: 5px 10px;
+    background-color: rgba(0,0,0,0.6);
+    margin: 0 1px;
+    border-radius: 3px;
+	cursor: pointer;
+}
+.front_inputs_cncl.fs-icon-close {
+    color: red;
+}
+.front_inputs_save.fs-icon-check {
+    color: #3bf03b;
+}
+.front_btns_edit {
+    position: absolute;
+    padding: 5px 10px !important;
+    z-index: 999;
+    bottom: -1.4em !important;
+    left: 50%;
+	height: 1.3em;
+    margin: 0 0 0 -1em !important;
+    background-color: rgba(255, 0, 0, 0.62) !important;
+	opacity:0;
+    color: #fff;
+}
+.front_btn_wrapper:hover > .front_btns_edit, .src_adv_wrp_imgid:hover > .front_edit_btns {
+	-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+	filter:alpha(opacity=100);
+	opacity:1;
+	-webkit-animation:moveUp .3s ease-in-out 0s both,fadeIn .3s ease-out .15s both;
+	-moz-animation:moveUp .3s ease-in-out 0s both,fadeIn .3s ease-out .15s both;
+	-ms-animation:moveUp .3s ease-in-out 0s both,fadeIn .3s ease-out .15s both;
+	-o-animation:moveUp .3s ease-in-out 0s both,fadeIn .3s ease-out .15s both;
+	animation:moveUp .3s ease-in-out 0s both,fadeIn .3s ease-out .15s both;
+}
+.front_btn_wrapper {
+    position: relative;
+}
+.front_inputs_wrap {
+    max-width: 400px;
+    margin: 0 auto;
+	position: relative;
+}
+.rsb-boxes > a:hover,.front_edit_btns > a,.front_edit_btns > a:hover {
+    color: #fff;
+}
+.ui-popup .adv_loc_src_checkbox:nth-child(n+2) {
+    border-left: 1px solid #444;
+}
+.rsb_wrapper h2, .rsbs_box .control_edit {
+    color: #fff;
+}
+.ui-popup .adv_loc_src_checkbox.active span {
+    color: rgba(252, 16, 16, 0.75);
+}
+div#resturants_search_box {
+	position: relative;
+}
+.control_edit {
+    cursor: text;
+}
+.rsbs_box .src_adv_wrp_imgid {
+    display: none;
+}
+.ui-checkbox {
+    position: relative;
+}
+.rest-cusines {
+    background-color: rgba(0,0,0,0.4);
+}
+.rest-cusines *, .rest-cusines a {
+    color: #fff;
+}
+.pop_make_order_btn {
+    width: 40%;
+    height: 3em;
+}
+.table_search_input > div {
+    width: 80%;
+    float: left;
+}
+#frozr_tables_btn {
+	float: left;
+	width: 11%;
+	padding: 10px;
+	margin: 4px 0 0 7px;
+}
+button.single_add_to_cart_button i {
+	margin: 0 5px 0 0;
+}
+.pop_tos {
+    padding: 10px;
+    max-height: 350px;
+    width: 500px;
+    overflow-y: scroll;
+}
+.top_sellers_notice {
+    margin: 10px 0 0;
+    width: 94%;
+}
+div.le_makeorder_content .p-price-wrapper {
+    top: 0.7em;
+    left: 0;
+    background-color: rgba(79, 215, 52, 0.7);
+    text-align: center;
+    padding: 10px 12px 0 0;
+}
+.frozr_cod_notice {
+    font-style: italic;
+    font-size: 0.9em;
+    font-weight: bold;
+    display: block;
+}
+@media screen and (max-width: 600px) {
+.order_l_type_field li{font-size:12px;}
+form.rest-search-form,.fl-form-field,.form-group{display:block}
+.rest-search-form div{width:99%}
+.rest-search-form div.ui-btn{width:99%;padding:10px 0}
+i.fs-icon-cutlery.cuis-ico{top:12%}
+i.fs-icon-map-o.loc-ico{top:41%}
+.hm_dish_products,.restaurant_wrap{width:90%}
+input#rest-location,input#rest-cuisine{padding:12px 2%;width:96%;text-indent:30px}
+ul.list-inline.rest-info{margin:20px 0 45px}
+#resturants_advance_search_box{display:block}
+.search_adv_wrapper > a{margin:12px 12px 0}
+.rsbs_box,span.rest_cops{display:block}
+.rsb-boxes:nth-child(2){border-left:none!important}
+.profile-info{height:auto}
+ul.list-inline.rest-info{position:relative}
+.dish-info, #rest_tables, .withdraw_reject_note{width:auto}
+ul.list-inline.rest-info li{margin:3px 10px}
+.rest-title > div{float:none!important}
+.seller-items{width:95%}
+.pop_tos {width: 300px;}
+}
